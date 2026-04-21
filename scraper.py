@@ -102,21 +102,19 @@ def scrape_flipkart(pages=3):
         if not html:
             continue
         soup = BeautifulSoup(html, "html.parser")
-        for link in soup.select("a[href*='/p/']"):
-            href = link.get("href", "")
-            m = re.search(r"pid=([A-Z0-9]+)", href)
-            if not m:
+        for card in soup.select("div[data-id]"):
+            pid = card.get("data-id", "")
+            if not pid or not pid.startswith("MOB") or pid in products:
                 continue
-            pid = m.group(1)
-            if pid in products:
-                continue
-            title_el = link.select_one(".KzDlHZ, .wjcEIp, ._4rR01T, .s1Q9rs")
-            price_el = link.select_one(".Nx9bqj, ._30jeq3")
-            if not title_el or not price_el:
+            title_el = card.select_one(".RG5Slk, .KzDlHZ, .wjcEIp, ._4rR01T, .s1Q9rs")
+            price_el = card.select_one(".hZ3P6w, .HZ0E6r, .Nx9bqj, ._30jeq3")
+            link_el = card.select_one("a[href*='/p/']")
+            if not (title_el and price_el and link_el):
                 continue
             price = parse_int(price_el.get_text())
             if not price or price < 2000:
                 continue
+            href = link_el.get("href", "")
             full_url = href if href.startswith("http") else f"https://www.flipkart.com{href}"
             products[pid] = {
                 "title": title_el.get_text(strip=True),
