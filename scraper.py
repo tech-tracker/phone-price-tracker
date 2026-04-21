@@ -10,6 +10,7 @@ from pathlib import Path
 
 import requests
 from bs4 import BeautifulSoup
+from curl_cffi import requests as cffi_requests
 
 TELEGRAM_BOT_TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]
 TELEGRAM_CHAT_ID = os.environ["TELEGRAM_CHAT_ID"]
@@ -38,10 +39,18 @@ def get_headers():
     }
 
 
+IMPERSONATE_PROFILES = ["chrome120", "chrome124", "chrome131"]
+
+
 def fetch(url, retries=2):
     for attempt in range(retries + 1):
         try:
-            r = requests.get(url, headers=get_headers(), timeout=30)
+            r = cffi_requests.get(
+                url,
+                headers=get_headers(),
+                timeout=30,
+                impersonate=random.choice(IMPERSONATE_PROFILES),
+            )
             if r.status_code == 200 and len(r.text) > 5000:
                 return r.text
             print(f"[fetch] {url} status={r.status_code} size={len(r.text)}", file=sys.stderr)
