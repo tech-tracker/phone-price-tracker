@@ -1,4 +1,85 @@
 {
-  "amazon": {},
+  "amazon": {
+    "B0FTFCD25N": {
+      "title": "OPPO K13x 5G 6000mAh and 45W SUPERVOOC Charger & AI (Breeze Blue, 128 GB) (6 GB RAM)",
+      "price": 16948,
+      "url": "https://www.amazon.in/dp/B0FTFCD25N"
+    },
+    "B0FDB9H277": {
+      "title": "Samsung Galaxy M36 5G Mobile (Serene Green, 6GB RAM, 128GB Storage) | Google Gemini| Gorilla Glass Victus+ | 7.7mm | AI Enhanced 50MP OIS Triple Camera| Nightography| Lag-free Gaming | Without Charger",
+      "price": 20999,
+      "url": "https://www.amazon.in/dp/B0FDB9H277"
+    },
+    "B0GSVFNTBW": {
+      "title": "SHIVANSH 14 Pro Mini 4G Smartphone | 3GB RAM 32GB Storage (Expandable 128GB) | 4.05 Inch Compact Display | Dual SIM | Android 12 | Type-C Charging | Pocket Size Mobile (Color as per Stock)",
+      "price": 4890,
+      "url": "https://www.amazon.in/dp/B0GSVFNTBW"
+    },
+    "B0F1D9LCK3": {
+      "title": "realme NARZO 80 Pro 5G (Speed Silver,8GB+256GB) | Segment's 1st MediaTek Dimensity 7400 Chipset | 6000mAh Titan Battery + 80W Ultra Charge | 4500nits HyperGlow Esports Display | IP69 Waterproof",
+      "price": 20999,
+      "url": "https://www.amazon.in/dp/B0F1D9LCK3"
+    },
+    "B0GGYKT3HJ": {
+      "title": "Zeno 100 (3+5GB RAM, 64GB ROM) | 5000mAh Battery with Type-C | 90Hz Display | Side Fingerprint | Military Grade Protection | Octa-Core Processor | Pure Black",
+      "price": 7799,
+      "url": "https://www.amazon.in/dp/B0GGYKT3HJ"
+    },
+    "B0GGYVM8B9": {
+      "title": "Zeno 100 (3+5GB RAM, 64GB ROM) | 5000mAh Battery with Type-C | 90Hz Display | Side Fingerprint | Military Grade Protection | Octa-Core Processor | Green",
+      "price": 7799,
+      "url": "https://www.amazon.in/dp/B0GGYVM8B9"
+    },
+    "B0DDYBQWLW": {
+      "title": "Motorola G45 5G (Brilliant Green, 8GB RAM, 128GB Storage) | 6.5\" FHD+ Display | Snapdragon 6 Gen1 Processor | 50MP Camera | 16MP Front Camera | 5000mAh Battery | 33W Charging",
+      "price": 12269,
+      "url": "https://www.amazon.in/dp/B0DDYBQWLW"
+    },
+    "B0F2T5S162": {
+      "title": "iQOO Z10x 5G (Ultramarine, 8GB RAM, 256GB Storage) | 6500 mAh Large Capacity Battery | Dimensity 7300 Processor | Military-Grade Durability",
+      "price": 20499,
+      "url": "https://www.amazon.in/dp/B0F2T5S162"
+    },
+    "B0GPCP7ZSM": {
+      "title": "Samsung Galaxy F70e 5G (Limelight Green, 128 GB) (4 GB RAM) | 6000 mAh Battery | Dimensity 6300 | Octa Core Processor | 6.74\" PLS LCD Display",
+      "price": 13105,
+      "url": "https://www.amazon.in/dp/B0GPCP7ZSM"
+    },
+    "B0DPW2M4JR": {
+      "title": "Motorola G35 5G (Leaf Green, 4+128)",
+      "price": 13125,
+      "url": "https://www.amazon.in/dp/B0DPW2M4JR"
+    },
+    "B0GL8B68FP": {
+      "title": "iQOO 15R (Triumph Silver, 12GB RAM, 512GB Storage) | Snapdragon® 8 Gen 5 Processor | India’s Slimmest Smartphone in 7600mAh Battery* | Segment's Most Stable 144FPS Gaming*",
+      "price": 57999,
+      "url": "https://www.amazon.in/dp/B0GL8B68FP"
+    },
+    "B0G94NCRZN": {
+      "title": "IKALL I1 4G Touch & Type Android Keypad Mobile | WiFi & 4G Sim Support | 2.8 Inch Display, 2GB Ram 16GB Storage | Supporting Wtsp, FB, Utube and Insta (Gold)",
+      "price": 3199,
+      "url": "https://www.amazon.in/dp/B0G94NCRZN"
+    },
+    "B0G3TFPN94": {
+      "title": "Motorola G57 Power 5G (Fluidity, 8GB RAM, 128GB Storage)| Snapdragon 6s Gen 4 Processor | 6.72\" FHD+ Display | 50MP LYT-600 + 8MP Ultrawide | 8MP Selfie Camera | 7000mAh Battery, 33W TurboPower | IP64",
+      "price": 15980,
+      "url": "https://www.amazon.in/dp/B0G3TFPN94"
+    },
+    "B0GGYYG1QR": {
+      "title": "Zeno 100 (4+8GB RAM, 64GB ROM) | 5000mAh Battery with Type-C | 90Hz Display | Side Fingerprint | Military Grade Protection | Octa-Core Processor | Titanium Gold",
+      "price": 8199,
+      "url": "https://www.amazon.in/dp/B0GGYYG1QR"
+    },
+    "B0F4NBHFT7": {
+      "title": "BLACKZONE Winx 4G Plus 3GB RAM 16GB ROM Volte Keypad Mobile Phone with WiFi, Whatsapp, Instagram, YouTube, Play Store, 2.8-Inch Touch Display, All Android Features (1 Year Warranty) (Gold)",
+      "price": 3299,
+      "url": "https://www.amazon.in/dp/B0F4NBHFT7"
+    },
+    "B0GK8334CK": {
+      "title": "realme NARZO 90x 5G (Maroon Red,6GB+128GB) | 7000mAh + 60W Biggest Battery & Fastest Charging in The Segment* | 144Hz Bright Display | Sony 50MP AI Rear Camera | AI Assist | 400% Ultra Boom Speaker",
+      "price": 16999,
+      "url": "https://www.amazon.in/dp/B0GK8334CK"
+    }
+  },
   "flipkart": {}
 }
