@@ -17,6 +17,19 @@ TELEGRAM_CHAT_ID = os.environ["TELEGRAM_CHAT_ID"]
 DROP_THRESHOLD_PCT = float(os.environ.get("DROP_THRESHOLD_PCT", "5"))
 PAGES_PER_BRAND = int(os.environ.get("PAGES_PER_BRAND", "2"))
 
+# Drop accessories — they leak into brand searches (e.g. OnePlus earbuds in oneplus search)
+ACCESSORY_KEYWORDS = [
+    "earbuds", "earbud", "buds", "headphone", "headphones", "earphone", "earphones",
+    "power bank", "powerbank", "charger", "cable", "adapter",
+    "case", "cover", "screen guard", "tempered glass", "protector",
+    "watch", "smartwatch", "band ", "fitness band",
+    "speaker", "soundbar",
+    "stylo", "stylus", "pen ",
+    "tab ", "tablet", "ipad",
+    "tv ", "monitor",
+    "router", "wifi",
+]
+
 STATE_FILE = Path(__file__).parent / "state.json"
 
 # Brand → Amazon search query + title-match keywords (lowercase substring).
@@ -84,6 +97,11 @@ def title_matches_brand(title, keywords):
     return any(kw in t for kw in keywords)
 
 
+def is_accessory(title):
+    t = f" {title.lower()} "
+    return any(kw in t for kw in ACCESSORY_KEYWORDS)
+
+
 def scrape_brand(brand_key, search, match_keywords, pages):
     products = {}
     query = search.replace(" ", "+")
@@ -111,6 +129,8 @@ def scrape_brand(brand_key, search, match_keywords, pages):
                 continue
             if not title_matches_brand(title, match_keywords):
                 continue
+            if is_accessory(title):
+                continue
             price = parse_int(price_whole.get_text())
             if not price or price < 2000:
                 continue
@@ -120,7 +140,7 @@ def scrape_brand(brand_key, search, match_keywords, pages):
                 "price": price,
                 "url": f"https://www.amazon.in/dp/{asin}",
             }
-        time.sleep(random.uniform(1.5, 3))
+        time.sleep(random.uniform(3, 6))
     return products
 
 
