@@ -1,5 +1,11 @@
 {
   "products": {
+    "B07WGP8898": {
+      "brand": "vivo",
+      "price": 20484,
+      "title": "vivo T3 5G (Cosmic Blue, 256 GB) (8 GB RAM)",
+      "url": "https://www.amazon.in/dp/B07WGP8898"
+    },
     "B07WHQLR7G": {
       "brand": "iqoo",
       "price": 39999,
@@ -80,7 +86,7 @@
     },
     "B0D2RYXKJQ": {
       "brand": "pixel",
-      "price": 42270,
+      "price": 42100,
       "title": "Google Pixel 8a (Obsidian, 256 GB) (8 GB RAM)",
       "url": "https://www.amazon.in/dp/B0D2RYXKJQ"
     },
@@ -150,6 +156,18 @@
       "title": "Nothing Phone (3a) Pro 5G (Black, 8GB RAM + 256GB Storage)",
       "url": "https://www.amazon.in/dp/B0DZTQ44FC"
     },
+    "B0F194LS8Q": {
+      "brand": "vivo",
+      "price": 20949,
+      "title": "VIVO T4x (Pronto Purple, 8GB 256GB)",
+      "url": "https://www.amazon.in/dp/B0F194LS8Q"
+    },
+    "B0F194NC2H": {
+      "brand": "vivo",
+      "price": 18849,
+      "title": "Vivo T4x 5G (Marine Blue, 128 GB) (8 GB RAM)",
+      "url": "https://www.amazon.in/dp/B0F194NC2H"
+    },
     "B0F1DDJTSJ": {
       "brand": "realme",
       "price": 20999,
@@ -194,9 +212,15 @@
     },
     "B0F6CY1S9Z": {
       "brand": "pixel",
-      "price": 40999,
+      "price": 40990,
       "title": "Google Pixel 9A (Obsidian, 256 GB) (8 GB RAM)",
       "url": "https://www.amazon.in/dp/B0F6CY1S9Z"
+    },
+    "B0F6VVJ2B9": {
+      "brand": "vivo",
+      "price": 28494,
+      "title": "vivo T4 5G (Emerald Blaze, 12GB RAM+256GB Storage)| Snapdragon 7s Gen 3 | 120Hz Quad-Curved AMOLED | 7300mAh+90W Fast Char...",
+      "url": "https://www.amazon.in/dp/B0F6VVJ2B9"
     },
     "B0F7LWQFJ5": {
       "brand": "xiaomi",
@@ -284,13 +308,13 @@
     },
     "B0FNP9KVFC": {
       "brand": "pixel",
-      "price": 70680,
+      "price": 69949,
       "title": "Google Pixel 10 5G (Frost, 12GB RAM, 256GB Storage)",
       "url": "https://www.amazon.in/dp/B0FNP9KVFC"
     },
     "B0FNPNL2D8": {
       "brand": "pixel",
-      "price": 69498,
+      "price": 69416,
       "title": "Google Pixel 10 5G (Obsidian, 12GB RAM, 256GB Storage)",
       "url": "https://www.amazon.in/dp/B0FNPNL2D8"
     },
@@ -314,7 +338,7 @@
     },
     "B0FQBZQR9Q": {
       "brand": "pixel",
-      "price": 41299,
+      "price": 40990,
       "title": "Google Pixel 9a 5G (Obsidian, 8GB RAM, 256GB Storage)",
       "url": "https://www.amazon.in/dp/B0FQBZQR9Q"
     },
@@ -353,6 +377,12 @@
       "price": 132490,
       "title": "Apple iPhone Air 1 TB: Thinnest iPhone Ever, 16.63 cm (6.5″) Display with Promotion up to 120Hz, Powerful A19 Pro Chip, Ce...",
       "url": "https://www.amazon.in/dp/B0FQG8WM6R"
+    },
+    "B0FV98G8VT": {
+      "brand": "vivo",
+      "price": 17998,
+      "title": "vivo T4x 5G, Glacial Teal (6GB, 128GB)",
+      "url": "https://www.amazon.in/dp/B0FV98G8VT"
     },
     "B0FXFXSVQR": {
       "brand": "motorola",
@@ -546,6 +576,18 @@
       "title": "Oppo A6 5G (Sapphire Blue, 6GB RAM,256GB Storage) with No Cost EMI/Additional Exchange Offers",
       "url": "https://www.amazon.in/dp/B0GGZPMTPX"
     },
+    "B0GHQVR1N8": {
+      "brand": "vivo",
+      "price": 49999,
+      "title": "vivo V70 5G (Passion Red, 8GB RAM, 256GB Storage) with No Cost EMI/Additional Exchange Offers",
+      "url": "https://www.amazon.in/dp/B0GHQVR1N8"
+    },
+    "B0GHS877B4": {
+      "brand": "vivo",
+      "price": 59999,
+      "title": "vivo V70 Elite 5G (Passion Red, 12GB RAM, 256GB Storage) with No Cost EMI/Additional Exchange Offers",
+      "url": "https://www.amazon.in/dp/B0GHS877B4"
+    },
     "B0GK8334CK": {
       "brand": "realme",
       "price": 15999,
@@ -594,21 +636,27 @@
       "title": "OPPO k14x 5g (Prism Violet) (6gb+128gb)",
       "url": "https://www.amazon.in/dp/B0GNHKT8FZ"
     },
+    "B0GP7BP39Y": {
+      "brand": "pixel",
+      "price": 47190,
+      "title": "Google Pixel 10a 5G (Lavender, 8GB RAM, 256GB Storage)",
+      "url": "https://www.amazon.in/dp/B0GP7BP39Y"
+    },
     "B0GP7GQFNJ": {
       "brand": "pixel",
-      "price": 48990,
+      "price": 49999,
       "title": "Google Pixel 10a 5G (Berry, 8GB RAM, 256GB Storage)",
       "url": "https://www.amazon.in/dp/B0GP7GQFNJ"
     },
     "B0GP88QJL8": {
       "brand": "pixel",
-      "price": 47299,
+      "price": 47125,
       "title": "Google Pixel 10a 5G (Obsidian, 8GB RAM, 256GB Storage)",
       "url": "https://www.amazon.in/dp/B0GP88QJL8"
     },
     "B0GP8SY9MB": {
       "brand": "pixel",
-      "price": 47899,
+      "price": 47160,
       "title": "Google Pixel 10a 5G (Fog, 8GB RAM, 256GB Storage)",
       "url": "https://www.amazon.in/dp/B0GP8SY9MB"
     },
@@ -720,6 +768,12 @@
       "title": "OPPO K14x 5G Smartphone, Prism Violet, 4GB RAM, 64GB Storage, 6500mAh Battery, 45W Fast Charge",
       "url": "https://www.amazon.in/dp/B0GSRJ52CQ"
     },
+    "B0GTBR8CSG": {
+      "brand": "vivo",
+      "price": 14999,
+      "title": "vivo Y11 5G (Midnight Blue, 4GB RAM, 64GB Storage) with No Cost EMI/Additional Exchange Offers",
+      "url": "https://www.amazon.in/dp/B0GTBR8CSG"
+    },
     "B0GTFSY813": {
       "brand": "oppo",
       "price": 18560,
@@ -743,6 +797,24 @@
       "price": 13499,
       "title": "realme narzo 100 Lite 5G (Frost Silver,4GB+64GB) | 7000mAh Titan Battery | 4 Years, Zero Lag | 144 Hz Ultra Smooth Display...",
       "url": "https://www.amazon.in/dp/B0GTRXVQ8N"
+    },
+    "B0GTTW99DG": {
+      "brand": "vivo",
+      "price": 27499,
+      "title": "vivo T5x 5G (Cyber Green, 8GB RAM, 256GB Storage) | 50MP AI Dual Camera | 32MP Selfie | 6.76\" FHD+ Display | 7200mAh Batte...",
+      "url": "https://www.amazon.in/dp/B0GTTW99DG"
+    },
+    "B0GTTXP6WF": {
+      "brand": "vivo",
+      "price": 22749,
+      "title": "vivo T5x 5G (Cyber Green, 6GB RAM, 128GB Storage) | 50MP AI Dual Camera | 32MP Selfie | 6.76\" FHD+ Display | 7200mAh Batte...",
+      "url": "https://www.amazon.in/dp/B0GTTXP6WF"
+    },
+    "B0GTV6S8Q2": {
+      "brand": "vivo",
+      "price": 27499,
+      "title": "vivo T5x 5G (Star Silver, 8GB RAM, 256GB Storage) | 50MP AI Dual Camera | 32MP Selfie | 6.76\" FHD+ Display | 7200mAh Batte...",
+      "url": "https://www.amazon.in/dp/B0GTV6S8Q2"
     }
   }
 }
