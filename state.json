@@ -1,5 +1,11 @@
 {
   "products": {
+    "B07WHQLR7G": {
+      "brand": "iqoo",
+      "price": 39999,
+      "title": "iQOO 11 5G (Legend, 8GB RAM, 256 GB Storage) | Snapdragon ® 8 Gen 2 Mobile Platform | 2K E6 AMOLED Display | V2 Intelligen...",
+      "url": "https://www.amazon.in/dp/B07WHQLR7G"
+    },
     "B089MSK43J": {
       "brand": "xiaomi",
       "price": 17999,
@@ -53,6 +59,12 @@
       "price": 36999,
       "title": "Google Pixel 8 (in Color - Hazel, Storage - 128 GB) (8 GB RAM",
       "url": "https://www.amazon.in/dp/B0CGVNVD8R"
+    },
+    "B0CHX2F5QT": {
+      "brand": "apple",
+      "price": 59900,
+      "title": "Apple iPhone 15 (128 GB) - Blue",
+      "url": "https://www.amazon.in/dp/B0CHX2F5QT"
     },
     "B0CPS9YX12": {
       "brand": "oppo",
@@ -126,6 +138,24 @@
       "title": "Google Pixel 8a (Obsidian, 128, GB, 8, GB)",
       "url": "https://www.amazon.in/dp/B0DTKDW6XN"
     },
+    "B0F1DDJTSJ": {
+      "brand": "realme",
+      "price": 20999,
+      "title": "realme NARZO 80 Pro 5G (Nitro Orange,8GB+256GB) | Segment's 1st MediaTek Dimensity 7400 Chipset | 6000mAh Titan Battery + ...",
+      "url": "https://www.amazon.in/dp/B0F1DDJTSJ"
+    },
+    "B0F2HDFMFC": {
+      "brand": "iqoo",
+      "price": 26999,
+      "title": "iQOO Z10 5G (Glacier Silver, 8GB RAM, 256GB Storage) | India's Biggest Ever 7300 mAh Battery | Snapdragon 7s Gen 3 Process...",
+      "url": "https://www.amazon.in/dp/B0F2HDFMFC"
+    },
+    "B0F2T7B9TM": {
+      "brand": "iqoo",
+      "price": 16999,
+      "title": "iQOO Z10x 5G (Ultramarine, 6GB RAM, 128GB Storage) | 6500 mAh Large Capacity Battery | Dimensity 7300 Processor | Militar...",
+      "url": "https://www.amazon.in/dp/B0F2T7B9TM"
+    },
     "B0F46SJ5SB": {
       "brand": "motorola",
       "price": 25335,
@@ -146,15 +176,33 @@
     },
     "B0F8W1SNVP": {
       "brand": "oppo",
-      "price": 21990,
+      "price": 22249,
       "title": "OPPO K13 5G (Prism Black, 8GB RAM 256GB Storage)",
       "url": "https://www.amazon.in/dp/B0F8W1SNVP"
+    },
+    "B0F8W2D943": {
+      "brand": "oppo",
+      "price": 20440,
+      "title": "OPPO K13 5G (Prism Black, 8GB RAM 128GB Storage)",
+      "url": "https://www.amazon.in/dp/B0F8W2D943"
+    },
+    "B0FC5TDB9P": {
+      "brand": "iqoo",
+      "price": 14999,
+      "title": "iQOO Z10 Lite 5G (Titanium Blue, 6GB RAM, 128GB Storage) | 6000 mAh Battery | Dimensity 6300 5G Processor with 433K+* AnTu...",
+      "url": "https://www.amazon.in/dp/B0FC5TDB9P"
     },
     "B0FGY7C13L": {
       "brand": "pixel",
       "price": 43628,
       "title": "Google Pixel 9A (Porcelain, 256 GB) (8 GB RAM)",
       "url": "https://www.amazon.in/dp/B0FGY7C13L"
+    },
+    "B0FHB5V36G": {
+      "brand": "iqoo",
+      "price": 22999,
+      "title": "iQOO Z10R 5G (Aquamarine, 8GB RAM, 128GB Storage) | 32MP 4K Selfie Camera | Quad-Curved AMOLED Display | Dimensity 7400 Pr...",
+      "url": "https://www.amazon.in/dp/B0FHB5V36G"
     },
     "B0FHGDCX48": {
       "brand": "motorola",
@@ -173,6 +221,12 @@
       "price": 14999,
       "title": "Motorola g45 5G Pantone Dahlia Purple, 8 GB,128 GB",
       "url": "https://www.amazon.in/dp/B0FLKF5V4J"
+    },
+    "B0FMDXKDDF": {
+      "brand": "realme",
+      "price": 20830,
+      "title": "realme P4 Smartphone (Engine Blue, 128.0, GB, 6.0, GB)",
+      "url": "https://www.amazon.in/dp/B0FMDXKDDF"
     },
     "B0FNLNFM5P": {
       "brand": "pixel",
@@ -210,11 +264,53 @@
       "title": "Google Pixel 9a 5G (Obsidian, 8GB RAM, 256GB Storage)",
       "url": "https://www.amazon.in/dp/B0FQBZQR9Q"
     },
+    "B0FQFBDQJ1": {
+      "brand": "apple",
+      "price": 101190,
+      "title": "Apple iPhone Air 256 GB: Thinnest iPhone Ever, 16.63 cm (6.5″) Display with Promotion up to 120Hz, Powerful A19 Pro Chip, ...",
+      "url": "https://www.amazon.in/dp/B0FQFBDQJ1"
+    },
+    "B0FQFJG6WN": {
+      "brand": "apple",
+      "price": 121900,
+      "title": "Apple iPhone Air 512 GB: Thinnest iPhone Ever, 16.63 cm (6.5″) Display with Promotion up to 120Hz, Powerful A19 Pro Chip, ...",
+      "url": "https://www.amazon.in/dp/B0FQFJG6WN"
+    },
+    "B0FQFTV1NP": {
+      "brand": "apple",
+      "price": 99900,
+      "title": "Apple iPhone Air 256 GB: Thinnest iPhone Ever, 16.63 cm (6.5″) Display with Promotion up to 120Hz, Powerful A19 Pro Chip, ...",
+      "url": "https://www.amazon.in/dp/B0FQFTV1NP"
+    },
+    "B0FQFV2XKS": {
+      "brand": "apple",
+      "price": 149900,
+      "title": "Apple iPhone 17 Pro Max 256 GB: 17.42 cm (6.9″) Display with Promotion, A19 Pro Chip, Best Battery Life in Any iPhone Eve...",
+      "url": "https://www.amazon.in/dp/B0FQFV2XKS"
+    },
+    "B0FQG1LPVF": {
+      "brand": "apple",
+      "price": 134900,
+      "title": "Apple iPhone 17 Pro 256 GB: 15.93 cm (6.3″) Display with Promotion up to 120Hz, A19 Pro Chip, Breakthrough Battery Life, P...",
+      "url": "https://www.amazon.in/dp/B0FQG1LPVF"
+    },
+    "B0FQG8WM6R": {
+      "brand": "apple",
+      "price": 132490,
+      "title": "Apple iPhone Air 1 TB: Thinnest iPhone Ever, 16.63 cm (6.5″) Display with Promotion up to 120Hz, Powerful A19 Pro Chip, Ce...",
+      "url": "https://www.amazon.in/dp/B0FQG8WM6R"
+    },
     "B0FXFXSVQR": {
       "brand": "motorola",
       "price": 14695,
       "title": "Motorola g35 5G (Leaf Green, 128 GB) (8 GB RAM)",
       "url": "https://www.amazon.in/dp/B0FXFXSVQR"
+    },
+    "B0FYGC3YWR": {
+      "brand": "iqoo",
+      "price": 79999,
+      "title": "iQOO 15 (Legend, 16GB RAM, 512GB Storage) | Fastest Snapdragon 8 Elite Gen 5 Processor* | Origin OS 6 - Out of The Box* | ...",
+      "url": "https://www.amazon.in/dp/B0FYGC3YWR"
     },
     "B0G1PPG6W3": {
       "brand": "motorola",
@@ -258,6 +354,24 @@
       "title": "Motorola G57 Power 5G (Fluidity, 8GB RAM, 128GB Storage)| Snapdragon 6s Gen 4 Processor | 6.72\" FHD+ Display | 50MP LYT-60...",
       "url": "https://www.amazon.in/dp/B0G3TFPN94"
     },
+    "B0G49VLFSG": {
+      "brand": "realme",
+      "price": 18999,
+      "title": "realme narzo 90 5G (Victory Gold,6GB+128GB) | 7000mAh Biggest Battery | 60W Fastest Charging | 50MP Front & Rear AI Camera...",
+      "url": "https://www.amazon.in/dp/B0G49VLFSG"
+    },
+    "B0G4BC5WCV": {
+      "brand": "realme",
+      "price": 16999,
+      "title": "realme NARZO 90x 5G (Flash Blue,6GB+128GB) | 7000mAh + 60W Biggest Battery & Fastest Charging in the Segment* | 144Hz Brig...",
+      "url": "https://www.amazon.in/dp/B0G4BC5WCV"
+    },
+    "B0G6LBJT5N": {
+      "brand": "realme",
+      "price": 17990,
+      "title": "realme P4x 5G Smartphone, Lake Green, 6GB RAM, 128GB Storage",
+      "url": "https://www.amazon.in/dp/B0G6LBJT5N"
+    },
     "B0G8XT9W3C": {
       "brand": "oppo",
       "price": 26999,
@@ -282,17 +396,83 @@
       "title": "REDMI Note 15 Pro+ 5G 8GB+256GB Black",
       "url": "https://www.amazon.in/dp/B0GCSRQCT1"
     },
+    "B0GDDZ2SJF": {
+      "brand": "oppo",
+      "price": 12999,
+      "title": "Oppo A6X 4G (Ice Blue, 4GB RAM, 64GB Storage) with No Cost EMI/Additional Exchange Offers",
+      "url": "https://www.amazon.in/dp/B0GDDZ2SJF"
+    },
+    "B0GDGXVJYG": {
+      "brand": "oppo",
+      "price": 12999,
+      "title": "Oppo A6X 4G (Olive Green, 4GB RAM, 64GB Storage) with No Cost EMI/Additional Exchange Offers",
+      "url": "https://www.amazon.in/dp/B0GDGXVJYG"
+    },
+    "B0GFVPT1X9": {
+      "brand": "realme",
+      "price": 11599,
+      "title": "realme C71 4G Smartphone 6GB+128GB,6.745 inch Screen, 90Hz Eye Comfort Display, 6300mAh Battery, 37MP Cameras, Unisoc T725...",
+      "url": "https://www.amazon.in/dp/B0GFVPT1X9"
+    },
+    "B0GFW1BJ1D": {
+      "brand": "realme",
+      "price": 11599,
+      "title": "realme C71 4G Smartphone 6GB+128GB,6.745 inch Screen, 90Hz Eye Comfort Display, 6300mAh Battery, 37MP Cameras, Unisoc T725...",
+      "url": "https://www.amazon.in/dp/B0GFW1BJ1D"
+    },
     "B0GGZPMTPX": {
       "brand": "oppo",
       "price": 25999,
       "title": "Oppo A6 5G (Sapphire Blue, 6GB RAM,256GB Storage) with No Cost EMI/Additional Exchange Offers",
       "url": "https://www.amazon.in/dp/B0GGZPMTPX"
     },
+    "B0GK8334CK": {
+      "brand": "realme",
+      "price": 16999,
+      "title": "realme NARZO 90x 5G (Maroon Red,6GB+128GB) | 7000mAh + 60W Biggest Battery & Fastest Charging in The Segment* | 144Hz Brig...",
+      "url": "https://www.amazon.in/dp/B0GK8334CK"
+    },
+    "B0GL8B68FP": {
+      "brand": "iqoo",
+      "price": 57999,
+      "title": "iQOO 15R (Triumph Silver, 12GB RAM, 512GB Storage) | Snapdragon® 8 Gen 5 Processor | India’s Slimmest Smartphone in 7600mA...",
+      "url": "https://www.amazon.in/dp/B0GL8B68FP"
+    },
+    "B0GL8H6Q22": {
+      "brand": "iqoo",
+      "price": 50999,
+      "title": "iQOO 15R (Triumph Silver, 12GB RAM, 256GB Storage) | Snapdragon® 8 Gen 5 Processor | India’s Slimmest Smartphone in 7600mA...",
+      "url": "https://www.amazon.in/dp/B0GL8H6Q22"
+    },
+    "B0GL8NJDG5": {
+      "brand": "iqoo",
+      "price": 46999,
+      "title": "iQOO 15R (Triumph Silver, 8GB RAM, 256GB Storage) | Snapdragon® 8 Gen 5 Processor | India’s Slimmest Smartphone in 7600mAh...",
+      "url": "https://www.amazon.in/dp/B0GL8NJDG5"
+    },
+    "B0GLZWV898": {
+      "brand": "realme",
+      "price": 27729,
+      "title": "realme P4 Power 5G Smartphone, Trans Silver, 8GB RAM, 256GB Storage, 10001mAh Battery, 6.8 Inch Display, Triple Camera",
+      "url": "https://www.amazon.in/dp/B0GLZWV898"
+    },
     "B0GMQWZ6ZM": {
       "brand": "xiaomi",
       "price": 89999,
       "title": "XIAOMI 17 (12GB/512GB)|50MP Leica Triple Camera|Snapdragon 8 Elite Gen 5|6.3\" CrystalRes 1-120Hz AMOLED|6330mAh Battery|10...",
       "url": "https://www.amazon.in/dp/B0GMQWZ6ZM"
+    },
+    "B0GNGJV73C": {
+      "brand": "oppo",
+      "price": 14949,
+      "title": "OPPO k14x 5g (Ice Blue) (4gb+128gb)",
+      "url": "https://www.amazon.in/dp/B0GNGJV73C"
+    },
+    "B0GNHKT8FZ": {
+      "brand": "oppo",
+      "price": 17330,
+      "title": "OPPO k14x 5g (Prism Violet) (6gb+128gb)",
+      "url": "https://www.amazon.in/dp/B0GNHKT8FZ"
     },
     "B0GP7GQFNJ": {
       "brand": "pixel",
@@ -312,11 +492,53 @@
       "title": "Google Pixel 10a 5G (Fog, 8GB RAM, 256GB Storage)",
       "url": "https://www.amazon.in/dp/B0GP8SY9MB"
     },
+    "B0GP8XTH7K": {
+      "brand": "iqoo",
+      "price": 26999,
+      "title": "iQOO Z11x 5G (Prismatic Green, 8GB RAM, 256 GB Storage) | Dimensity 7400-Turbo Processor | 7200 mAh Battery Smartphone | P...",
+      "url": "https://www.amazon.in/dp/B0GP8XTH7K"
+    },
+    "B0GPDJ1PRN": {
+      "brand": "oppo",
+      "price": 17100,
+      "title": "OPPO K14x 5G Smartphone, 6GB RAM, 128GB Storage, ICY Blue, Dual Camera, 48-Month Fluency Protection",
+      "url": "https://www.amazon.in/dp/B0GPDJ1PRN"
+    },
+    "B0GPDK4MMN": {
+      "brand": "oppo",
+      "price": 14970,
+      "title": "OPPO K14x 5G Smartphone, Prism Violet, 4GB RAM, 128GB Storage",
+      "url": "https://www.amazon.in/dp/B0GPDK4MMN"
+    },
     "B0GQTSHLLR": {
       "brand": "oneplus",
       "price": 3999,
       "title": "OnePlus Nord Buds 4 Pro TWS Earbuds, Upto 55dB Real-time ANC, Adaptive Mode, 12mm Titanium-Coated Driver, Spatial Audio, U...",
       "url": "https://www.amazon.in/dp/B0GQTSHLLR"
+    },
+    "B0GRB3ZK3D": {
+      "brand": "realme",
+      "price": 12799,
+      "title": "realme P4 Lite Smartphone, 4GB RAM, 128GB Storage, Beach Gold",
+      "url": "https://www.amazon.in/dp/B0GRB3ZK3D"
+    },
+    "B0GRB7CDXN": {
+      "brand": "realme",
+      "price": 10820,
+      "title": "realme P4 Lite Smartphone, 4GB RAM, 64GB Storage, Sea Blue",
+      "url": "https://www.amazon.in/dp/B0GRB7CDXN"
+    },
+    "B0GRBBF1YF": {
+      "brand": "realme",
+      "price": 10579,
+      "title": "realme P4 Lite Smartphone, 4GB RAM, 64GB Storage, Obsidian Black",
+      "url": "https://www.amazon.in/dp/B0GRBBF1YF"
+    },
+    "B0GRBH8916": {
+      "brand": "realme",
+      "price": 10999,
+      "title": "realme P4 Lite Smartphone, 4GB RAM, 64GB Storage, Beach Gold",
+      "url": "https://www.amazon.in/dp/B0GRBH8916"
     },
     "B0GRMG7F5B": {
       "brand": "motorola",
@@ -324,11 +546,29 @@
       "title": "Motorola Edge 70 Fusion (Pantone Silhouette, 12GB RAM, 256GB Storage) | 6.78\" 144Hz AMOLED | Snapdragon 7s Gen 4 | 50MP OI...",
       "url": "https://www.amazon.in/dp/B0GRMG7F5B"
     },
+    "B0GSRJ52CQ": {
+      "brand": "oppo",
+      "price": 14749,
+      "title": "OPPO K14x 5G Smartphone, Prism Violet, 4GB RAM, 64GB Storage, 6500mAh Battery, 45W Fast Charge",
+      "url": "https://www.amazon.in/dp/B0GSRJ52CQ"
+    },
     "B0GTFSY813": {
       "brand": "oppo",
       "price": 18560,
       "title": "OPPO K14 5G Smartphone, Prism Violet, 6GB RAM, 128GB Storage, 7000 mAh Battery, Supercool VC System",
       "url": "https://www.amazon.in/dp/B0GTFSY813"
+    },
+    "B0GTQ6TB8B": {
+      "brand": "oppo",
+      "price": 14420,
+      "title": "OPPO K14x 5G (ICY Blue, 4GB RAM, 64GB)",
+      "url": "https://www.amazon.in/dp/B0GTQ6TB8B"
+    },
+    "B0GTRXVQ8N": {
+      "brand": "realme",
+      "price": 13499,
+      "title": "realme narzo 100 Lite 5G (Frost Silver,4GB+64GB) | 7000mAh Titan Battery | 4 Years, Zero Lag | 144 Hz Ultra Smooth Display...",
+      "url": "https://www.amazon.in/dp/B0GTRXVQ8N"
     }
   }
 }
