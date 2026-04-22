@@ -1,4 +1,4 @@
-"""Phone price tracker — scrapes Amazon.in + Flipkart, alerts on price drops via Telegram."""
+"""Phone price tracker — scrapes Amazon.in by brand, alerts on price drops via Telegram."""
 
 import json
 import os
@@ -15,10 +15,26 @@ from curl_cffi import requests as cffi_requests
 TELEGRAM_BOT_TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]
 TELEGRAM_CHAT_ID = os.environ["TELEGRAM_CHAT_ID"]
 DROP_THRESHOLD_PCT = float(os.environ.get("DROP_THRESHOLD_PCT", "5"))
-AMAZON_PAGES = int(os.environ.get("AMAZON_PAGES", "3"))
-FLIPKART_PAGES = int(os.environ.get("FLIPKART_PAGES", "3"))
+PAGES_PER_BRAND = int(os.environ.get("PAGES_PER_BRAND", "2"))
 
 STATE_FILE = Path(__file__).parent / "state.json"
+
+# Brand → Amazon search query + title-match keywords (lowercase substring).
+# Keywords prevent unrelated sponsored listings from polluting per-brand results.
+BRANDS = {
+    "samsung":  {"search": "samsung mobile",     "match": ["samsung", "galaxy"]},
+    "apple":    {"search": "iphone",             "match": ["iphone", "apple"]},
+    "xiaomi":   {"search": "xiaomi redmi mobile","match": ["xiaomi", "redmi", "poco", " mi "]},
+    "realme":   {"search": "realme mobile",      "match": ["realme", "narzo"]},
+    "vivo":     {"search": "vivo smartphone",    "match": ["vivo"]},
+    "oppo":     {"search": "oppo mobile",        "match": ["oppo"]},
+    "oneplus":  {"search": "oneplus mobile",     "match": ["oneplus"]},
+    "iqoo":     {"search": "iqoo mobile",        "match": ["iqoo"]},
+    "motorola": {"search": "motorola mobile",    "match": ["motorola", "moto "]},
+    "pixel":    {"search": "google pixel phone", "match": ["pixel"]},
+    "nothing":  {"search": "nothing phone",      "match": ["nothing phone", "cmf phone"]},
+    "tecno":    {"search": "tecno mobile",       "match": ["tecno"]},
+}
 
 USER_AGENTS = [
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -26,6 +42,7 @@ USER_AGENTS = [
     "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0",
 ]
+IMPERSONATE_PROFILES = ["chrome120", "chrome124", "chrome131"]
 
 
 def get_headers():
@@ -39,9 +56,6 @@ def get_headers():
     }
 
 
-IMPERSONATE_PROFILES = ["chrome120", "chrome124", "chrome131"]
-
-
 def fetch(url, retries=2):
     for attempt in range(retries + 1):
         try:
@@ -53,9 +67,9 @@ def fetch(url, retries=2):
             )
             if r.status_code == 200 and len(r.text) > 5000:
                 return r.text
-            print(f"[fetch] {url} status={r.status_code} size={len(r.text)}", file=sys.stderr)
+            print(f"[fetch] {url[:80]} status={r.status_code} size={len(r.text)}", file=sys.stderr)
         except Exception as e:
-            print(f"[fetch] {url} attempt {attempt+1} failed: {e}", file=sys.stderr)
+            print(f"[fetch] {url[:80]} attempt {attempt+1} failed: {e}", file=sys.stderr)
         time.sleep(random.uniform(2, 5))
     return None
 
@@ -65,63 +79,48 @@ def parse_int(text):
     return int(digits) if digits else None
 
 
-def scrape_amazon(pages=3):
+def title_matches_brand(title, keywords):
+    t = f" {title.lower()} "
+    return any(kw in t for kw in keywords)
+
+
+def scrape_brand(brand_key, search, match_keywords, pages):
     products = {}
+    query = search.replace(" ", "+")
     for page in range(1, pages + 1):
-        url = f"https://www.amazon.in/s?k=android+mobile+phone&page={page}"
+        url = f"https://www.amazon.in/s?k={query}&page={page}"
         html = fetch(url)
         if not html:
             continue
         soup = BeautifulSoup(html, "html.parser")
-        cards = soup.select('div[data-component-type="s-search-result"]')
-        for card in cards:
+        for card in soup.select('div[data-component-type="s-search-result"]'):
             asin = card.get("data-asin")
             if not asin:
                 continue
-            title_el = card.select_one("h2 span") or card.select_one("h2 a span")
             price_whole = card.select_one(".a-price .a-price-whole")
-            if not title_el or not price_whole:
+            if not price_whole:
+                continue
+            # Title priority: img alt (full product name) > h2 span > aria-label
+            img = card.select_one("img.s-image")
+            title = (img.get("alt") if img else "") or ""
+            if not title or len(title) < 15:
+                h2_span = card.select_one("h2 span") or card.select_one("h2 a span")
+                if h2_span:
+                    title = h2_span.get_text(strip=True)
+            if not title or len(title) < 10:
+                continue
+            if not title_matches_brand(title, match_keywords):
                 continue
             price = parse_int(price_whole.get_text())
             if not price or price < 2000:
                 continue
             products[asin] = {
-                "title": title_el.get_text(strip=True),
+                "brand": brand_key,
+                "title": title,
                 "price": price,
                 "url": f"https://www.amazon.in/dp/{asin}",
             }
-        time.sleep(random.uniform(2, 4))
-    return products
-
-
-def scrape_flipkart(pages=3):
-    products = {}
-    for page in range(1, pages + 1):
-        url = f"https://www.flipkart.com/search?q=android+mobile&page={page}"
-        html = fetch(url)
-        if not html:
-            continue
-        soup = BeautifulSoup(html, "html.parser")
-        for card in soup.select("div[data-id]"):
-            pid = card.get("data-id", "")
-            if not pid or not pid.startswith("MOB") or pid in products:
-                continue
-            title_el = card.select_one(".RG5Slk, .KzDlHZ, .wjcEIp, ._4rR01T, .s1Q9rs")
-            price_el = card.select_one(".hZ3P6w, .HZ0E6r, .Nx9bqj, ._30jeq3")
-            link_el = card.select_one("a[href*='/p/']")
-            if not (title_el and price_el and link_el):
-                continue
-            price = parse_int(price_el.get_text())
-            if not price or price < 2000:
-                continue
-            href = link_el.get("href", "")
-            full_url = href if href.startswith("http") else f"https://www.flipkart.com{href}"
-            products[pid] = {
-                "title": title_el.get_text(strip=True),
-                "price": price,
-                "url": full_url.split("&lid=")[0],
-            }
-        time.sleep(random.uniform(2, 4))
+        time.sleep(random.uniform(1.5, 3))
     return products
 
 
@@ -131,26 +130,24 @@ def load_state():
             return json.loads(STATE_FILE.read_text(encoding="utf-8"))
         except json.JSONDecodeError:
             pass
-    return {"amazon": {}, "flipkart": {}}
+    return {"products": {}}
 
 
 def save_state(state):
-    STATE_FILE.write_text(json.dumps(state, indent=2, ensure_ascii=False), encoding="utf-8")
+    STATE_FILE.write_text(json.dumps(state, indent=2, ensure_ascii=False, sort_keys=True), encoding="utf-8")
 
 
-def detect_drops(site, new_products, state):
+def detect_drops(new_products, state):
     alerts = []
-    prev = state.get(site, {})
-    for pid, info in new_products.items():
-        old = prev.get(pid)
-        if not old:
-            continue
-        if info["price"] >= old["price"]:
+    prev = state.get("products", {})
+    for asin, info in new_products.items():
+        old = prev.get(asin)
+        if not old or info["price"] >= old["price"]:
             continue
         drop_pct = ((old["price"] - info["price"]) / old["price"]) * 100
         if drop_pct >= DROP_THRESHOLD_PCT:
             alerts.append({
-                "site": site,
+                "brand": info.get("brand", "?"),
                 "title": info["title"],
                 "old_price": old["price"],
                 "new_price": info["price"],
@@ -161,10 +158,9 @@ def detect_drops(site, new_products, state):
 
 
 def format_alert(a):
-    site_emoji = "🛒" if a["site"] == "amazon" else "🛍️"
     title = a["title"][:120] + ("..." if len(a["title"]) > 120 else "")
     return (
-        f"{site_emoji} <b>{a['site'].upper()} Price Drop</b>\n"
+        f"🔥 <b>{a['brand'].upper()} Price Drop</b>\n"
         f"{title}\n"
         f"<s>₹{a['old_price']:,}</s> → <b>₹{a['new_price']:,}</b> "
         f"(-{a['drop_pct']:.1f}%)\n"
@@ -189,26 +185,25 @@ def send_telegram(message):
 
 def main():
     state = load_state()
+    all_products = {}
 
-    print("Scraping Amazon...")
-    amazon = scrape_amazon(AMAZON_PAGES)
-    print(f"  → {len(amazon)} products")
+    for brand_key, cfg in BRANDS.items():
+        print(f"Scraping {brand_key}...")
+        items = scrape_brand(brand_key, cfg["search"], cfg["match"], PAGES_PER_BRAND)
+        all_products.update(items)
+        print(f"  → {len(items)} {brand_key} products")
 
-    print("Scraping Flipkart...")
-    flipkart = scrape_flipkart(FLIPKART_PAGES)
-    print(f"  → {len(flipkart)} products")
+    print(f"\nTotal: {len(all_products)} products across {len(BRANDS)} brands")
 
-    alerts = detect_drops("amazon", amazon, state) + detect_drops("flipkart", flipkart, state)
+    alerts = detect_drops(all_products, state)
     print(f"Found {len(alerts)} price drops (threshold {DROP_THRESHOLD_PCT}%)")
 
     for alert in alerts:
         send_telegram(format_alert(alert))
         time.sleep(1)
 
-    state["amazon"].update(amazon)
-    state["flipkart"].update(flipkart)
+    state["products"].update(all_products)
     save_state(state)
-
     print("Done.")
 
 

@@ -31,8 +31,7 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           DROP_THRESHOLD_PCT: "5"
-          AMAZON_PAGES: "3"
-          FLIPKART_PAGES: "3"
+          PAGES_PER_BRAND: "2"
         run: python scraper.py
 
       - name: Commit updated state
