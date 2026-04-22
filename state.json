@@ -24,11 +24,35 @@
       "title": "OnePlus 10R 5G (Sierra Black, 8GB RAM, 128GB Storage, 80W SuperVOOC)",
       "url": "https://www.amazon.in/dp/B09WRP2WXG"
     },
+    "B0B87THGD2": {
+      "brand": "pixel",
+      "price": 21699,
+      "title": "Google Pixel 6a 5G (Charcoal, 6GB RAM, 128GB Storage)",
+      "url": "https://www.amazon.in/dp/B0B87THGD2"
+    },
+    "B0B87XQRXX": {
+      "brand": "pixel",
+      "price": 21999,
+      "title": "Google Pixel 6a 5G (Sage, 6GB RAM, 128GB Storage)",
+      "url": "https://www.amazon.in/dp/B0B87XQRXX"
+    },
     "B0BLHL9T4V": {
       "brand": "xiaomi",
       "price": 14940,
       "title": "Redmi Pad | MediaTek Helio G99 | 26.95cm (10.61 inch) 2K Resolution & 90Hz Refresh Rate Display | 4GB RAM & 128GB Storage,...",
       "url": "https://www.amazon.in/dp/B0BLHL9T4V"
+    },
+    "B0C6B2WVYW": {
+      "brand": "pixel",
+      "price": 27499,
+      "title": "Google Pixel 7a 5G (Snow, 128 GB) (8 GB RAM)",
+      "url": "https://www.amazon.in/dp/B0C6B2WVYW"
+    },
+    "B0CGVNVD8R": {
+      "brand": "pixel",
+      "price": 36999,
+      "title": "Google Pixel 8 (in Color - Hazel, Storage - 128 GB) (8 GB RAM",
+      "url": "https://www.amazon.in/dp/B0CGVNVD8R"
     },
     "B0CPS9YX12": {
       "brand": "oppo",
@@ -42,11 +66,23 @@
       "title": "Redmi Note 13 Pro (Coral Purple, 8GB RAM, 128GB Storage) | 1.5K AMOLED | 200MP Hi-Res Camera | Flagship 4nm SD 7s Gen 2 | ...",
       "url": "https://www.amazon.in/dp/B0CRQG58T8"
     },
+    "B0D2RYXKJQ": {
+      "brand": "pixel",
+      "price": 42270,
+      "title": "Google Pixel 8a (Obsidian, 256 GB) (8 GB RAM)",
+      "url": "https://www.amazon.in/dp/B0D2RYXKJQ"
+    },
     "B0D93QWWZR": {
       "brand": "oneplus",
       "price": 5499,
       "title": "OnePlus Stylo 2 OPN2402 Black in",
       "url": "https://www.amazon.in/dp/B0D93QWWZR"
+    },
+    "B0DB7N5NK4": {
+      "brand": "pixel",
+      "price": 27498,
+      "title": "Google Pixel 7a (Sea, 128 GB) (8 GB RAM)",
+      "url": "https://www.amazon.in/dp/B0DB7N5NK4"
     },
     "B0DCP1FPX9": {
       "brand": "xiaomi",
@@ -80,9 +116,15 @@
     },
     "B0DPW2M4JR": {
       "brand": "motorola",
-      "price": 13043,
+      "price": 13038,
       "title": "Motorola G35 5G (Leaf Green, 4+128)",
       "url": "https://www.amazon.in/dp/B0DPW2M4JR"
+    },
+    "B0DTKDW6XN": {
+      "brand": "pixel",
+      "price": 34499,
+      "title": "Google Pixel 8a (Obsidian, 128, GB, 8, GB)",
+      "url": "https://www.amazon.in/dp/B0DTKDW6XN"
     },
     "B0F5Y84NWS": {
       "brand": "motorola",
@@ -90,11 +132,23 @@
       "title": "Motorola Edge 60 Stylus (Web, 8+256)",
       "url": "https://www.amazon.in/dp/B0F5Y84NWS"
     },
+    "B0F6CY1S9Z": {
+      "brand": "pixel",
+      "price": 40999,
+      "title": "Google Pixel 9A (Obsidian, 256 GB) (8 GB RAM)",
+      "url": "https://www.amazon.in/dp/B0F6CY1S9Z"
+    },
     "B0F8W1SNVP": {
       "brand": "oppo",
       "price": 21990,
       "title": "OPPO K13 5G (Prism Black, 8GB RAM 256GB Storage)",
       "url": "https://www.amazon.in/dp/B0F8W1SNVP"
+    },
+    "B0FGY7C13L": {
+      "brand": "pixel",
+      "price": 43628,
+      "title": "Google Pixel 9A (Porcelain, 256 GB) (8 GB RAM)",
+      "url": "https://www.amazon.in/dp/B0FGY7C13L"
     },
     "B0FHGDCX48": {
       "brand": "motorola",
@@ -108,6 +162,30 @@
       "title": "Motorola G86 Power 5G (Pantone Golden Cypres, 8GB RAM, 128GB Storage) | 6.7\" 1.5K pOLED Display | 50MP Sony OIS Camera | 6...",
       "url": "https://www.amazon.in/dp/B0FKN6PJN9"
     },
+    "B0FLKF5V4J": {
+      "brand": "motorola",
+      "price": 14999,
+      "title": "Motorola g45 5G Pantone Dahlia Purple, 8 GB,128 GB",
+      "url": "https://www.amazon.in/dp/B0FLKF5V4J"
+    },
+    "B0FNLNFM5P": {
+      "brand": "pixel",
+      "price": 36990,
+      "title": "Google Pixel 7 Pro 5G (Snow, 12GB RAM, 128GB Storage)",
+      "url": "https://www.amazon.in/dp/B0FNLNFM5P"
+    },
+    "B0FNP9KVFC": {
+      "brand": "pixel",
+      "price": 70680,
+      "title": "Google Pixel 10 5G (Frost, 12GB RAM, 256GB Storage)",
+      "url": "https://www.amazon.in/dp/B0FNP9KVFC"
+    },
+    "B0FNPNL2D8": {
+      "brand": "pixel",
+      "price": 69498,
+      "title": "Google Pixel 10 5G (Obsidian, 12GB RAM, 256GB Storage)",
+      "url": "https://www.amazon.in/dp/B0FNPNL2D8"
+    },
     "B0FP8QFLGC": {
       "brand": "oppo",
       "price": 26999,
@@ -119,6 +197,12 @@
       "price": 27999,
       "title": "Oppo F31 Pro 5G (Space Grey, 8GB RAM, 128GB Storage)",
       "url": "https://www.amazon.in/dp/B0FP8WF4SG"
+    },
+    "B0FQBZQR9Q": {
+      "brand": "pixel",
+      "price": 41299,
+      "title": "Google Pixel 9a 5G (Obsidian, 8GB RAM, 256GB Storage)",
+      "url": "https://www.amazon.in/dp/B0FQBZQR9Q"
     },
     "B0FXFXSVQR": {
       "brand": "motorola",
@@ -197,6 +281,24 @@
       "price": 89999,
       "title": "XIAOMI 17 (12GB/512GB)|50MP Leica Triple Camera|Snapdragon 8 Elite Gen 5|6.3\" CrystalRes 1-120Hz AMOLED|6330mAh Battery|10...",
       "url": "https://www.amazon.in/dp/B0GMQWZ6ZM"
+    },
+    "B0GP7GQFNJ": {
+      "brand": "pixel",
+      "price": 48990,
+      "title": "Google Pixel 10a 5G (Berry, 8GB RAM, 256GB Storage)",
+      "url": "https://www.amazon.in/dp/B0GP7GQFNJ"
+    },
+    "B0GP88QJL8": {
+      "brand": "pixel",
+      "price": 47299,
+      "title": "Google Pixel 10a 5G (Obsidian, 8GB RAM, 256GB Storage)",
+      "url": "https://www.amazon.in/dp/B0GP88QJL8"
+    },
+    "B0GP8SY9MB": {
+      "brand": "pixel",
+      "price": 47899,
+      "title": "Google Pixel 10a 5G (Fog, 8GB RAM, 256GB Storage)",
+      "url": "https://www.amazon.in/dp/B0GP8SY9MB"
     },
     "B0GQTSHLLR": {
       "brand": "oneplus",
