@@ -1,3 +1,220 @@
 {
-  "products": {}
+  "products": {
+    "B089MSK43J": {
+      "brand": "xiaomi",
+      "price": 17999,
+      "title": "Redmi Note 10 Pro (Vintage Bronze, 6GB RAM, 128GB Storage) -120Hz Super Amoled Display | 64MP Camera with 5MP Super Tele-M...",
+      "url": "https://www.amazon.in/dp/B089MSK43J"
+    },
+    "B09V2P9C3S": {
+      "brand": "oneplus",
+      "price": 39999,
+      "title": "OnePlus 10 Pro 5G (Volcanic Black, 8GB RAM, 128GB Storage)",
+      "url": "https://www.amazon.in/dp/B09V2P9C3S"
+    },
+    "B09WN26DLF": {
+      "brand": "oppo",
+      "price": 16999,
+      "title": "Oppo F21 Pro (Sunset Orange, 8GB RAM, 128 Storage) with No Cost EMI/Additional Exchange Offers",
+      "url": "https://www.amazon.in/dp/B09WN26DLF"
+    },
+    "B09WRP2WXG": {
+      "brand": "oneplus",
+      "price": 34999,
+      "title": "OnePlus 10R 5G (Sierra Black, 8GB RAM, 128GB Storage, 80W SuperVOOC)",
+      "url": "https://www.amazon.in/dp/B09WRP2WXG"
+    },
+    "B0BLHL9T4V": {
+      "brand": "xiaomi",
+      "price": 14940,
+      "title": "Redmi Pad | MediaTek Helio G99 | 26.95cm (10.61 inch) 2K Resolution & 90Hz Refresh Rate Display | 4GB RAM & 128GB Storage,...",
+      "url": "https://www.amazon.in/dp/B0BLHL9T4V"
+    },
+    "B0CPS9YX12": {
+      "brand": "oppo",
+      "price": 19999,
+      "title": "OPPO A59 5G (Silk Gold, 6GB RAM, 128GB Storage) | 5000 mAh Battery with 33W SUPERVOOC Charger | 6.56\" HD+ 90Hz Display | w...",
+      "url": "https://www.amazon.in/dp/B0CPS9YX12"
+    },
+    "B0CRQG58T8": {
+      "brand": "xiaomi",
+      "price": 26999,
+      "title": "Redmi Note 13 Pro (Coral Purple, 8GB RAM, 128GB Storage) | 1.5K AMOLED | 200MP Hi-Res Camera | Flagship 4nm SD 7s Gen 2 | ...",
+      "url": "https://www.amazon.in/dp/B0CRQG58T8"
+    },
+    "B0D93QWWZR": {
+      "brand": "oneplus",
+      "price": 5499,
+      "title": "OnePlus Stylo 2 OPN2402 Black in",
+      "url": "https://www.amazon.in/dp/B0D93QWWZR"
+    },
+    "B0DCP1FPX9": {
+      "brand": "xiaomi",
+      "price": 2199,
+      "title": "Xiaomi Power Bank 4i 20000mAh 33W Super Fast Charging PD |Smart 12 Layer Protection|Type C Input & Output|Triple Output Po...",
+      "url": "https://www.amazon.in/dp/B0DCP1FPX9"
+    },
+    "B0DDY9HMJG": {
+      "brand": "motorola",
+      "price": 12448,
+      "title": "Motorola G45 5G (Brilliant Blue, 8GB RAM, 128GB Storage)",
+      "url": "https://www.amazon.in/dp/B0DDY9HMJG"
+    },
+    "B0DDYBQWLW": {
+      "brand": "motorola",
+      "price": 12269,
+      "title": "Motorola G45 5G (Brilliant Green, 8GB RAM, 128GB Storage) | 6.5\" FHD+ Display | Snapdragon 6 Gen1 Processor | 50MP Camera...",
+      "url": "https://www.amazon.in/dp/B0DDYBQWLW"
+    },
+    "B0DFQ1R3W4": {
+      "brand": "oneplus",
+      "price": 2499,
+      "title": "OnePlus Nord Buds 3 Truly Wireless Bluetooth Earbuds with up to 32dB Active Noise Cancellation, 10mins for 11Hours Fast Ch...",
+      "url": "https://www.amazon.in/dp/B0DFQ1R3W4"
+    },
+    "B0DPW21322": {
+      "brand": "motorola",
+      "price": 13199,
+      "title": "Motorola G35 5G (Midnight Black, 4+128)",
+      "url": "https://www.amazon.in/dp/B0DPW21322"
+    },
+    "B0DPW2M4JR": {
+      "brand": "motorola",
+      "price": 13043,
+      "title": "Motorola G35 5G (Leaf Green, 4+128)",
+      "url": "https://www.amazon.in/dp/B0DPW2M4JR"
+    },
+    "B0F5Y84NWS": {
+      "brand": "motorola",
+      "price": 21490,
+      "title": "Motorola Edge 60 Stylus (Web, 8+256)",
+      "url": "https://www.amazon.in/dp/B0F5Y84NWS"
+    },
+    "B0F8W1SNVP": {
+      "brand": "oppo",
+      "price": 21990,
+      "title": "OPPO K13 5G (Prism Black, 8GB RAM 256GB Storage)",
+      "url": "https://www.amazon.in/dp/B0F8W1SNVP"
+    },
+    "B0FHGDCX48": {
+      "brand": "motorola",
+      "price": 19899,
+      "title": "Motorola G96 144Hz 3D Curved pOLED (PANTONE Dresden Blue, 8GB RAM, 128GB Storage)",
+      "url": "https://www.amazon.in/dp/B0FHGDCX48"
+    },
+    "B0FKN6PJN9": {
+      "brand": "motorola",
+      "price": 18590,
+      "title": "Motorola G86 Power 5G (Pantone Golden Cypres, 8GB RAM, 128GB Storage) | 6.7\" 1.5K pOLED Display | 50MP Sony OIS Camera | 6...",
+      "url": "https://www.amazon.in/dp/B0FKN6PJN9"
+    },
+    "B0FP8QFLGC": {
+      "brand": "oppo",
+      "price": 26999,
+      "title": "Oppo F31 5G (Midnight Blue, 8GB RAM, 128GB Storage)",
+      "url": "https://www.amazon.in/dp/B0FP8QFLGC"
+    },
+    "B0FP8WF4SG": {
+      "brand": "oppo",
+      "price": 27999,
+      "title": "Oppo F31 Pro 5G (Space Grey, 8GB RAM, 128GB Storage)",
+      "url": "https://www.amazon.in/dp/B0FP8WF4SG"
+    },
+    "B0FXFXSVQR": {
+      "brand": "motorola",
+      "price": 14695,
+      "title": "Motorola g35 5G (Leaf Green, 128 GB) (8 GB RAM)",
+      "url": "https://www.amazon.in/dp/B0FXFXSVQR"
+    },
+    "B0G1YM8511": {
+      "brand": "motorola",
+      "price": 17099,
+      "title": "Motorola G67 Power 5G (Pantone Parachute Purple, 8GB RAM, 128GB Storage) | 6.7\" FHD+ 120Hz LCD Display | Snapdragon 7s Gen...",
+      "url": "https://www.amazon.in/dp/B0G1YM8511"
+    },
+    "B0G1YNG5S6": {
+      "brand": "motorola",
+      "price": 17120,
+      "title": "Motorola G67 Power 5G (Pantone Cilantro, 8GB RAM, 128GB Storage) | 6.7\" FHD+ 120Hz LCD Display | Snapdragon 7s Gen2 Proces...",
+      "url": "https://www.amazon.in/dp/B0G1YNG5S6"
+    },
+    "B0G2CJJLWX": {
+      "brand": "motorola",
+      "price": 26499,
+      "title": "Motorola Edge 60 Fusion 5G (Pantone Slipstream, 12GB RAM, 256GB Storage)",
+      "url": "https://www.amazon.in/dp/B0G2CJJLWX"
+    },
+    "B0G3SWTTQ7": {
+      "brand": "motorola",
+      "price": 16149,
+      "title": "Motorola G57 Power 5G (Corsair, 8GB RAM, 128GB Storage) | Snapdragon 6s Gen 4 Processor | 6.72\" FHD+ Display | 50MP LYT-60...",
+      "url": "https://www.amazon.in/dp/B0G3SWTTQ7"
+    },
+    "B0G3T3HZC6": {
+      "brand": "motorola",
+      "price": 16199,
+      "title": "Motorola G57 Power 5G (Regatta, 8GB RAM, 128GB Storage) | Snapdragon 6s Gen 4 Processor | 6.72\" FHD+ Display | 50MP LYT-60...",
+      "url": "https://www.amazon.in/dp/B0G3T3HZC6"
+    },
+    "B0G3TFPN94": {
+      "brand": "motorola",
+      "price": 16199,
+      "title": "Motorola G57 Power 5G (Fluidity, 8GB RAM, 128GB Storage)| Snapdragon 6s Gen 4 Processor | 6.72\" FHD+ Display | 50MP LYT-60...",
+      "url": "https://www.amazon.in/dp/B0G3TFPN94"
+    },
+    "B0G8XT9W3C": {
+      "brand": "oppo",
+      "price": 26999,
+      "title": "Oppo A6 Pro 5G (Brown, 8GB RAM, 128GB Storage) with No Cost EMI/Additional Exchange Offers",
+      "url": "https://www.amazon.in/dp/B0G8XT9W3C"
+    },
+    "B0G8XX9J7C": {
+      "brand": "oppo",
+      "price": 41999,
+      "title": "Oppo Reno15c 5G (Afterglow Pink, 8GB RAM, 256GB Storage) with No Cost EMI/Additional Exchange Offers",
+      "url": "https://www.amazon.in/dp/B0G8XX9J7C"
+    },
+    "B0G8Y3GWQR": {
+      "brand": "oppo",
+      "price": 41999,
+      "title": "Oppo Reno15c 5G (Twilight Blue, 8GB RAM, 256GB Storage) with No Cost EMI/Additional Exchange Offers",
+      "url": "https://www.amazon.in/dp/B0G8Y3GWQR"
+    },
+    "B0GCSRQCT1": {
+      "brand": "xiaomi",
+      "price": 36990,
+      "title": "REDMI Note 15 Pro+ 5G 8GB+256GB Black",
+      "url": "https://www.amazon.in/dp/B0GCSRQCT1"
+    },
+    "B0GGZPMTPX": {
+      "brand": "oppo",
+      "price": 25999,
+      "title": "Oppo A6 5G (Sapphire Blue, 6GB RAM,256GB Storage) with No Cost EMI/Additional Exchange Offers",
+      "url": "https://www.amazon.in/dp/B0GGZPMTPX"
+    },
+    "B0GMQWZ6ZM": {
+      "brand": "xiaomi",
+      "price": 89999,
+      "title": "XIAOMI 17 (12GB/512GB)|50MP Leica Triple Camera|Snapdragon 8 Elite Gen 5|6.3\" CrystalRes 1-120Hz AMOLED|6330mAh Battery|10...",
+      "url": "https://www.amazon.in/dp/B0GMQWZ6ZM"
+    },
+    "B0GQTSHLLR": {
+      "brand": "oneplus",
+      "price": 3999,
+      "title": "OnePlus Nord Buds 4 Pro TWS Earbuds, Upto 55dB Real-time ANC, Adaptive Mode, 12mm Titanium-Coated Driver, Spatial Audio, U...",
+      "url": "https://www.amazon.in/dp/B0GQTSHLLR"
+    },
+    "B0GRMG7F5B": {
+      "brand": "motorola",
+      "price": 33299,
+      "title": "Motorola Edge 70 Fusion (Pantone Silhouette, 12GB RAM, 256GB Storage) | 6.78\" 144Hz AMOLED | Snapdragon 7s Gen 4 | 50MP OI...",
+      "url": "https://www.amazon.in/dp/B0GRMG7F5B"
+    },
+    "B0GTFSY813": {
+      "brand": "oppo",
+      "price": 18560,
+      "title": "OPPO K14 5G Smartphone, Prism Violet, 6GB RAM, 128GB Storage, 7000 mAh Battery, Supercool VC System",
+      "url": "https://www.amazon.in/dp/B0GTFSY813"
+    }
+  }
 }
