@@ -69,8 +69,11 @@ def get_headers():
     }
 
 
-def fetch(url, retries=2):
-    for attempt in range(retries + 1):
+BACKOFF_SCHEDULE = [2, 5, 10, 20]
+
+
+def fetch(url, retries=4):
+    for attempt in range(retries):
         try:
             r = cffi_requests.get(
                 url,
@@ -83,7 +86,8 @@ def fetch(url, retries=2):
             print(f"[fetch] {url[:80]} status={r.status_code} size={len(r.text)}", file=sys.stderr)
         except Exception as e:
             print(f"[fetch] {url[:80]} attempt {attempt+1} failed: {e}", file=sys.stderr)
-        time.sleep(random.uniform(2, 5))
+        wait = BACKOFF_SCHEDULE[min(attempt, len(BACKOFF_SCHEDULE) - 1)]
+        time.sleep(wait + random.uniform(0, 2))
     return None
 
 
@@ -207,7 +211,13 @@ def main():
     state = load_state()
     all_products = {}
 
-    for brand_key, cfg in BRANDS.items():
+    # Shuffle brand order so different brands get the "fresh slot" each run —
+    # Amazon's 503 rate-limiting kicks in mid-run, so the brands scraped first
+    # are most likely to succeed.
+    brand_items = list(BRANDS.items())
+    random.shuffle(brand_items)
+
+    for brand_key, cfg in brand_items:
         print(f"Scraping {brand_key}...")
         items = scrape_brand(brand_key, cfg["search"], cfg["match"], PAGES_PER_BRAND)
         all_products.update(items)
