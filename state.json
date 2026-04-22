@@ -122,13 +122,13 @@
     },
     "B0DPW21322": {
       "brand": "motorola",
-      "price": 13105,
+      "price": 13145,
       "title": "Motorola G35 5G (Midnight Black, 4+128)",
       "url": "https://www.amazon.in/dp/B0DPW21322"
     },
     "B0DPW2M4JR": {
       "brand": "motorola",
-      "price": 13032,
+      "price": 13125,
       "title": "Motorola G35 5G (Leaf Green, 4+128)",
       "url": "https://www.amazon.in/dp/B0DPW2M4JR"
     },
@@ -138,11 +138,35 @@
       "title": "Google Pixel 8a (Obsidian, 128, GB, 8, GB)",
       "url": "https://www.amazon.in/dp/B0DTKDW6XN"
     },
+    "B0DZTMFWDB": {
+      "brand": "nothing",
+      "price": 24999,
+      "title": "Nothing Phone (3a) 5G (8GB RAM + 128GB Storage) (White)",
+      "url": "https://www.amazon.in/dp/B0DZTMFWDB"
+    },
+    "B0DZTQ44FC": {
+      "brand": "nothing",
+      "price": 29999,
+      "title": "Nothing Phone (3a) Pro 5G (Black, 8GB RAM + 256GB Storage)",
+      "url": "https://www.amazon.in/dp/B0DZTQ44FC"
+    },
     "B0F1DDJTSJ": {
       "brand": "realme",
       "price": 20999,
       "title": "realme NARZO 80 Pro 5G (Nitro Orange,8GB+256GB) | Segment's 1st MediaTek Dimensity 7400 Chipset | 6000mAh Titan Battery + ...",
       "url": "https://www.amazon.in/dp/B0F1DDJTSJ"
+    },
+    "B0F1N8B7Z4": {
+      "brand": "xiaomi",
+      "price": 17490,
+      "title": "Redmi 13 5G Hawaiian Blue 8GB RAM 128GB ROM (Without Offer)",
+      "url": "https://www.amazon.in/dp/B0F1N8B7Z4"
+    },
+    "B0F1NDMXVF": {
+      "brand": "xiaomi",
+      "price": 17490,
+      "title": "Redmi 13 5G Orchid Pink 8GB RAM 128GB ROM (Without Offer)",
+      "url": "https://www.amazon.in/dp/B0F1NDMXVF"
     },
     "B0F2HDFMFC": {
       "brand": "iqoo",
@@ -174,6 +198,18 @@
       "title": "Google Pixel 9A (Obsidian, 256 GB) (8 GB RAM)",
       "url": "https://www.amazon.in/dp/B0F6CY1S9Z"
     },
+    "B0F7LWQFJ5": {
+      "brand": "xiaomi",
+      "price": 24999,
+      "title": "Redmi Note 14 Pro+ 5G Spectre Blue 8GB RAM 128GB ROM(Without Offer)",
+      "url": "https://www.amazon.in/dp/B0F7LWQFJ5"
+    },
+    "B0F7RB8NNL": {
+      "brand": "nothing",
+      "price": 64949,
+      "title": "Nothing Phone (3), Black (16GB, 512 GB)",
+      "url": "https://www.amazon.in/dp/B0F7RB8NNL"
+    },
     "B0F8W1SNVP": {
       "brand": "oppo",
       "price": 22249,
@@ -191,6 +227,12 @@
       "price": 14999,
       "title": "iQOO Z10 Lite 5G (Titanium Blue, 6GB RAM, 128GB Storage) | 6000 mAh Battery | Dimensity 6300 5G Processor with 433K+* AnTu...",
       "url": "https://www.amazon.in/dp/B0FC5TDB9P"
+    },
+    "B0FGDM1YR3": {
+      "brand": "xiaomi",
+      "price": 28950,
+      "title": "Redmi Mi 11X 5G (Celestial Silver, 6GB RAM, 128GB Storage) | 6.67\" E4 AMOLED 120Hz | Snapdragon 870 5G Processor | 48MP Tr...",
+      "url": "https://www.amazon.in/dp/B0FGDM1YR3"
     },
     "B0FGY7C13L": {
       "brand": "pixel",
@@ -210,9 +252,15 @@
       "title": "Motorola G96 144Hz 3D Curved pOLED (PANTONE Dresden Blue, 8GB RAM, 128GB Storage)",
       "url": "https://www.amazon.in/dp/B0FHGDCX48"
     },
+    "B0FJFRYXFK": {
+      "brand": "xiaomi",
+      "price": 22499,
+      "title": "Redmi 15 5G Sandy Purple 8GB + 256GB | Segment's Largest 7000mAhA Battery | Segment's Largest Display 17.53cm(6.9) Up to 1...",
+      "url": "https://www.amazon.in/dp/B0FJFRYXFK"
+    },
     "B0FKN6PJN9": {
       "brand": "motorola",
-      "price": 18587,
+      "price": 18588,
       "title": "Motorola G86 Power 5G (Pantone Golden Cypres, 8GB RAM, 128GB Storage) | 6.7\" 1.5K pOLED Display | 50MP Sony OIS Camera | 6...",
       "url": "https://www.amazon.in/dp/B0FKN6PJN9"
     },
@@ -258,6 +306,12 @@
       "title": "Oppo F31 Pro 5G (Space Grey, 8GB RAM, 128GB Storage)",
       "url": "https://www.amazon.in/dp/B0FP8WF4SG"
     },
+    "B0FPYNN62H": {
+      "brand": "xiaomi",
+      "price": 19488,
+      "title": "Redmi Note 14 SE 5G, Titan Black (6GB, 128GB)",
+      "url": "https://www.amazon.in/dp/B0FPYNN62H"
+    },
     "B0FQBZQR9Q": {
       "brand": "pixel",
       "price": 41299,
@@ -302,7 +356,7 @@
     },
     "B0FXFXSVQR": {
       "brand": "motorola",
-      "price": 14695,
+      "price": 14699,
       "title": "Motorola g35 5G (Leaf Green, 128 GB) (8 GB RAM)",
       "url": "https://www.amazon.in/dp/B0FXFXSVQR"
     },
@@ -314,7 +368,7 @@
     },
     "B0G1PPG6W3": {
       "brand": "motorola",
-      "price": 17199,
+      "price": 16999,
       "title": "Motorola G67 Power (Pantone Blue Curacao, 8GB RAM, 128GB Storage)",
       "url": "https://www.amazon.in/dp/B0G1PPG6W3"
     },
@@ -326,33 +380,57 @@
     },
     "B0G1YNG5S6": {
       "brand": "motorola",
-      "price": 17199,
+      "price": 17120,
       "title": "Motorola G67 Power 5G (Pantone Cilantro, 8GB RAM, 128GB Storage) | 6.7\" FHD+ 120Hz LCD Display | Snapdragon 7s Gen2 Proces...",
       "url": "https://www.amazon.in/dp/B0G1YNG5S6"
     },
+    "B0G2BBWKCP": {
+      "brand": "xiaomi",
+      "price": 17499,
+      "title": "REDMI 15C 5G Midnight Black 6GB + 128GB | Royale Design | Massive 6000mAh Battery | Segment's Largest 17.53cm Display Up t...",
+      "url": "https://www.amazon.in/dp/B0G2BBWKCP"
+    },
     "B0G2CJJLWX": {
       "brand": "motorola",
-      "price": 26499,
+      "price": 26199,
       "title": "Motorola Edge 60 Fusion 5G (Pantone Slipstream, 12GB RAM, 256GB Storage)",
       "url": "https://www.amazon.in/dp/B0G2CJJLWX"
     },
     "B0G3SWTTQ7": {
       "brand": "motorola",
-      "price": 16149,
+      "price": 16190,
       "title": "Motorola G57 Power 5G (Corsair, 8GB RAM, 128GB Storage) | Snapdragon 6s Gen 4 Processor | 6.72\" FHD+ Display | 50MP LYT-60...",
       "url": "https://www.amazon.in/dp/B0G3SWTTQ7"
     },
     "B0G3T3HZC6": {
       "brand": "motorola",
-      "price": 15990,
+      "price": 16189,
       "title": "Motorola G57 Power 5G (Regatta, 8GB RAM, 128GB Storage) | Snapdragon 6s Gen 4 Processor | 6.72\" FHD+ Display | 50MP LYT-60...",
       "url": "https://www.amazon.in/dp/B0G3T3HZC6"
     },
     "B0G3TFPN94": {
       "brand": "motorola",
-      "price": 16199,
+      "price": 16099,
       "title": "Motorola G57 Power 5G (Fluidity, 8GB RAM, 128GB Storage)| Snapdragon 6s Gen 4 Processor | 6.72\" FHD+ Display | 50MP LYT-60...",
       "url": "https://www.amazon.in/dp/B0G3TFPN94"
+    },
+    "B0G3X48FQ4": {
+      "brand": "nothing",
+      "price": 21662,
+      "title": "Nothing Phone (3a Lite) (Black, 128 GB) (8 GB RAM)",
+      "url": "https://www.amazon.in/dp/B0G3X48FQ4"
+    },
+    "B0G47YZJH6": {
+      "brand": "nothing",
+      "price": 22499,
+      "title": "Nothing Phone (3a) Lite (White, 128 GB) (8 GB RAM)",
+      "url": "https://www.amazon.in/dp/B0G47YZJH6"
+    },
+    "B0G481N2LC": {
+      "brand": "nothing",
+      "price": 24056,
+      "title": "Nothing Phone (3a) Lite (Black, 256 GB) (8 GB RAM)",
+      "url": "https://www.amazon.in/dp/B0G481N2LC"
     },
     "B0G49VLFSG": {
       "brand": "realme",
@@ -362,15 +440,27 @@
     },
     "B0G4BC5WCV": {
       "brand": "realme",
-      "price": 16999,
+      "price": 15999,
       "title": "realme NARZO 90x 5G (Flash Blue,6GB+128GB) | 7000mAh + 60W Biggest Battery & Fastest Charging in the Segment* | 144Hz Brig...",
       "url": "https://www.amazon.in/dp/B0G4BC5WCV"
+    },
+    "B0G5G7LCJQ": {
+      "brand": "xiaomi",
+      "price": 24999,
+      "title": "REDMI Note 15 5G (Glacier Blue, 8GB RAM 128GB Storage) | 108MP OIS Camera | Snapdragon 6 Gen 3 | 17.2cm Tough Curved AMOLE...",
+      "url": "https://www.amazon.in/dp/B0G5G7LCJQ"
     },
     "B0G6LBJT5N": {
       "brand": "realme",
       "price": 17990,
       "title": "realme P4x 5G Smartphone, Lake Green, 6GB RAM, 128GB Storage",
       "url": "https://www.amazon.in/dp/B0G6LBJT5N"
+    },
+    "B0G6LDSC4F": {
+      "brand": "tecno",
+      "price": 9999,
+      "title": "Tecno Spark Go 3 (Titanium Grey, 4GB+64GB | Super Durability Drop Resistant & IP64 Rated| Make Calls Without Network* |Ell...",
+      "url": "https://www.amazon.in/dp/B0G6LDSC4F"
     },
     "B0G8XT9W3C": {
       "brand": "oppo",
@@ -408,6 +498,30 @@
       "title": "Oppo A6X 4G (Olive Green, 4GB RAM, 64GB Storage) with No Cost EMI/Additional Exchange Offers",
       "url": "https://www.amazon.in/dp/B0GDGXVJYG"
     },
+    "B0GF1V7BCC": {
+      "brand": "xiaomi",
+      "price": 29999,
+      "title": "REDMI Note 15 Pro 5G (Mirage Blue, 8GB+128GB) | 200MasterPixel OIS Camera | Dimensity 7400-Ultra | 17.3cm CrystalRes AMOLE...",
+      "url": "https://www.amazon.in/dp/B0GF1V7BCC"
+    },
+    "B0GF216T4Q": {
+      "brand": "xiaomi",
+      "price": 37999,
+      "title": "REDMI Note 15 Pro+ 5G (Carbon Black, 8GB + 256GB) | 200MasterPixel OIS Camera | Snapdragon 7s Gen 4 | CrystalRes AMOLED | ...",
+      "url": "https://www.amazon.in/dp/B0GF216T4Q"
+    },
+    "B0GF24HNK2": {
+      "brand": "xiaomi",
+      "price": 39999,
+      "title": "REDMI Note 15 Pro+ 5G (Carbon Black, 12GB + 256GB) | 200MasterPixel OIS Camera | Snapdragon 7s Gen 4 | CrystalRes AMOLED |...",
+      "url": "https://www.amazon.in/dp/B0GF24HNK2"
+    },
+    "B0GF24NJHN": {
+      "brand": "xiaomi",
+      "price": 37999,
+      "title": "REDMI Note 15 Pro+ 5G (Mirage Blue, 8GB + 256GB) | 200MasterPixel OIS Camera | Snapdragon 7s Gen 4 | CrystalRes AMOLED | I...",
+      "url": "https://www.amazon.in/dp/B0GF24NJHN"
+    },
     "B0GFVPT1X9": {
       "brand": "realme",
       "price": 11599,
@@ -420,6 +534,12 @@
       "title": "realme C71 4G Smartphone 6GB+128GB,6.745 inch Screen, 90Hz Eye Comfort Display, 6300mAh Battery, 37MP Cameras, Unisoc T725...",
       "url": "https://www.amazon.in/dp/B0GFW1BJ1D"
     },
+    "B0GFX5GT8Y": {
+      "brand": "tecno",
+      "price": 31999,
+      "title": "Tecno Pova Curve 2 5G (Storm Titanium, 8GB RAM, 256GB Storage)",
+      "url": "https://www.amazon.in/dp/B0GFX5GT8Y"
+    },
     "B0GGZPMTPX": {
       "brand": "oppo",
       "price": 25999,
@@ -428,7 +548,7 @@
     },
     "B0GK8334CK": {
       "brand": "realme",
-      "price": 16999,
+      "price": 15999,
       "title": "realme NARZO 90x 5G (Maroon Red,6GB+128GB) | 7000mAh + 60W Biggest Battery & Fastest Charging in The Segment* | 144Hz Brig...",
       "url": "https://www.amazon.in/dp/B0GK8334CK"
     },
@@ -524,7 +644,7 @@
     },
     "B0GRB7CDXN": {
       "brand": "realme",
-      "price": 10820,
+      "price": 10779,
       "title": "realme P4 Lite Smartphone, 4GB RAM, 64GB Storage, Sea Blue",
       "url": "https://www.amazon.in/dp/B0GRB7CDXN"
     },
@@ -536,15 +656,63 @@
     },
     "B0GRBH8916": {
       "brand": "realme",
-      "price": 10999,
+      "price": 10198,
       "title": "realme P4 Lite Smartphone, 4GB RAM, 64GB Storage, Beach Gold",
       "url": "https://www.amazon.in/dp/B0GRBH8916"
     },
+    "B0GRD84RLF": {
+      "brand": "nothing",
+      "price": 34989,
+      "title": "Nothing Phone 4a (8GB 256GB White)",
+      "url": "https://www.amazon.in/dp/B0GRD84RLF"
+    },
+    "B0GRDBF8V2": {
+      "brand": "nothing",
+      "price": 33490,
+      "title": "Nothing Phone 4a (8GB 128GB Black)",
+      "url": "https://www.amazon.in/dp/B0GRDBF8V2"
+    },
+    "B0GRDDN7JW": {
+      "brand": "nothing",
+      "price": 34199,
+      "title": "Nothing Phone 4a (8GB 256GB Black)",
+      "url": "https://www.amazon.in/dp/B0GRDDN7JW"
+    },
+    "B0GRFZ99L5": {
+      "brand": "nothing",
+      "price": 42999,
+      "title": "Nothing Phone (4a) Pro (Black, 8GB, 128GB)",
+      "url": "https://www.amazon.in/dp/B0GRFZ99L5"
+    },
+    "B0GRG8SKTT": {
+      "brand": "nothing",
+      "price": 42999,
+      "title": "Nothing Phone (4a) Pro (Silver, 8GB, 128GB)",
+      "url": "https://www.amazon.in/dp/B0GRG8SKTT"
+    },
     "B0GRMG7F5B": {
       "brand": "motorola",
-      "price": 33299,
+      "price": 32799,
       "title": "Motorola Edge 70 Fusion (Pantone Silhouette, 12GB RAM, 256GB Storage) | 6.78\" 144Hz AMOLED | Snapdragon 7s Gen 4 | 50MP OI...",
       "url": "https://www.amazon.in/dp/B0GRMG7F5B"
+    },
+    "B0GS5M4VMH": {
+      "brand": "xiaomi",
+      "price": 13499,
+      "title": "REDMI A7 Pro 5G (Black, 4GB RAM,128GB Storage) | Segment's Fastest Processor | Segment's Largest Battery | Segment's Large...",
+      "url": "https://www.amazon.in/dp/B0GS5M4VMH"
+    },
+    "B0GS5N7M97": {
+      "brand": "xiaomi",
+      "price": 12499,
+      "title": "REDMI A7 Pro 5G (Sunset Orange, 4GB RAM, 64GB Storage) | Segment's Fastest Processor | Segment's Largest Battery | Segmen...",
+      "url": "https://www.amazon.in/dp/B0GS5N7M97"
+    },
+    "B0GS5SM6JR": {
+      "brand": "xiaomi",
+      "price": 12499,
+      "title": "REDMI A7 Pro 5G (Black, 4GB RAM, 64GB Storage) | Segment's Fastest Processor | Segment's Largest Battery | Segment's Large...",
+      "url": "https://www.amazon.in/dp/B0GS5SM6JR"
     },
     "B0GSRJ52CQ": {
       "brand": "oppo",
@@ -563,6 +731,12 @@
       "price": 14420,
       "title": "OPPO K14x 5G (ICY Blue, 4GB RAM, 64GB)",
       "url": "https://www.amazon.in/dp/B0GTQ6TB8B"
+    },
+    "B0GTRHJYYF": {
+      "brand": "realme",
+      "price": 14499,
+      "title": "realme narzo 100 Lite 5G (Frost Silver,4GB+128GB) | 7000mAh Titan Battery | 4 Years, Zero Lag | 144 Hz Ultra Smooth Displa...",
+      "url": "https://www.amazon.in/dp/B0GTRHJYYF"
     },
     "B0GTRXVQ8N": {
       "brand": "realme",
