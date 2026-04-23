@@ -24,19 +24,30 @@ PAGES_PER_BRAND = int(os.environ.get("PAGES_PER_BRAND", "1"))
 STATE_FILE = Path.home() / ".flipkart_state.json"
 
 BRANDS = {
-    "samsung":  {"search": "samsung mobile",     "match": ["samsung", "galaxy"]},
+    "samsung":  {"search": "samsung galaxy s",   "match": ["samsung", "galaxy"]},
     "apple":    {"search": "iphone",             "match": ["iphone", "apple"]},
-    "xiaomi":   {"search": "xiaomi redmi",       "match": ["xiaomi", "redmi", "poco", " mi "]},
-    "realme":   {"search": "realme mobile",      "match": ["realme", "narzo"]},
-    "vivo":     {"search": "vivo smartphone",    "match": ["vivo"]},
-    "oppo":     {"search": "oppo mobile",        "match": ["oppo"]},
-    "oneplus":  {"search": "oneplus mobile",     "match": ["oneplus"]},
-    "iqoo":     {"search": "iqoo mobile",        "match": ["iqoo"]},
-    "motorola": {"search": "motorola mobile",    "match": ["motorola", "moto "]},
-    "pixel":    {"search": "google pixel",       "match": ["pixel"]},
-    "nothing":  {"search": "nothing phone",      "match": ["nothing phone", "cmf phone"]},
-    "tecno":    {"search": "tecno mobile",       "match": ["tecno"]},
+    "xiaomi":   {"search": "redmi a4 15c",       "match": ["xiaomi", "redmi"]},
+    "realme":   {"search": "realme p4",          "match": ["realme"]},
+    "vivo":     {"search": "vivo t4 t5 y19 y31", "match": ["vivo"]},
+    "oppo":     {"search": "oppo k13 k14 f31",   "match": ["oppo"]},
+    "iqoo":     {"search": "iqoo z10 lite",      "match": ["iqoo"]},
+    "motorola": {"search": "motorola g35 g57 g67 g96 edge fusion", "match": ["motorola", "moto "]},
+    "pixel":    {"search": "google pixel 9 10",  "match": ["pixel"]},
 }
+
+MODEL_WHITELIST = {
+    "samsung":  [r"\bs2[456]\b", r"\bs2[456]\s*(fe|ultra|plus|\+)"],
+    "apple":    [r"iphone\s*1[567]\b"],
+    "xiaomi":   [r"redmi\s*a4\b", r"redmi\s*15c\b"],
+    "realme":   [r"\bp4\b", r"p4\s*lite", r"\bp4x\b", r"p4\s*power"],
+    "oppo":     [r"\bk13\b", r"\bk13x\b", r"\bk14x\b", r"\bf31\b"],
+    "vivo":     [r"\by19e\b", r"\by19s\b", r"\by31\b", r"\bt4\b", r"t4\s*lite",
+                 r"\bt4x\b", r"\bt4r\b", r"\bt5x\b"],
+    "iqoo":     [r"z10\s*lite"],
+    "motorola": [r"\bg35\b", r"\bg57\b", r"\bg67\b", r"\bg96\b", r"[67]0\s*fusion"],
+    "pixel":    [r"pixel\s*9a?\b", r"pixel\s*10a?\b"],
+}
+_COMPILED_WHITELIST = {b: [re.compile(p) for p in pats] for b, pats in MODEL_WHITELIST.items()}
 
 ACCESSORY_KEYWORDS = [
     "earbuds", "earbud", "buds", "headphone", "headphones", "earphone", "earphones",
@@ -89,6 +100,14 @@ def is_accessory(title):
     return any(kw in t for kw in ACCESSORY_KEYWORDS)
 
 
+def matches_model_whitelist(title, brand_key):
+    patterns = _COMPILED_WHITELIST.get(brand_key)
+    if not patterns:
+        return True
+    t = title.lower()
+    return any(p.search(t) for p in patterns)
+
+
 def scrape_brand(brand_key, search, match_keywords, pages):
     products = {}
     query = search.replace(" ", "+")
@@ -109,6 +128,8 @@ def scrape_brand(brand_key, search, match_keywords, pages):
                 continue
             title = title_el.get_text(strip=True)
             if not title_matches_brand(title, match_keywords) or is_accessory(title):
+                continue
+            if not matches_model_whitelist(title, brand_key):
                 continue
             price = parse_int(price_el.get_text())
             if not price or price < 2000:
@@ -184,8 +205,20 @@ def send_telegram(message):
         print(f"[telegram] exception: {e}", file=sys.stderr)
 
 
+def prune_state(state):
+    before = len(state.get("products", {}))
+    state["products"] = {
+        k: v for k, v in state.get("products", {}).items()
+        if v.get("brand") in BRANDS and matches_model_whitelist(v.get("title", ""), v.get("brand"))
+    }
+    after = len(state["products"])
+    if before != after:
+        print(f"Pruned {before - after} stale products from state ({before} → {after})")
+
+
 def main():
     state = load_state()
+    prune_state(state)
     all_products = {}
 
     brand_items = list(BRANDS.items())
