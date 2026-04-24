@@ -36,6 +36,12 @@
       "title": "Samsung Galaxy S24 FE 5G AI Smartphone (Blue, 8GB RAM, 128GB Storage)",
       "url": "https://www.amazon.in/dp/B0DHL98QM2"
     },
+    "B0DLW44CGS": {
+      "brand": "xiaomi",
+      "price": 11999,
+      "title": "Redmi A4 5G (Sparkle Purple, 4GB RAM, 128GB Storage) | Segment Largest 6.88in 120Hz | 50MP Dual Camera | 18W Fast Charging...",
+      "url": "https://www.amazon.in/dp/B0DLW44CGS"
+    },
     "B0DPW21322": {
       "brand": "motorola",
       "price": 13145,
@@ -54,9 +60,15 @@
       "title": "Samsung Galaxy S25 5G Smartphone with Galaxy AI (Icyblue, 12GB RAM, 256GB Storage), Snapdragon 8 Elite, 50 MP Camera with ...",
       "url": "https://www.amazon.in/dp/B0DSBVGKVF"
     },
+    "B0DZXTW6PP": {
+      "brand": "pixel",
+      "price": 74999,
+      "title": "Google Pixel 9 (Obsidian, 256 GB) (12 GB RAM)",
+      "url": "https://www.amazon.in/dp/B0DZXTW6PP"
+    },
     "B0F193CRS5": {
       "brand": "vivo",
-      "price": 18849,
+      "price": 18949,
       "title": "VIVO T4x (Pronto Purple, 8GB, 128GB)",
       "url": "https://www.amazon.in/dp/B0F193CRS5"
     },
@@ -158,7 +170,7 @@
     },
     "B0FMDXKDDF": {
       "brand": "realme",
-      "price": 20760,
+      "price": 20540,
       "title": "realme P4 Smartphone (Engine Blue, 128.0, GB, 6.0, GB)",
       "url": "https://www.amazon.in/dp/B0FMDXKDDF"
     },
@@ -218,7 +230,7 @@
     },
     "B0FP31YRSF": {
       "brand": "pixel",
-      "price": 73824,
+      "price": 74999,
       "title": "Google Pixel 10 5G (Indigo, 12GB RAM, 256GB Storage)",
       "url": "https://www.amazon.in/dp/B0FP31YRSF"
     },
@@ -266,9 +278,15 @@
     },
     "B0FPGQ4GZ8": {
       "brand": "vivo",
-      "price": 27450,
+      "price": 27460,
       "title": "VIVO T4 Pro 5G, Nitro Blue (8GB, 128GB)",
       "url": "https://www.amazon.in/dp/B0FPGQ4GZ8"
+    },
+    "B0FPGR6SJ5": {
+      "brand": "vivo",
+      "price": 24700,
+      "title": "VIVO T4R 5G, Twilight Blue (8GB, 256GB)",
+      "url": "https://www.amazon.in/dp/B0FPGR6SJ5"
     },
     "B0FPM1H79N": {
       "brand": "vivo",
@@ -308,7 +326,7 @@
     },
     "B0FV98ZH7F": {
       "brand": "vivo",
-      "price": 18849,
+      "price": 18949,
       "title": "vivo T4X 5G, Glacial Teal (8GB, 128GB)",
       "url": "https://www.amazon.in/dp/B0FV98ZH7F"
     },
@@ -380,7 +398,7 @@
     },
     "B0G3X99MZS": {
       "brand": "realme",
-      "price": 17749,
+      "price": 17949,
       "title": "realme P4X Smartphone 6.72 inch 144Hz Display 7000mAh Titan Bettery 45W Fast Charge 6GB RAM 128GB ROM Dimensity 7400 Ultra...",
       "url": "https://www.amazon.in/dp/B0G3X99MZS"
     },
@@ -428,7 +446,7 @@
     },
     "B0GLZWV898": {
       "brand": "realme",
-      "price": 27695,
+      "price": 28499,
       "title": "realme P4 Power 5G Smartphone, Trans Silver, 8GB RAM, 256GB Storage, 10001mAh Battery, 6.8 Inch Display, Triple Camera",
       "url": "https://www.amazon.in/dp/B0GLZWV898"
     },
@@ -464,7 +482,7 @@
     },
     "B0GMHJ8D14": {
       "brand": "realme",
-      "price": 27999,
+      "price": 28999,
       "title": "realme P4 Power 5G Smartphone, 8GB RAM, 256GB Storage, TransOrange",
       "url": "https://www.amazon.in/dp/B0GMHJ8D14"
     },
@@ -494,7 +512,7 @@
     },
     "B0GP1DYHQ2": {
       "brand": "realme",
-      "price": 20593,
+      "price": 20585,
       "title": "realme P4 5G (Steel Grey, 6GB RAM, 128GB Storage) | 6.77\" 144Hz AMOLED Display | Dimensity 7400 Ultra | 50MP OIS Camera | ...",
       "url": "https://www.amazon.in/dp/B0GP1DYHQ2"
     },
@@ -560,13 +578,13 @@
     },
     "B0GRB7CDXN": {
       "brand": "realme",
-      "price": 10709,
+      "price": 10700,
       "title": "realme P4 Lite Smartphone, 4GB RAM, 64GB Storage, Sea Blue",
       "url": "https://www.amazon.in/dp/B0GRB7CDXN"
     },
     "B0GRBBF1YF": {
       "brand": "realme",
-      "price": 10569,
+      "price": 10560,
       "title": "realme P4 Lite Smartphone, 4GB RAM, 64GB Storage, Obsidian Black",
       "url": "https://www.amazon.in/dp/B0GRBBF1YF"
     },
@@ -626,7 +644,7 @@
     },
     "B0GTTW99DG": {
       "brand": "vivo",
-      "price": 27499,
+      "price": 27490,
       "title": "vivo T5x 5G (Cyber Green, 8GB RAM, 256GB Storage) | 50MP AI Dual Camera | 32MP Selfie | 6.76\" FHD+ Display | 7200mAh Batte...",
       "url": "https://www.amazon.in/dp/B0GTTW99DG"
     },
@@ -644,7 +662,7 @@
     },
     "B0GVPP5Q1H": {
       "brand": "vivo",
-      "price": 27999,
+      "price": 28999,
       "title": "vivo T4 Pro 5G (Nitro Blue, 8GB RAM, 128GB Storage) | 50MP + 2MP + 50MP Triple Camera | 32MP Selfie | 6.77\" FHD+ Display |...",
       "url": "https://www.amazon.in/dp/B0GVPP5Q1H"
     },
@@ -653,6 +671,12 @@
       "price": 16489,
       "title": "realme P4 Lite 5G (Mosaic Green, 128GB Storage), (6GB RAM)",
       "url": "https://www.amazon.in/dp/B0GWF8385T"
+    },
+    "B0GWFDSK6H": {
+      "brand": "realme",
+      "price": 16467,
+      "title": "realme P4 Lite 5G (Mosaic Blue, 128GB Storage), (6GB RAM)",
+      "url": "https://www.amazon.in/dp/B0GWFDSK6H"
     }
   }
 }
