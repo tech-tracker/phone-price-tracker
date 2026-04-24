@@ -1,5 +1,11 @@
 {
   "products": {
+    "B0CHX1W1XY": {
+      "brand": "apple",
+      "price": 59900,
+      "title": "Apple iPhone 15 (128 GB) - Black",
+      "url": "https://www.amazon.in/dp/B0CHX1W1XY"
+    },
     "B0CHX2F5QT": {
       "brand": "apple",
       "price": 59900,
@@ -11,6 +17,12 @@
       "price": 55299,
       "title": "Samsung Galaxy S24 5G AI Smartphone (Onyx Black, 8GB, 256GB Storage)",
       "url": "https://www.amazon.in/dp/B0CS69QQTG"
+    },
+    "B0DGJHBX5Y": {
+      "brand": "apple",
+      "price": 69900,
+      "title": "iPhone 16 128 GB: 5G Mobile Phone with Camera Control, A18 Chip and a Big Boost in Battery Life. Works with AirPods; Black",
+      "url": "https://www.amazon.in/dp/B0DGJHBX5Y"
     },
     "B0DHL7YT5S": {
       "brand": "samsung",
@@ -68,13 +80,13 @@
     },
     "B0F46FY98J": {
       "brand": "motorola",
-      "price": 25800,
+      "price": 25990,
       "title": "Motorola Edge 60 Fusion (Pantone Amazonite, 12GB RAM, 256GB Storage)",
       "url": "https://www.amazon.in/dp/B0F46FY98J"
     },
     "B0F46SJ5SB": {
       "brand": "motorola",
-      "price": 25499,
+      "price": 25390,
       "title": "Motorola Edge 60 Fusion 5G Smartphone with 6.67\" 120Hz pOLED Display, 50MP OIS Camera, Android 14, Dimensity 7030 Processo...",
       "url": "https://www.amazon.in/dp/B0F46SJ5SB"
     },
@@ -122,7 +134,7 @@
     },
     "B0FGY7C13L": {
       "brand": "pixel",
-      "price": 43490,
+      "price": 43480,
       "title": "Google Pixel 9A (Porcelain, 256 GB) (8 GB RAM)",
       "url": "https://www.amazon.in/dp/B0FGY7C13L"
     },
@@ -137,6 +149,12 @@
       "price": 111180,
       "title": "Google Pixel 9 Pro XL (Porcelain, 16GB + 256GB)",
       "url": "https://www.amazon.in/dp/B0FKT2WDXK"
+    },
+    "B0FLQNN8HF": {
+      "brand": "pixel",
+      "price": 42999,
+      "title": "Google Pixel 9a 5G (Porcelain, 8GB RAM, 256GB Storage)",
+      "url": "https://www.amazon.in/dp/B0FLQNN8HF"
     },
     "B0FMDXKDDF": {
       "brand": "realme",
@@ -176,7 +194,7 @@
     },
     "B0FP31YRSF": {
       "brand": "pixel",
-      "price": 70990,
+      "price": 70960,
       "title": "Google Pixel 10 5G (Indigo, 12GB RAM, 256GB Storage)",
       "url": "https://www.amazon.in/dp/B0FP31YRSF"
     },
@@ -296,19 +314,19 @@
     },
     "B0G2CJJLWX": {
       "brand": "motorola",
-      "price": 26195,
+      "price": 26504,
       "title": "Motorola Edge 60 Fusion 5G (Pantone Slipstream, 12GB RAM, 256GB Storage)",
       "url": "https://www.amazon.in/dp/B0G2CJJLWX"
     },
     "B0G3SWTTQ7": {
       "brand": "motorola",
-      "price": 16190,
+      "price": 16199,
       "title": "Motorola G57 Power 5G (Corsair, 8GB RAM, 128GB Storage) | Snapdragon 6s Gen 4 Processor | 6.72\" FHD+ Display | 50MP LYT-60...",
       "url": "https://www.amazon.in/dp/B0G3SWTTQ7"
     },
     "B0G3T3HZC6": {
       "brand": "motorola",
-      "price": 16189,
+      "price": 16199,
       "title": "Motorola G57 Power 5G (Regatta, 8GB RAM, 128GB Storage) | Snapdragon 6s Gen 4 Processor | 6.72\" FHD+ Display | 50MP LYT-60...",
       "url": "https://www.amazon.in/dp/B0G3T3HZC6"
     },
@@ -323,6 +341,12 @@
       "price": 17749,
       "title": "realme P4X Smartphone 6.72 inch 144Hz Display 7000mAh Titan Bettery 45W Fast Charge 6GB RAM 128GB ROM Dimensity 7400 Ultra...",
       "url": "https://www.amazon.in/dp/B0G3X99MZS"
+    },
+    "B0G6KS29PK": {
+      "brand": "apple",
+      "price": 91399,
+      "title": "Apple iPhone 17 (256GB) - Black with Protect+ with AppleCare Services",
+      "url": "https://www.amazon.in/dp/B0G6KS29PK"
     },
     "B0G6LBJT5N": {
       "brand": "realme",
@@ -452,7 +476,7 @@
     },
     "B0GP88QJL8": {
       "brand": "pixel",
-      "price": 47121,
+      "price": 47249,
       "title": "Google Pixel 10a 5G (Obsidian, 8GB RAM, 256GB Storage)",
       "url": "https://www.amazon.in/dp/B0GP88QJL8"
     },
@@ -476,13 +500,13 @@
     },
     "B0GPQH2DG2": {
       "brand": "motorola",
-      "price": 22599,
+      "price": 22540,
       "title": "Motorola Edge 60 Fusion 5G Smartphone, Pantone Amazonite, 8GB RAM, 128GB Storage",
       "url": "https://www.amazon.in/dp/B0GPQH2DG2"
     },
     "B0GPRDFXRK": {
       "brand": "motorola",
-      "price": 22499,
+      "price": 22490,
       "title": "Motorola Edge 60 Fusion 5G, Pantone Mykonos Blue, 8GB RAM, 128GB Storage",
       "url": "https://www.amazon.in/dp/B0GPRDFXRK"
     },
@@ -518,19 +542,19 @@
     },
     "B0GRMNHL1R": {
       "brand": "motorola",
-      "price": 33500,
+      "price": 33490,
       "title": "Motorola Edge 70 Fusion (Pantone Blue Surf, 12GB RAM, 256GB Storage) | 6.78\" 144Hz AMOLED Display | Snapdragon 7s Gen 4 | ...",
       "url": "https://www.amazon.in/dp/B0GRMNHL1R"
     },
     "B0GRMVNTDN": {
       "brand": "motorola",
-      "price": 26430,
+      "price": 26098,
       "title": "Motorola Edge 70 Fusion (Pantone Silhouette, 8GB RAM, 128GB Storage) | 6.78\" 1.5K 144Hz AMOLED Display | Snapdragon 7s Gen...",
       "url": "https://www.amazon.in/dp/B0GRMVNTDN"
     },
     "B0GRMZ8X9R": {
       "brand": "motorola",
-      "price": 26149,
+      "price": 26140,
       "title": "Motorola Edge 70 Fusion (Pantone Blue Surf, 8GB RAM, 128GB Storage) | 6.78\" 1.5K 144Hz AMOLED Display | Snapdragon 7s Gen ...",
       "url": "https://www.amazon.in/dp/B0GRMZ8X9R"
     },
