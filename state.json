@@ -1,5 +1,11 @@
 {
   "products": {
+    "B0CCDD3TS4": {
+      "brand": "realme",
+      "price": 20999,
+      "title": "realme P4 5G (Steel Grey, 128 GB) (6 GB RAM) | 7000 mAh Battery | Mediatek Dimensity 7400 Processor | 6.77\" AMOLED Display...",
+      "url": "https://www.amazon.in/dp/B0CCDD3TS4"
+    },
     "B0CHX1W1XY": {
       "brand": "apple",
       "price": 59900,
@@ -56,7 +62,7 @@
     },
     "B0DPW2M4JR": {
       "brand": "motorola",
-      "price": 13124,
+      "price": 13145,
       "title": "Motorola G35 5G (Leaf Green, 4+128)",
       "url": "https://www.amazon.in/dp/B0DPW2M4JR"
     },
@@ -110,7 +116,7 @@
     },
     "B0F46SJ5SB": {
       "brand": "motorola",
-      "price": 25490,
+      "price": 25595,
       "title": "Motorola Edge 60 Fusion 5G Smartphone with 6.67\" 120Hz pOLED Display, 50MP OIS Camera, Android 14, Dimensity 7030 Processo...",
       "url": "https://www.amazon.in/dp/B0F46SJ5SB"
     },
@@ -420,15 +426,21 @@
       "title": "Motorola Edge 60 Fusion 5G (Pantone Slipstream, 12GB RAM, 256GB Storage)",
       "url": "https://www.amazon.in/dp/B0G2CJJLWX"
     },
+    "B0G2CSWF5D": {
+      "brand": "motorola",
+      "price": 25498,
+      "title": "Motorola Edge 60 Fusion 5G (Pantone Amazonite, 8GB RAM, 256GB Storage)| 6.67\" pOLED Display | IP68 | 50MP+13MP Rear | 32MP...",
+      "url": "https://www.amazon.in/dp/B0G2CSWF5D"
+    },
     "B0G3SWTTQ7": {
       "brand": "motorola",
-      "price": 16199,
+      "price": 16189,
       "title": "Motorola G57 Power 5G (Corsair, 8GB RAM, 128GB Storage) | Snapdragon 6s Gen 4 Processor | 6.72\" FHD+ Display | 50MP LYT-60...",
       "url": "https://www.amazon.in/dp/B0G3SWTTQ7"
     },
     "B0G3T3HZC6": {
       "brand": "motorola",
-      "price": 16199,
+      "price": 16189,
       "title": "Motorola G57 Power 5G (Regatta, 8GB RAM, 128GB Storage) | Snapdragon 6s Gen 4 Processor | 6.72\" FHD+ Display | 50MP LYT-60...",
       "url": "https://www.amazon.in/dp/B0G3T3HZC6"
     },
@@ -440,7 +452,7 @@
     },
     "B0G3X99MZS": {
       "brand": "realme",
-      "price": 17936,
+      "price": 17938,
       "title": "realme P4X Smartphone 6.72 inch 144Hz Display 7000mAh Titan Bettery 45W Fast Charge 6GB RAM 128GB ROM Dimensity 7400 Ultra...",
       "url": "https://www.amazon.in/dp/B0G3X99MZS"
     },
@@ -602,13 +614,13 @@
     },
     "B0GPQH2DG2": {
       "brand": "motorola",
-      "price": 22560,
+      "price": 22599,
       "title": "Motorola Edge 60 Fusion 5G Smartphone, Pantone Amazonite, 8GB RAM, 128GB Storage",
       "url": "https://www.amazon.in/dp/B0GPQH2DG2"
     },
     "B0GPRDFXRK": {
       "brand": "motorola",
-      "price": 22471,
+      "price": 22491,
       "title": "Motorola Edge 60 Fusion 5G, Pantone Mykonos Blue, 8GB RAM, 128GB Storage",
       "url": "https://www.amazon.in/dp/B0GPRDFXRK"
     },
@@ -650,13 +662,13 @@
     },
     "B0GRMVNTDN": {
       "brand": "motorola",
-      "price": 26890,
+      "price": 26790,
       "title": "Motorola Edge 70 Fusion (Pantone Silhouette, 8GB RAM, 128GB Storage) | 6.78\" 1.5K 144Hz AMOLED Display | Snapdragon 7s Gen...",
       "url": "https://www.amazon.in/dp/B0GRMVNTDN"
     },
     "B0GRMZ8X9R": {
       "brand": "motorola",
-      "price": 26990,
+      "price": 26490,
       "title": "Motorola Edge 70 Fusion (Pantone Blue Surf, 8GB RAM, 128GB Storage) | 6.78\" 1.5K 144Hz AMOLED Display | Snapdragon 7s Gen ...",
       "url": "https://www.amazon.in/dp/B0GRMZ8X9R"
     },
@@ -665,6 +677,12 @@
       "price": 30189,
       "title": "Motorola Edge 70 Fusion (Pantone Silhouette, 8GB RAM, 256GB Storage) | 6.78\" 144Hz 1.5K AMOLED Display | Snapdragon 7s Gen...",
       "url": "https://www.amazon.in/dp/B0GRN2NQGZ"
+    },
+    "B0GRQFCZSZ": {
+      "brand": "motorola",
+      "price": 29999,
+      "title": "Motorola Edge 70 Fusion (Pantone Country Air, 8GB RAM, 256GB Storage) | Snapdragon 7s Gen 4 Processor | 7000mAh Battery | ...",
+      "url": "https://www.amazon.in/dp/B0GRQFCZSZ"
     },
     "B0GSRJ52CQ": {
       "brand": "oppo",
