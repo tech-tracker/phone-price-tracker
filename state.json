@@ -14,7 +14,7 @@
     },
     "B0CS69QQTG": {
       "brand": "samsung",
-      "price": 55469,
+      "price": 55459,
       "title": "Samsung Galaxy S24 5G AI Smartphone (Onyx Black, 8GB, 256GB Storage)",
       "url": "https://www.amazon.in/dp/B0CS69QQTG"
     },
@@ -89,6 +89,12 @@
       "price": 18849,
       "title": "Vivo T4x 5G (Marine Blue, 128 GB) (8 GB RAM)",
       "url": "https://www.amazon.in/dp/B0F194NC2H"
+    },
+    "B0F1KVGXML": {
+      "brand": "vivo",
+      "price": 20999,
+      "title": "vivo T4x 5G (Pronto Purple, 8GB RAM + 256GB Storage)",
+      "url": "https://www.amazon.in/dp/B0F1KVGXML"
     },
     "B0F46BTPPY": {
       "brand": "motorola",
@@ -218,9 +224,15 @@
     },
     "B0FNMP4BC4": {
       "brand": "samsung",
-      "price": 56510,
+      "price": 56465,
       "title": "Samsung Galaxy S25 FE 5G Smartphone with Galaxy AI (JetBlack, 8GB RAM, 256GB Storage), 12MP Front Camera, ProVisual Engin...",
       "url": "https://www.amazon.in/dp/B0FNMP4BC4"
+    },
+    "B0FNMQLSW1": {
+      "brand": "samsung",
+      "price": 59960,
+      "title": "Samsung Galaxy S25 FE 5G Smartphone with Galaxy AI (White, 8GB RAM, 256GB Storage), 12MP Front Camera, ProVisual Engine, L...",
+      "url": "https://www.amazon.in/dp/B0FNMQLSW1"
     },
     "B0FNMQW9HW": {
       "brand": "samsung",
@@ -248,7 +260,7 @@
     },
     "B0FP31YRSF": {
       "brand": "pixel",
-      "price": 74999,
+      "price": 72999,
       "title": "Google Pixel 10 5G (Indigo, 12GB RAM, 256GB Storage)",
       "url": "https://www.amazon.in/dp/B0FP31YRSF"
     },
@@ -308,7 +320,7 @@
     },
     "B0FPM1H79N": {
       "brand": "vivo",
-      "price": 22999,
+      "price": 22900,
       "title": "VIVO T4R 5G, Twilight Blue (8GB, 128GB)",
       "url": "https://www.amazon.in/dp/B0FPM1H79N"
     },
@@ -428,7 +440,7 @@
     },
     "B0G3X99MZS": {
       "brand": "realme",
-      "price": 17938,
+      "price": 17936,
       "title": "realme P4X Smartphone 6.72 inch 144Hz Display 7000mAh Titan Bettery 45W Fast Charge 6GB RAM 128GB ROM Dimensity 7400 Ultra...",
       "url": "https://www.amazon.in/dp/B0G3X99MZS"
     },
@@ -452,7 +464,7 @@
     },
     "B0GGH5KMM2": {
       "brand": "samsung",
-      "price": 46680,
+      "price": 46400,
       "title": "Samsung Galaxy S24 Snapdragon 8 Gen 3 5G (Onyx Black, 128 GB) (8 GB RAM)",
       "url": "https://www.amazon.in/dp/B0GGH5KMM2"
     },
@@ -566,13 +578,13 @@
     },
     "B0GP88QJL8": {
       "brand": "pixel",
-      "price": 47287,
+      "price": 47299,
       "title": "Google Pixel 10a 5G (Obsidian, 8GB RAM, 256GB Storage)",
       "url": "https://www.amazon.in/dp/B0GP88QJL8"
     },
     "B0GP8SY9MB": {
       "brand": "pixel",
-      "price": 47890,
+      "price": 47888,
       "title": "Google Pixel 10a 5G (Fog, 8GB RAM, 256GB Storage)",
       "url": "https://www.amazon.in/dp/B0GP8SY9MB"
     },
