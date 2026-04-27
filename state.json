@@ -122,7 +122,7 @@
     },
     "B0F6CY1S9Z": {
       "brand": "pixel",
-      "price": 41400,
+      "price": 42100,
       "title": "Google Pixel 9A (Obsidian, 256 GB) (8 GB RAM)",
       "url": "https://www.amazon.in/dp/B0F6CY1S9Z"
     },
@@ -216,6 +216,12 @@
       "title": "OPPO K13 Turbo 5G, Midnight Maverick (8GB, 128GB)",
       "url": "https://www.amazon.in/dp/B0FNLQ8K2Z"
     },
+    "B0FNLRBC7X": {
+      "brand": "oppo",
+      "price": 30990,
+      "title": "OPPO K13 Turbo 5G, White Knight (8GB, 256GB)",
+      "url": "https://www.amazon.in/dp/B0FNLRBC7X"
+    },
     "B0FNLRR81F": {
       "brand": "oppo",
       "price": 26880,
@@ -272,7 +278,7 @@
     },
     "B0FP324R5Y": {
       "brand": "pixel",
-      "price": 70880,
+      "price": 69635,
       "title": "Google Pixel 10 5G (Lemongrass, 12GB RAM, 256GB Storage)",
       "url": "https://www.amazon.in/dp/B0FP324R5Y"
     },
@@ -306,6 +312,12 @@
       "title": "Oppo F31 5G (Midnight Blue, 8GB RAM, 128GB Storage)",
       "url": "https://www.amazon.in/dp/B0FP8QFLGC"
     },
+    "B0FP8QH6FK": {
+      "brand": "oppo",
+      "price": 26999,
+      "title": "Oppo F31 5G (Bloom Red, 8GB RAM, 128GB Storage)",
+      "url": "https://www.amazon.in/dp/B0FP8QH6FK"
+    },
     "B0FP8WF4SG": {
       "brand": "oppo",
       "price": 27999,
@@ -326,7 +338,7 @@
     },
     "B0FPM1H79N": {
       "brand": "vivo",
-      "price": 22900,
+      "price": 22999,
       "title": "VIVO T4R 5G, Twilight Blue (8GB, 128GB)",
       "url": "https://www.amazon.in/dp/B0FPM1H79N"
     },
@@ -341,6 +353,12 @@
       "price": 40990,
       "title": "Google Pixel 9a 5G (Obsidian, 8GB RAM, 256GB Storage)",
       "url": "https://www.amazon.in/dp/B0FQBZQR9Q"
+    },
+    "B0FQF9ZLD7": {
+      "brand": "apple",
+      "price": 229900,
+      "title": "Apple iPhone 17 Pro Max 2 TB: 17.42 cm (6.9″) Display with Promotion, A19 Pro Chip, Best Battery Life in Any iPhone Ever, ...",
+      "url": "https://www.amazon.in/dp/B0FQF9ZLD7"
     },
     "B0FQFV2XKS": {
       "brand": "apple",
@@ -368,7 +386,7 @@
     },
     "B0FV98G8VT": {
       "brand": "vivo",
-      "price": 17998,
+      "price": 17999,
       "title": "vivo T4x 5G, Glacial Teal (6GB, 128GB)",
       "url": "https://www.amazon.in/dp/B0FV98G8VT"
     },
@@ -548,13 +566,13 @@
     },
     "B0GNGJV73C": {
       "brand": "oppo",
-      "price": 15199,
+      "price": 15480,
       "title": "OPPO k14x 5g (Ice Blue) (4gb+128gb)",
       "url": "https://www.amazon.in/dp/B0GNGJV73C"
     },
     "B0GNHKT8FZ": {
       "brand": "oppo",
-      "price": 17199,
+      "price": 17299,
       "title": "OPPO k14x 5g (Prism Violet) (6gb+128gb)",
       "url": "https://www.amazon.in/dp/B0GNHKT8FZ"
     },
@@ -596,7 +614,7 @@
     },
     "B0GP8SY9MB": {
       "brand": "pixel",
-      "price": 47888,
+      "price": 47800,
       "title": "Google Pixel 10a 5G (Fog, 8GB RAM, 256GB Storage)",
       "url": "https://www.amazon.in/dp/B0GP8SY9MB"
     },
@@ -608,7 +626,7 @@
     },
     "B0GPDK4MMN": {
       "brand": "oppo",
-      "price": 15490,
+      "price": 15350,
       "title": "OPPO K14x 5G Smartphone, Prism Violet, 4GB RAM, 128GB Storage",
       "url": "https://www.amazon.in/dp/B0GPDK4MMN"
     },
@@ -686,13 +704,13 @@
     },
     "B0GSRJ52CQ": {
       "brand": "oppo",
-      "price": 14599,
+      "price": 14749,
       "title": "OPPO K14x 5G Smartphone, Prism Violet, 4GB RAM, 64GB Storage, 6500mAh Battery, 45W Fast Charge",
       "url": "https://www.amazon.in/dp/B0GSRJ52CQ"
     },
     "B0GTQ6TB8B": {
       "brand": "oppo",
-      "price": 14416,
+      "price": 14412,
       "title": "OPPO K14x 5G (ICY Blue, 4GB RAM, 64GB)",
       "url": "https://www.amazon.in/dp/B0GTQ6TB8B"
     },
