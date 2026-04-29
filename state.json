@@ -20,7 +20,7 @@
     },
     "B0CS69QQTG": {
       "brand": "samsung",
-      "price": 54999,
+      "price": 54799,
       "title": "Samsung Galaxy S24 5G AI Smartphone (Onyx Black, 8GB, 256GB Storage)",
       "url": "https://www.amazon.in/dp/B0CS69QQTG"
     },
@@ -90,9 +90,21 @@
       "title": "Google Pixel 9 (Obsidian, 256 GB) (12 GB RAM)",
       "url": "https://www.amazon.in/dp/B0DZXTW6PP"
     },
+    "B0DZXXF2LY": {
+      "brand": "pixel",
+      "price": 79999,
+      "title": "Google Pixel 9 (Peony, 256 GB) (12 GB RAM)",
+      "url": "https://www.amazon.in/dp/B0DZXXF2LY"
+    },
+    "B0DZXYT2MR": {
+      "brand": "pixel",
+      "price": 79999,
+      "title": "Google Pixel 9 (Wintergreen, 256 GB) (12 GB RAM)",
+      "url": "https://www.amazon.in/dp/B0DZXYT2MR"
+    },
     "B0F193CRS5": {
       "brand": "vivo",
-      "price": 19249,
+      "price": 19494,
       "title": "VIVO T4x (Pronto Purple, 8GB, 128GB)",
       "url": "https://www.amazon.in/dp/B0F193CRS5"
     },
@@ -206,7 +218,7 @@
     },
     "B0FLQNN8HF": {
       "brand": "pixel",
-      "price": 42999,
+      "price": 42990,
       "title": "Google Pixel 9a 5G (Porcelain, 8GB RAM, 256GB Storage)",
       "url": "https://www.amazon.in/dp/B0FLQNN8HF"
     },
@@ -266,7 +278,7 @@
     },
     "B0FNMQW9HW": {
       "brand": "samsung",
-      "price": 48999,
+      "price": 48899,
       "title": "Samsung Galaxy S25 FE 5G Smartphone with Galaxy AI (JetBlack, 8GB RAM, 128GB Storage), 12MP Front Camera, ProVisual Engin...",
       "url": "https://www.amazon.in/dp/B0FNMQW9HW"
     },
@@ -368,7 +380,7 @@
     },
     "B0FPM1H79N": {
       "brand": "vivo",
-      "price": 23300,
+      "price": 23249,
       "title": "VIVO T4R 5G, Twilight Blue (8GB, 128GB)",
       "url": "https://www.amazon.in/dp/B0FPM1H79N"
     },
@@ -542,7 +554,7 @@
     },
     "B0GGH5KMM2": {
       "brand": "samsung",
-      "price": 47700,
+      "price": 48400,
       "title": "Samsung Galaxy S24 Snapdragon 8 Gen 3 5G (Onyx Black, 128 GB) (8 GB RAM)",
       "url": "https://www.amazon.in/dp/B0GGH5KMM2"
     },
@@ -662,13 +674,13 @@
     },
     "B0GP88QJL8": {
       "brand": "pixel",
-      "price": 47299,
+      "price": 47090,
       "title": "Google Pixel 10a 5G (Obsidian, 8GB RAM, 256GB Storage)",
       "url": "https://www.amazon.in/dp/B0GP88QJL8"
     },
     "B0GP8SY9MB": {
       "brand": "pixel",
-      "price": 47531,
+      "price": 47499,
       "title": "Google Pixel 10a 5G (Fog, 8GB RAM, 256GB Storage)",
       "url": "https://www.amazon.in/dp/B0GP8SY9MB"
     },
@@ -776,7 +788,7 @@
     },
     "B0GTTRRGC1": {
       "brand": "vivo",
-      "price": 22399,
+      "price": 22290,
       "title": "vivo T5X 5G (Star Silver, 6GB RAM, 128GB Storage) | 7200mAh Battery | 50MP Dual Camera | 32MP Selfie Camera | 6.76\" HD+ Di...",
       "url": "https://www.amazon.in/dp/B0GTTRRGC1"
     },
@@ -794,7 +806,7 @@
     },
     "B0GTTXP6WF": {
       "brand": "vivo",
-      "price": 22478,
+      "price": 22749,
       "title": "vivo T5x 5G (Cyber Green, 6GB RAM, 128GB Storage) | 50MP AI Dual Camera | 32MP Selfie | 6.76\" FHD+ Display | 7200mAh Batte...",
       "url": "https://www.amazon.in/dp/B0GTTXP6WF"
     },
@@ -833,6 +845,12 @@
       "price": 14895,
       "title": "realme P4 Lite 5G (Mosaic Green 128 GB Storage), (4 GB RAM)",
       "url": "https://www.amazon.in/dp/B0GWQZJQX6"
+    },
+    "B0GXRVCPST": {
+      "brand": "vivo",
+      "price": 24999,
+      "title": "vivo T5x 5G (Cyber Green, 8GB RAM, 128GB Storage) | 7200mAh Battery, 50MP + 2MP Dual Camera, 32MP Front, Dimensity 7400-Tu...",
+      "url": "https://www.amazon.in/dp/B0GXRVCPST"
     }
   }
 }
