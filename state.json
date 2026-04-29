@@ -20,7 +20,7 @@
     },
     "B0CS69QQTG": {
       "brand": "samsung",
-      "price": 55459,
+      "price": 54999,
       "title": "Samsung Galaxy S24 5G AI Smartphone (Onyx Black, 8GB, 256GB Storage)",
       "url": "https://www.amazon.in/dp/B0CS69QQTG"
     },
@@ -41,6 +41,12 @@
       "price": 39999,
       "title": "Samsung Galaxy S24 FE 5G AI Smartphone (Graphite, 8GB RAM, 128GB Storage)",
       "url": "https://www.amazon.in/dp/B0DHL7YT5S"
+    },
+    "B0DHL85K81": {
+      "brand": "samsung",
+      "price": 43599,
+      "title": "Samsung Galaxy S24 FE 5G AI Smartphone (Mint, 8GB RAM, 128GB Storage)",
+      "url": "https://www.amazon.in/dp/B0DHL85K81"
     },
     "B0DHL98QM2": {
       "brand": "samsung",
@@ -74,7 +80,7 @@
     },
     "B0DSBVGKVF": {
       "brand": "samsung",
-      "price": 69999,
+      "price": 65999,
       "title": "Samsung Galaxy S25 5G Smartphone with Galaxy AI (Icyblue, 12GB RAM, 256GB Storage), Snapdragon 8 Elite, 50 MP Camera with ...",
       "url": "https://www.amazon.in/dp/B0DSBVGKVF"
     },
@@ -248,7 +254,7 @@
     },
     "B0FNMP4BC4": {
       "brand": "samsung",
-      "price": 56465,
+      "price": 58999,
       "title": "Samsung Galaxy S25 FE 5G Smartphone with Galaxy AI (JetBlack, 8GB RAM, 256GB Storage), 12MP Front Camera, ProVisual Engin...",
       "url": "https://www.amazon.in/dp/B0FNMP4BC4"
     },
@@ -260,13 +266,13 @@
     },
     "B0FNMQW9HW": {
       "brand": "samsung",
-      "price": 49200,
+      "price": 48999,
       "title": "Samsung Galaxy S25 FE 5G Smartphone with Galaxy AI (JetBlack, 8GB RAM, 128GB Storage), 12MP Front Camera, ProVisual Engin...",
       "url": "https://www.amazon.in/dp/B0FNMQW9HW"
     },
     "B0FNMR6KTQ": {
       "brand": "samsung",
-      "price": 49399,
+      "price": 49140,
       "title": "Samsung Galaxy S25 FE 5G Smartphone with Galaxy AI (Navy, 8GB RAM, 128GB Storage), 12MP Front Camera, ProVisual Engine, Lo...",
       "url": "https://www.amazon.in/dp/B0FNMR6KTQ"
     },
@@ -536,7 +542,7 @@
     },
     "B0GGH5KMM2": {
       "brand": "samsung",
-      "price": 46400,
+      "price": 47700,
       "title": "Samsung Galaxy S24 Snapdragon 8 Gen 3 5G (Onyx Black, 128 GB) (8 GB RAM)",
       "url": "https://www.amazon.in/dp/B0GGH5KMM2"
     },
@@ -548,9 +554,15 @@
     },
     "B0GL87VP7N": {
       "brand": "samsung",
-      "price": 79999,
+      "price": 87999,
       "title": "Samsung Galaxy S26 5G (Cobalt Violet, 12GB RAM, 256GB Storage), AI Phone, Photo Assist, Creative Studio, 50MP Camera with ...",
       "url": "https://www.amazon.in/dp/B0GL87VP7N"
+    },
+    "B0GL88WCV8": {
+      "brand": "samsung",
+      "price": 87999,
+      "title": "Samsung Galaxy S26 5G (White, 12GB RAM, 256GB Storage), AI Phone, Photo Assist, Creative Studio, 50MP Camera with ProVisua...",
+      "url": "https://www.amazon.in/dp/B0GL88WCV8"
     },
     "B0GL8G49LV": {
       "brand": "samsung",
