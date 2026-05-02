@@ -2,7 +2,7 @@
   "products": {
     "B0CCDD3TS4": {
       "brand": "realme",
-      "price": 20999,
+      "price": 19599,
       "title": "realme P4 5G (Steel Grey, 128 GB) (6 GB RAM) | 7000 mAh Battery | Mediatek Dimensity 7400 Processor | 6.77\" AMOLED Display...",
       "url": "https://www.amazon.in/dp/B0CCDD3TS4"
     },
@@ -92,7 +92,7 @@
     },
     "B0DZXTW6PP": {
       "brand": "pixel",
-      "price": 74999,
+      "price": 71999,
       "title": "Google Pixel 9 (Obsidian, 256 GB) (12 GB RAM)",
       "url": "https://www.amazon.in/dp/B0DZXTW6PP"
     },
@@ -104,7 +104,7 @@
     },
     "B0DZXYT2MR": {
       "brand": "pixel",
-      "price": 73999,
+      "price": 71999,
       "title": "Google Pixel 9 (Wintergreen, 256 GB) (12 GB RAM)",
       "url": "https://www.amazon.in/dp/B0DZXYT2MR"
     },
@@ -236,7 +236,7 @@
     },
     "B0FKT2WDXK": {
       "brand": "pixel",
-      "price": 99990,
+      "price": 99999,
       "title": "Google Pixel 9 Pro XL (Porcelain, 16GB + 256GB)",
       "url": "https://www.amazon.in/dp/B0FKT2WDXK"
     },
@@ -296,7 +296,7 @@
     },
     "B0FNMP4BC4": {
       "brand": "samsung",
-      "price": 58899,
+      "price": 56360,
       "title": "Samsung Galaxy S25 FE 5G Smartphone with Galaxy AI (JetBlack, 8GB RAM, 256GB Storage), 12MP Front Camera, ProVisual Engin...",
       "url": "https://www.amazon.in/dp/B0FNMP4BC4"
     },
@@ -308,7 +308,7 @@
     },
     "B0FNMQW9HW": {
       "brand": "samsung",
-      "price": 48949,
+      "price": 48850,
       "title": "Samsung Galaxy S25 FE 5G Smartphone with Galaxy AI (JetBlack, 8GB RAM, 128GB Storage), 12MP Front Camera, ProVisual Engin...",
       "url": "https://www.amazon.in/dp/B0FNMQW9HW"
     },
@@ -332,7 +332,7 @@
     },
     "B0FP31YRSF": {
       "brand": "pixel",
-      "price": 69830,
+      "price": 69999,
       "title": "Google Pixel 10 5G (Indigo, 12GB RAM, 256GB Storage)",
       "url": "https://www.amazon.in/dp/B0FP31YRSF"
     },
@@ -438,6 +438,12 @@
       "title": "Google Pixel 10 Pro XL (Jade, 256 GB) (16 GB RAM)",
       "url": "https://www.amazon.in/dp/B0FQC2MJK2"
     },
+    "B0FQF2ZJWT": {
+      "brand": "apple",
+      "price": 154900,
+      "title": "Apple iPhone 17 Pro 512 GB: 15.93 cm (6.3″) Display with Promotion up to 120Hz, A19 Pro Chip, Breakthrough Battery Life, P...",
+      "url": "https://www.amazon.in/dp/B0FQF2ZJWT"
+    },
     "B0FQF9ZLD7": {
       "brand": "apple",
       "price": 229900,
@@ -515,6 +521,12 @@
       "price": 18450,
       "title": "Motorola G67 Power 5G (Pantone Cilantro, 8GB RAM, 128GB Storage) | 6.7\" FHD+ 120Hz LCD Display | Snapdragon 7s Gen2 Proces...",
       "url": "https://www.amazon.in/dp/B0G1YNG5S6"
+    },
+    "B0G29VSZF6": {
+      "brand": "xiaomi",
+      "price": 19499,
+      "title": "REDMI 15C 5G Dusk Purple 8GB + 128GB | Royale Design | Massive 6000mAh Battery | Segment's Largest 17.53cm Display Up to 1...",
+      "url": "https://www.amazon.in/dp/B0G29VSZF6"
     },
     "B0G2B251KD": {
       "brand": "xiaomi",
@@ -596,7 +608,7 @@
     },
     "B0GGH5KMM2": {
       "brand": "samsung",
-      "price": 48700,
+      "price": 45000,
       "title": "Samsung Galaxy S24 Snapdragon 8 Gen 3 5G (Onyx Black, 128 GB) (8 GB RAM)",
       "url": "https://www.amazon.in/dp/B0GGH5KMM2"
     },
@@ -722,7 +734,7 @@
     },
     "B0GP88QJL8": {
       "brand": "pixel",
-      "price": 47800,
+      "price": 47900,
       "title": "Google Pixel 10a 5G (Obsidian, 8GB RAM, 256GB Storage)",
       "url": "https://www.amazon.in/dp/B0GP88QJL8"
     },
@@ -770,7 +782,7 @@
     },
     "B0GRBBF1YF": {
       "brand": "realme",
-      "price": 10949,
+      "price": 10945,
       "title": "realme P4 Lite Smartphone, 4GB RAM, 64GB Storage, Obsidian Black",
       "url": "https://www.amazon.in/dp/B0GRBBF1YF"
     },
