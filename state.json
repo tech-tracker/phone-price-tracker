@@ -104,7 +104,7 @@
     },
     "B0DZXYT2MR": {
       "brand": "pixel",
-      "price": 79999,
+      "price": 73999,
       "title": "Google Pixel 9 (Wintergreen, 256 GB) (12 GB RAM)",
       "url": "https://www.amazon.in/dp/B0DZXYT2MR"
     },
@@ -186,6 +186,12 @@
       "title": "iQOO Z10 Lite 5G (Titanium Blue, 6GB RAM, 128GB Storage) | 6000 mAh Battery | Dimensity 6300 5G Processor with 433K+* AnTu...",
       "url": "https://www.amazon.in/dp/B0FC5TDB9P"
     },
+    "B0FC5XDV5R": {
+      "brand": "iqoo",
+      "price": 16999,
+      "title": "iQOO Z10 Lite 5G (Cyber Green, 8GB RAM, 256GB Storage) | 6000 mAh Battery | Dimensity 6300 5G Processor with 433K+* AnTuTu...",
+      "url": "https://www.amazon.in/dp/B0FC5XDV5R"
+    },
     "B0FC5XK9WZ": {
       "brand": "iqoo",
       "price": 14999,
@@ -224,7 +230,7 @@
     },
     "B0FKT2WDXK": {
       "brand": "pixel",
-      "price": 99999,
+      "price": 99990,
       "title": "Google Pixel 9 Pro XL (Porcelain, 16GB + 256GB)",
       "url": "https://www.amazon.in/dp/B0FKT2WDXK"
     },
@@ -416,7 +422,7 @@
     },
     "B0FQC2MJK2": {
       "brand": "pixel",
-      "price": 113900,
+      "price": 117900,
       "title": "Google Pixel 10 Pro XL (Jade, 256 GB) (16 GB RAM)",
       "url": "https://www.amazon.in/dp/B0FQC2MJK2"
     },
@@ -704,13 +710,13 @@
     },
     "B0GP88QJL8": {
       "brand": "pixel",
-      "price": 47890,
+      "price": 47800,
       "title": "Google Pixel 10a 5G (Obsidian, 8GB RAM, 256GB Storage)",
       "url": "https://www.amazon.in/dp/B0GP88QJL8"
     },
     "B0GP8SY9MB": {
       "brand": "pixel",
-      "price": 48999,
+      "price": 48499,
       "title": "Google Pixel 10a 5G (Fog, 8GB RAM, 256GB Storage)",
       "url": "https://www.amazon.in/dp/B0GP8SY9MB"
     },
