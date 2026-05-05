@@ -152,7 +152,7 @@
     },
     "B0F6CY1S9Z": {
       "brand": "pixel",
-      "price": 42850,
+      "price": 42450,
       "title": "Google Pixel 9A (Obsidian, 256 GB) (8 GB RAM)",
       "url": "https://www.amazon.in/dp/B0F6CY1S9Z"
     },
@@ -230,9 +230,21 @@
     },
     "B0FGY7C13L": {
       "brand": "pixel",
-      "price": 45999,
+      "price": 44899,
       "title": "Google Pixel 9A (Porcelain, 256 GB) (8 GB RAM)",
       "url": "https://www.amazon.in/dp/B0FGY7C13L"
+    },
+    "B0FHGD3PNV": {
+      "brand": "motorola",
+      "price": 20749,
+      "title": "Motorola G96 5G (Dresden Blue, 8GB RAM, 128GB Storage)",
+      "url": "https://www.amazon.in/dp/B0FHGD3PNV"
+    },
+    "B0FHGD6K6K": {
+      "brand": "motorola",
+      "price": 19550,
+      "title": "Motorola G96 144Hz 3D Curved pOLED (ASHLEIGHBLUE, 8GB RAM, 128GB Storage)",
+      "url": "https://www.amazon.in/dp/B0FHGD6K6K"
     },
     "B0FHGDCX48": {
       "brand": "motorola",
@@ -248,7 +260,7 @@
     },
     "B0FKT2WDXK": {
       "brand": "pixel",
-      "price": 99999,
+      "price": 98000,
       "title": "Google Pixel 9 Pro XL (Porcelain, 16GB + 256GB)",
       "url": "https://www.amazon.in/dp/B0FKT2WDXK"
     },
@@ -356,7 +368,7 @@
     },
     "B0FP324R5Y": {
       "brand": "pixel",
-      "price": 70679,
+      "price": 70669,
       "title": "Google Pixel 10 5G (Lemongrass, 12GB RAM, 256GB Storage)",
       "url": "https://www.amazon.in/dp/B0FP324R5Y"
     },
@@ -518,7 +530,7 @@
     },
     "B0G1PPG6W3": {
       "brand": "motorola",
-      "price": 17400,
+      "price": 17399,
       "title": "Motorola G67 Power (Pantone Blue Curacao, 8GB RAM, 128GB Storage)",
       "url": "https://www.amazon.in/dp/B0G1PPG6W3"
     },
@@ -536,7 +548,7 @@
     },
     "B0G1YM8511": {
       "brand": "motorola",
-      "price": 18299,
+      "price": 18199,
       "title": "Motorola G67 Power 5G (Pantone Parachute Purple, 8GB RAM, 128GB Storage) | 6.7\" FHD+ 120Hz LCD Display | Snapdragon 7s Gen...",
       "url": "https://www.amazon.in/dp/B0G1YM8511"
     },
@@ -584,19 +596,19 @@
     },
     "B0G3SWTTQ7": {
       "brand": "motorola",
-      "price": 17399,
+      "price": 17349,
       "title": "Motorola G57 Power 5G (Corsair, 8GB RAM, 128GB Storage) | Snapdragon 6s Gen 4 Processor | 6.72\" FHD+ Display | 50MP LYT-60...",
       "url": "https://www.amazon.in/dp/B0G3SWTTQ7"
     },
     "B0G3T3HZC6": {
       "brand": "motorola",
-      "price": 16699,
+      "price": 16990,
       "title": "Motorola G57 Power 5G (Regatta, 8GB RAM, 128GB Storage) | Snapdragon 6s Gen 4 Processor | 6.72\" FHD+ Display | 50MP LYT-60...",
       "url": "https://www.amazon.in/dp/B0G3T3HZC6"
     },
     "B0G3TFPN94": {
       "brand": "motorola",
-      "price": 17190,
+      "price": 17500,
       "title": "Motorola G57 Power 5G (Fluidity, 8GB RAM, 128GB Storage)| Snapdragon 6s Gen 4 Processor | 6.72\" FHD+ Display | 50MP LYT-60...",
       "url": "https://www.amazon.in/dp/B0G3TFPN94"
     },
@@ -770,13 +782,13 @@
     },
     "B0GP88QJL8": {
       "brand": "pixel",
-      "price": 47020,
+      "price": 46670,
       "title": "Google Pixel 10a 5G (Obsidian, 8GB RAM, 256GB Storage)",
       "url": "https://www.amazon.in/dp/B0GP88QJL8"
     },
     "B0GP8SY9MB": {
       "brand": "pixel",
-      "price": 48218,
+      "price": 48115,
       "title": "Google Pixel 10a 5G (Fog, 8GB RAM, 256GB Storage)",
       "url": "https://www.amazon.in/dp/B0GP8SY9MB"
     },
