@@ -176,13 +176,13 @@
     },
     "B0F8W1SNVP": {
       "brand": "oppo",
-      "price": 24700,
+      "price": 24584,
       "title": "OPPO K13 5G (Prism Black, 8GB RAM 256GB Storage)",
       "url": "https://www.amazon.in/dp/B0F8W1SNVP"
     },
     "B0F8W2D943": {
       "brand": "oppo",
-      "price": 22839,
+      "price": 22800,
       "title": "OPPO K13 5G (Prism Black, 8GB RAM 128GB Storage)",
       "url": "https://www.amazon.in/dp/B0F8W2D943"
     },
@@ -290,19 +290,19 @@
     },
     "B0FNLQ79B8": {
       "brand": "oppo",
-      "price": 27999,
+      "price": 26999,
       "title": "OPPO K13 Turbo 5G, White Knight (8GB, 128GB)",
       "url": "https://www.amazon.in/dp/B0FNLQ79B8"
     },
     "B0FNLQ8K2Z": {
       "brand": "oppo",
-      "price": 27999,
+      "price": 26995,
       "title": "OPPO K13 Turbo 5G, Midnight Maverick (8GB, 128GB)",
       "url": "https://www.amazon.in/dp/B0FNLQ8K2Z"
     },
     "B0FNLRBC7X": {
       "brand": "oppo",
-      "price": 30990,
+      "price": 32999,
       "title": "OPPO K13 Turbo 5G, White Knight (8GB, 256GB)",
       "url": "https://www.amazon.in/dp/B0FNLRBC7X"
     },
@@ -746,7 +746,7 @@
     },
     "B0GNGJV73C": {
       "brand": "oppo",
-      "price": 16149,
+      "price": 15999,
       "title": "OPPO k14x 5g (Ice Blue) (4gb+128gb)",
       "url": "https://www.amazon.in/dp/B0GNGJV73C"
     },
@@ -788,25 +788,25 @@
     },
     "B0GP88QJL8": {
       "brand": "pixel",
-      "price": 46670,
+      "price": 46680,
       "title": "Google Pixel 10a 5G (Obsidian, 8GB RAM, 256GB Storage)",
       "url": "https://www.amazon.in/dp/B0GP88QJL8"
     },
     "B0GP8SY9MB": {
       "brand": "pixel",
-      "price": 48115,
+      "price": 48113,
       "title": "Google Pixel 10a 5G (Fog, 8GB RAM, 256GB Storage)",
       "url": "https://www.amazon.in/dp/B0GP8SY9MB"
     },
     "B0GPDJ1PRN": {
       "brand": "oppo",
-      "price": 17960,
+      "price": 17900,
       "title": "OPPO K14x 5G Smartphone, 6GB RAM, 128GB Storage, ICY Blue, Dual Camera, 48-Month Fluency Protection",
       "url": "https://www.amazon.in/dp/B0GPDJ1PRN"
     },
     "B0GPDK4MMN": {
       "brand": "oppo",
-      "price": 15800,
+      "price": 16150,
       "title": "OPPO K14x 5G Smartphone, Prism Violet, 4GB RAM, 128GB Storage",
       "url": "https://www.amazon.in/dp/B0GPDK4MMN"
     },
@@ -977,6 +977,12 @@
       "price": 29999,
       "title": "Motorola Edge 70 Fusion 5G (Pantone Blue Surf, 8GB RAM, 256GB Storage) | AI Features | 6.78-inch 144Hz AMOLED | Snapdragon...",
       "url": "https://www.amazon.in/dp/B0GXW131VL"
+    },
+    "B0GXWMXNPT": {
+      "brand": "vivo",
+      "price": 22999,
+      "title": "vivo T5x 5G (Cyber Green, 6GB RAM, 128GB Storage) | 50MP Camera | 6.76\" Display | Dimensity 7400-Turbo | 7200mAh Battery",
+      "url": "https://www.amazon.in/dp/B0GXWMXNPT"
     }
   }
 }
