@@ -110,7 +110,7 @@
     },
     "B0F193CRS5": {
       "brand": "vivo",
-      "price": 19499,
+      "price": 19249,
       "title": "VIVO T4x (Pronto Purple, 8GB, 128GB)",
       "url": "https://www.amazon.in/dp/B0F193CRS5"
     },
@@ -230,7 +230,7 @@
     },
     "B0FGY7C13L": {
       "brand": "pixel",
-      "price": 49990,
+      "price": 44899,
       "title": "Google Pixel 9A (Porcelain, 256 GB) (8 GB RAM)",
       "url": "https://www.amazon.in/dp/B0FGY7C13L"
     },
@@ -434,7 +434,7 @@
     },
     "B0FPGQ4GZ8": {
       "brand": "vivo",
-      "price": 27990,
+      "price": 28990,
       "title": "VIVO T4 Pro 5G, Nitro Blue (8GB, 128GB)",
       "url": "https://www.amazon.in/dp/B0FPGQ4GZ8"
     },
@@ -446,7 +446,7 @@
     },
     "B0FPM1H79N": {
       "brand": "vivo",
-      "price": 22999,
+      "price": 23130,
       "title": "VIVO T4R 5G, Twilight Blue (8GB, 128GB)",
       "url": "https://www.amazon.in/dp/B0FPM1H79N"
     },
@@ -527,6 +527,12 @@
       "price": 14899,
       "title": "Motorola g35 5G (Leaf Green, 128 GB) (8 GB RAM)",
       "url": "https://www.amazon.in/dp/B0FXFXSVQR"
+    },
+    "B0FXRKKYNX": {
+      "brand": "motorola",
+      "price": 14990,
+      "title": "Motorola g35 5G (Guava Red, 128 GB) (8 GB RAM)",
+      "url": "https://www.amazon.in/dp/B0FXRKKYNX"
     },
     "B0G1PPG6W3": {
       "brand": "motorola",
@@ -648,6 +654,12 @@
       "title": "realme P4x 5G Smartphone, 6GB RAM + 128GB Storage, Matte Silver",
       "url": "https://www.amazon.in/dp/B0G6TPMGGJ"
     },
+    "B0GCBB7KMQ": {
+      "brand": "motorola",
+      "price": 17810,
+      "title": "Motorola G57 Power 5G (Regatta, 8GB RAM, 128GB Storage) | Snapdragon 6s Gen 4 Processor | 6.72\" FHD+ Display | 50MP LYT-60...",
+      "url": "https://www.amazon.in/dp/B0GCBB7KMQ"
+    },
     "B0GF41447F": {
       "brand": "vivo",
       "price": 20999,
@@ -668,13 +680,13 @@
     },
     "B0GHHCT83P": {
       "brand": "motorola",
-      "price": 17640,
+      "price": 17620,
       "title": "Motorola G67 Power 5G (Pantone Curacao Blue, 8GB RAM, 128GB Storage) | 6.7\" FHD+ 120Hz LCD Display | Snapdragon 7s Gen2 Pr...",
       "url": "https://www.amazon.in/dp/B0GHHCT83P"
     },
     "B0GK1928KV": {
       "brand": "motorola",
-      "price": 17999,
+      "price": 17980,
       "title": "Motorola g57 Power 5G (Pantone Corsair, 128 GB) (8 GB RAM) | 7000 mAh Battery | 6s Gen 4 Processor | 6.72\" FHD+ Display | ...",
       "url": "https://www.amazon.in/dp/B0GK1928KV"
     },
@@ -920,7 +932,7 @@
     },
     "B0GTTX8WG4": {
       "brand": "vivo",
-      "price": 24449,
+      "price": 23211,
       "title": "vivo T5X 5G (Cyber Green, 8GB RAM, 128GB Storage) | 7200mAh Battery | 50MP Dual Camera | 32MP Selfie Camera | 6.76\" FHD+ 1...",
       "url": "https://www.amazon.in/dp/B0GTTX8WG4"
     },
@@ -938,7 +950,7 @@
     },
     "B0GTV6S8Q2": {
       "brand": "vivo",
-      "price": 27499,
+      "price": 27780,
       "title": "vivo T5x 5G (Star Silver, 8GB RAM, 256GB Storage) | 50MP AI Dual Camera | 32MP Selfie | 6.76\" FHD+ Display | 7200mAh Batte...",
       "url": "https://www.amazon.in/dp/B0GTV6S8Q2"
     },
