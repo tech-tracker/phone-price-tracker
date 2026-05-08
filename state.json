@@ -1,46 +1,16 @@
 {
   "products": {
-    "B0CCDD3TS4": {
-      "brand": "realme",
-      "price": 19595,
-      "title": "realme P4 5G (Steel Grey, 128 GB) (6 GB RAM) | 7000 mAh Battery | Mediatek Dimensity 7400 Processor | 6.77\" AMOLED Display...",
-      "url": "https://www.amazon.in/dp/B0CCDD3TS4"
-    },
-    "B0CHX1W1XY": {
-      "brand": "apple",
-      "price": 59900,
-      "title": "Apple iPhone 15 (128 GB) - Black",
-      "url": "https://www.amazon.in/dp/B0CHX1W1XY"
-    },
     "B0CHX2F5QT": {
       "brand": "apple",
       "price": 59900,
       "title": "Apple iPhone 15 (128 GB) - Blue",
       "url": "https://www.amazon.in/dp/B0CHX2F5QT"
     },
-    "B0CHX6N27Y": {
-      "brand": "apple",
-      "price": 69900,
-      "title": "Apple iPhone 15 (256 GB) - Blue",
-      "url": "https://www.amazon.in/dp/B0CHX6N27Y"
-    },
     "B0CS69QQTG": {
       "brand": "samsung",
-      "price": 56895,
+      "price": 54949,
       "title": "Samsung Galaxy S24 5G AI Smartphone (Onyx Black, 8GB, 256GB Storage)",
       "url": "https://www.amazon.in/dp/B0CS69QQTG"
-    },
-    "B0DGJGRDDS": {
-      "brand": "apple",
-      "price": 89900,
-      "title": "Apple iPhone 16 Plus 256 GB: 5G Mobile Phone with Camera Control, A18 Chip and a Big Boost in Battery Life. Works with Air...",
-      "url": "https://www.amazon.in/dp/B0DGJGRDDS"
-    },
-    "B0DGJHBX5Y": {
-      "brand": "apple",
-      "price": 69900,
-      "title": "iPhone 16 128 GB: 5G Mobile Phone with Camera Control, A18 Chip and a Big Boost in Battery Life. Works with AirPods; Black",
-      "url": "https://www.amazon.in/dp/B0DGJHBX5Y"
     },
     "B0DHL7YT5S": {
       "brand": "samsung",
@@ -48,39 +18,15 @@
       "title": "Samsung Galaxy S24 FE 5G AI Smartphone (Graphite, 8GB RAM, 128GB Storage)",
       "url": "https://www.amazon.in/dp/B0DHL7YT5S"
     },
-    "B0DHL85K81": {
-      "brand": "samsung",
-      "price": 43599,
-      "title": "Samsung Galaxy S24 FE 5G AI Smartphone (Mint, 8GB RAM, 128GB Storage)",
-      "url": "https://www.amazon.in/dp/B0DHL85K81"
-    },
-    "B0DHL98QM2": {
-      "brand": "samsung",
-      "price": 39999,
-      "title": "Samsung Galaxy S24 FE 5G AI Smartphone (Blue, 8GB RAM, 128GB Storage)",
-      "url": "https://www.amazon.in/dp/B0DHL98QM2"
-    },
-    "B0DLW44CGS": {
-      "brand": "xiaomi",
-      "price": 11999,
-      "title": "Redmi A4 5G (Sparkle Purple, 4GB RAM, 128GB Storage) | Segment Largest 6.88in 120Hz | 50MP Dual Camera | 18W Fast Charging...",
-      "url": "https://www.amazon.in/dp/B0DLW44CGS"
-    },
-    "B0DLW4QD72": {
-      "brand": "xiaomi",
-      "price": 11999,
-      "title": "Redmi A4 5G (Starry Black, 4GB RAM, 128GB Storage) | Segment Largest 6.88in 120Hz | 50MP Dual Camera | 18W Fast Charging |...",
-      "url": "https://www.amazon.in/dp/B0DLW4QD72"
-    },
     "B0DPW21322": {
       "brand": "motorola",
-      "price": 13220,
+      "price": 13145,
       "title": "Motorola G35 5G (Midnight Black, 4+128)",
       "url": "https://www.amazon.in/dp/B0DPW21322"
     },
     "B0DPW2M4JR": {
       "brand": "motorola",
-      "price": 13140,
+      "price": 13125,
       "title": "Motorola G35 5G (Leaf Green, 4+128)",
       "url": "https://www.amazon.in/dp/B0DPW2M4JR"
     },
@@ -92,7 +38,7 @@
     },
     "B0DZXTW6PP": {
       "brand": "pixel",
-      "price": 69999,
+      "price": 74999,
       "title": "Google Pixel 9 (Obsidian, 256 GB) (12 GB RAM)",
       "url": "https://www.amazon.in/dp/B0DZXTW6PP"
     },
@@ -104,7 +50,7 @@
     },
     "B0DZXYT2MR": {
       "brand": "pixel",
-      "price": 68999,
+      "price": 79999,
       "title": "Google Pixel 9 (Wintergreen, 256 GB) (12 GB RAM)",
       "url": "https://www.amazon.in/dp/B0DZXYT2MR"
     },
@@ -122,37 +68,31 @@
     },
     "B0F194NC2H": {
       "brand": "vivo",
-      "price": 19249,
+      "price": 18849,
       "title": "Vivo T4x 5G (Marine Blue, 128 GB) (8 GB RAM)",
       "url": "https://www.amazon.in/dp/B0F194NC2H"
     },
-    "B0F1KVGXML": {
-      "brand": "vivo",
-      "price": 20999,
-      "title": "vivo T4x 5G (Pronto Purple, 8GB RAM + 256GB Storage)",
-      "url": "https://www.amazon.in/dp/B0F1KVGXML"
-    },
     "B0F46BTPPY": {
       "brand": "motorola",
-      "price": 25990,
+      "price": 25740,
       "title": "Motorola Edge 60 Fusion (Pantone Zephyr, 12GB RAM, 256GB Storage)",
       "url": "https://www.amazon.in/dp/B0F46BTPPY"
     },
     "B0F46FY98J": {
       "brand": "motorola",
-      "price": 26740,
+      "price": 25990,
       "title": "Motorola Edge 60 Fusion (Pantone Amazonite, 12GB RAM, 256GB Storage)",
       "url": "https://www.amazon.in/dp/B0F46FY98J"
     },
     "B0F46SJ5SB": {
       "brand": "motorola",
-      "price": 25920,
+      "price": 25335,
       "title": "Motorola Edge 60 Fusion 5G Smartphone with 6.67\" 120Hz pOLED Display, 50MP OIS Camera, Android 14, Dimensity 7030 Processo...",
       "url": "https://www.amazon.in/dp/B0F46SJ5SB"
     },
     "B0F6CY1S9Z": {
       "brand": "pixel",
-      "price": 42310,
+      "price": 40990,
       "title": "Google Pixel 9A (Obsidian, 256 GB) (8 GB RAM)",
       "url": "https://www.amazon.in/dp/B0F6CY1S9Z"
     },
@@ -162,35 +102,17 @@
       "title": "vivo T4 5G (Emerald Blaze, 12GB RAM+256GB Storage)| Snapdragon 7s Gen 3 | 120Hz Quad-Curved AMOLED | 7300mAh+90W Fast Char...",
       "url": "https://www.amazon.in/dp/B0F6VVJ2B9"
     },
-    "B0F6WRZNB8": {
-      "brand": "vivo",
-      "price": 26999,
-      "title": "VIVO T4 5G (Emerald Blaze, 8GB RAM+256GB Storage)",
-      "url": "https://www.amazon.in/dp/B0F6WRZNB8"
-    },
-    "B0F844ZCW4": {
-      "brand": "motorola",
-      "price": 27580,
-      "title": "Motorola Edge 60 Fusion 5G (Pantone Slipstream, 12GB RAM, 256GB Storage) | 50MP + 13MP Dual Camera | 32MP Selfie | 6.67\" D...",
-      "url": "https://www.amazon.in/dp/B0F844ZCW4"
-    },
     "B0F8W1SNVP": {
       "brand": "oppo",
-      "price": 24584,
+      "price": 23499,
       "title": "OPPO K13 5G (Prism Black, 8GB RAM 256GB Storage)",
       "url": "https://www.amazon.in/dp/B0F8W1SNVP"
     },
     "B0F8W2D943": {
       "brand": "oppo",
-      "price": 22800,
+      "price": 22289,
       "title": "OPPO K13 5G (Prism Black, 8GB RAM 128GB Storage)",
       "url": "https://www.amazon.in/dp/B0F8W2D943"
-    },
-    "B0FC5TBWG5": {
-      "brand": "iqoo",
-      "price": 13998,
-      "title": "iQOO Z10 Lite 5G (Cyber Green, 4GB RAM, 128GB Storage) | 6000 mAh Battery | Dimensity 6300 5G Processor with 433K+* AnTuTu...",
-      "url": "https://www.amazon.in/dp/B0FC5TBWG5"
     },
     "B0FC5TDB9P": {
       "brand": "iqoo",
@@ -204,81 +126,33 @@
       "title": "iQOO Z10 Lite 5G (Cyber Green, 8GB RAM, 256GB Storage) | 6000 mAh Battery | Dimensity 6300 5G Processor with 433K+* AnTuTu...",
       "url": "https://www.amazon.in/dp/B0FC5XDV5R"
     },
-    "B0FC5XK9WZ": {
-      "brand": "iqoo",
-      "price": 14999,
-      "title": "iQOO Z10 Lite 5G (Cyber Green, 6GB RAM, 128GB Storage) | 6000 mAh Battery | Dimensity 6300 5G Processor with 433K+* AnTuTu...",
-      "url": "https://www.amazon.in/dp/B0FC5XK9WZ"
-    },
-    "B0FFBD71SB": {
-      "brand": "vivo",
-      "price": 39999,
-      "title": "vivo T4 Ultra 5G | 5500 mAh Battery |16.94 cm (6.67 inch) Full HD+ AMOLED Display | 50MP + 8MP + 50MP Periscope | 32MP Fro...",
-      "url": "https://www.amazon.in/dp/B0FFBD71SB"
-    },
-    "B0FFDPNYTX": {
-      "brand": "vivo",
-      "price": 18999,
-      "title": "VIVO T4 Lite 5G 8GB RAM, 256 GB Storage, Titanium Gold | 6.74'' HD+ 90Hz LCD | Dimensity 6300 | 50MP Dual AI Camera | Andr...",
-      "url": "https://www.amazon.in/dp/B0FFDPNYTX"
-    },
-    "B0FFF9VPMN": {
-      "brand": "vivo",
-      "price": 13999,
-      "title": "Vivo T4 Lite 5G Titanium Gold_128GB+4GB",
-      "url": "https://www.amazon.in/dp/B0FFF9VPMN"
-    },
     "B0FGY7C13L": {
       "brand": "pixel",
-      "price": 49990,
+      "price": 43250,
       "title": "Google Pixel 9A (Porcelain, 256 GB) (8 GB RAM)",
       "url": "https://www.amazon.in/dp/B0FGY7C13L"
     },
-    "B0FHGD3PNV": {
-      "brand": "motorola",
-      "price": 20199,
-      "title": "Motorola G96 5G (Dresden Blue, 8GB RAM, 128GB Storage)",
-      "url": "https://www.amazon.in/dp/B0FHGD3PNV"
-    },
-    "B0FHGD6K6K": {
-      "brand": "motorola",
-      "price": 19550,
-      "title": "Motorola G96 144Hz 3D Curved pOLED (ASHLEIGHBLUE, 8GB RAM, 128GB Storage)",
-      "url": "https://www.amazon.in/dp/B0FHGD6K6K"
-    },
     "B0FHGDCX48": {
       "brand": "motorola",
-      "price": 19990,
+      "price": 19959,
       "title": "Motorola G96 144Hz 3D Curved pOLED (PANTONE Dresden Blue, 8GB RAM, 128GB Storage)",
       "url": "https://www.amazon.in/dp/B0FHGDCX48"
     },
-    "B0FHGH17BS": {
-      "brand": "motorola",
-      "price": 20990,
-      "title": "Motorola G96 (CATTLEYAORCHID, 8 +128)",
-      "url": "https://www.amazon.in/dp/B0FHGH17BS"
-    },
     "B0FKT2WDXK": {
       "brand": "pixel",
-      "price": 98000,
+      "price": 111180,
       "title": "Google Pixel 9 Pro XL (Porcelain, 16GB + 256GB)",
       "url": "https://www.amazon.in/dp/B0FKT2WDXK"
     },
-    "B0FLQNN8HF": {
-      "brand": "pixel",
-      "price": 42990,
-      "title": "Google Pixel 9a 5G (Porcelain, 8GB RAM, 256GB Storage)",
-      "url": "https://www.amazon.in/dp/B0FLQNN8HF"
-    },
     "B0FMDRJWFJ": {
       "brand": "realme",
-      "price": 25499,
+      "price": 25799,
       "title": "realme P4 Smartphone (Steel Grey, 256.0, GB, 8.0, GB)",
       "url": "https://www.amazon.in/dp/B0FMDRJWFJ"
     },
     "B0FMDXKDDF": {
       "brand": "realme",
-      "price": 20729,
+      "price": 20540,
       "title": "realme P4 Smartphone (Engine Blue, 128.0, GB, 6.0, GB)",
       "url": "https://www.amazon.in/dp/B0FMDXKDDF"
     },
@@ -288,57 +162,27 @@
       "title": "OPPO K13 Turbo 5G, Purple Phantom (8GB, 256GB)",
       "url": "https://www.amazon.in/dp/B0FNLQ5Q1X"
     },
-    "B0FNLQ79B8": {
-      "brand": "oppo",
-      "price": 26999,
-      "title": "OPPO K13 Turbo 5G, White Knight (8GB, 128GB)",
-      "url": "https://www.amazon.in/dp/B0FNLQ79B8"
-    },
     "B0FNLQ8K2Z": {
       "brand": "oppo",
       "price": 26995,
       "title": "OPPO K13 Turbo 5G, Midnight Maverick (8GB, 128GB)",
       "url": "https://www.amazon.in/dp/B0FNLQ8K2Z"
     },
-    "B0FNLRBC7X": {
-      "brand": "oppo",
-      "price": 32999,
-      "title": "OPPO K13 Turbo 5G, White Knight (8GB, 256GB)",
-      "url": "https://www.amazon.in/dp/B0FNLRBC7X"
-    },
-    "B0FNLRR81F": {
-      "brand": "oppo",
-      "price": 29800,
-      "title": "OPPO K13 Turbo 5G, Purple Phantom (8GB, 128GB)",
-      "url": "https://www.amazon.in/dp/B0FNLRR81F"
-    },
-    "B0FNMNWQZV": {
-      "brand": "samsung",
-      "price": 49199,
-      "title": "Samsung Galaxy S25 FE 5G Smartphone with Galaxy AI (White, 8GB RAM, 128GB Storage), 12MP Front Camera, ProVisual Engine, L...",
-      "url": "https://www.amazon.in/dp/B0FNMNWQZV"
-    },
     "B0FNMP4BC4": {
       "brand": "samsung",
-      "price": 58699,
+      "price": 58999,
       "title": "Samsung Galaxy S25 FE 5G Smartphone with Galaxy AI (JetBlack, 8GB RAM, 256GB Storage), 12MP Front Camera, ProVisual Engin...",
       "url": "https://www.amazon.in/dp/B0FNMP4BC4"
     },
-    "B0FNMQLSW1": {
-      "brand": "samsung",
-      "price": 59960,
-      "title": "Samsung Galaxy S25 FE 5G Smartphone with Galaxy AI (White, 8GB RAM, 256GB Storage), 12MP Front Camera, ProVisual Engine, L...",
-      "url": "https://www.amazon.in/dp/B0FNMQLSW1"
-    },
     "B0FNMQW9HW": {
       "brand": "samsung",
-      "price": 49530,
+      "price": 48999,
       "title": "Samsung Galaxy S25 FE 5G Smartphone with Galaxy AI (JetBlack, 8GB RAM, 128GB Storage), 12MP Front Camera, ProVisual Engin...",
       "url": "https://www.amazon.in/dp/B0FNMQW9HW"
     },
     "B0FNMR6KTQ": {
       "brand": "samsung",
-      "price": 51999,
+      "price": 49140,
       "title": "Samsung Galaxy S25 FE 5G Smartphone with Galaxy AI (Navy, 8GB RAM, 128GB Storage), 12MP Front Camera, ProVisual Engine, Lo...",
       "url": "https://www.amazon.in/dp/B0FNMR6KTQ"
     },
@@ -354,24 +198,6 @@
       "title": "Google Pixel 10 5G (Obsidian, 12GB RAM, 256GB Storage)",
       "url": "https://www.amazon.in/dp/B0FNPNL2D8"
     },
-    "B0FNXCQDYJ": {
-      "brand": "vivo",
-      "price": 22909,
-      "title": "VIVO T4R 5G, Arctic White (8GB, 128GB)",
-      "url": "https://www.amazon.in/dp/B0FNXCQDYJ"
-    },
-    "B0FP31YRSF": {
-      "brand": "pixel",
-      "price": 71999,
-      "title": "Google Pixel 10 5G (Indigo, 12GB RAM, 256GB Storage)",
-      "url": "https://www.amazon.in/dp/B0FP31YRSF"
-    },
-    "B0FP324R5Y": {
-      "brand": "pixel",
-      "price": 70999,
-      "title": "Google Pixel 10 5G (Lemongrass, 12GB RAM, 256GB Storage)",
-      "url": "https://www.amazon.in/dp/B0FP324R5Y"
-    },
     "B0FP5D8RCH": {
       "brand": "vivo",
       "price": 19999,
@@ -384,18 +210,6 @@
       "title": "vivo Y31 5G (Diamond Green, 4GB RAM, 128GB Storage) with No Cost EMI/Additional Exchange Offers",
       "url": "https://www.amazon.in/dp/B0FP5NZYNQ"
     },
-    "B0FP8MCBT8": {
-      "brand": "oppo",
-      "price": 29990,
-      "title": "Oppo F31 Pro+ 5G (Gemstone Blue, 8GB RAM, 256GB Storage)",
-      "url": "https://www.amazon.in/dp/B0FP8MCBT8"
-    },
-    "B0FP8MDBVZ": {
-      "brand": "oppo",
-      "price": 29999,
-      "title": "Oppo F31 Pro 5G (Desert Gold, 8GB RAM, 256GB Storage)",
-      "url": "https://www.amazon.in/dp/B0FP8MDBVZ"
-    },
     "B0FP8QBH9M": {
       "brand": "oppo",
       "price": 29999,
@@ -405,20 +219,14 @@
     "B0FP8QFLGC": {
       "brand": "oppo",
       "price": 26999,
-      "title": "Oppo F31 5G (Midnight Blue, 8GB RAM, 128GB Storage)",
+      "title": "Sponsored Ad - Oppo F31 5G (Midnight Blue, 8GB RAM, 128GB Storage)",
       "url": "https://www.amazon.in/dp/B0FP8QFLGC"
     },
-    "B0FP8QH6FK": {
+    "B0FP8QPR5Z": {
       "brand": "oppo",
-      "price": 26999,
-      "title": "Oppo F31 5G (Bloom Red, 8GB RAM, 128GB Storage)",
-      "url": "https://www.amazon.in/dp/B0FP8QH6FK"
-    },
-    "B0FP8T64LJ": {
-      "brand": "oppo",
-      "price": 28999,
-      "title": "Oppo F31 5G (Midnight Blue, 8GB RAM, 256GB Storage)",
-      "url": "https://www.amazon.in/dp/B0FP8T64LJ"
+      "price": 34890,
+      "title": "Oppo F31 Pro+ 5G (Gemstone Blue, 12GB RAM, 256GB Storage)",
+      "url": "https://www.amazon.in/dp/B0FP8QPR5Z"
     },
     "B0FP8WF4SG": {
       "brand": "oppo",
@@ -426,23 +234,11 @@
       "title": "Oppo F31 Pro 5G (Space Grey, 8GB RAM, 128GB Storage)",
       "url": "https://www.amazon.in/dp/B0FP8WF4SG"
     },
-    "B0FP8WG38G": {
-      "brand": "oppo",
-      "price": 28999,
-      "title": "Oppo F31 5G (Cloud Green, 8GB RAM, 256GB Storage)",
-      "url": "https://www.amazon.in/dp/B0FP8WG38G"
-    },
-    "B0FPGQ4GZ8": {
-      "brand": "vivo",
-      "price": 28990,
-      "title": "VIVO T4 Pro 5G, Nitro Blue (8GB, 128GB)",
-      "url": "https://www.amazon.in/dp/B0FPGQ4GZ8"
-    },
-    "B0FPGR6SJ5": {
-      "brand": "vivo",
-      "price": 24700,
-      "title": "VIVO T4R 5G, Twilight Blue (8GB, 256GB)",
-      "url": "https://www.amazon.in/dp/B0FPGR6SJ5"
+    "B0FPFM8HPN": {
+      "brand": "pixel",
+      "price": 109900,
+      "title": "Google Pixel 10 Pro 5G (Moonstone, 16GB RAM, 256GB Storage)",
+      "url": "https://www.amazon.in/dp/B0FPFM8HPN"
     },
     "B0FPM1H79N": {
       "brand": "vivo",
@@ -462,23 +258,29 @@
       "title": "Google Pixel 9a 5G (Obsidian, 8GB RAM, 256GB Storage)",
       "url": "https://www.amazon.in/dp/B0FQBZQR9Q"
     },
-    "B0FQC2MJK2": {
-      "brand": "pixel",
-      "price": 117900,
-      "title": "Google Pixel 10 Pro XL (Jade, 256 GB) (16 GB RAM)",
-      "url": "https://www.amazon.in/dp/B0FQC2MJK2"
-    },
-    "B0FQF2ZJWT": {
-      "brand": "apple",
-      "price": 154900,
-      "title": "Apple iPhone 17 Pro 512 GB: 15.93 cm (6.3″) Display with Promotion up to 120Hz, A19 Pro Chip, Breakthrough Battery Life, P...",
-      "url": "https://www.amazon.in/dp/B0FQF2ZJWT"
-    },
     "B0FQF9ZLD7": {
       "brand": "apple",
       "price": 229900,
       "title": "Apple iPhone 17 Pro Max 2 TB: 17.42 cm (6.9″) Display with Promotion, A19 Pro Chip, Best Battery Life in Any iPhone Ever, ...",
       "url": "https://www.amazon.in/dp/B0FQF9ZLD7"
+    },
+    "B0FQFLZNKL": {
+      "brand": "apple",
+      "price": 82900,
+      "title": "Sponsored Ad - Apple iPhone 17 256 GB: 15.93 cm (6.3″) Display with Promotion, A19 Chip, Center Stage Front Camera for Sma...",
+      "url": "https://www.amazon.in/dp/B0FQFLZNKL"
+    },
+    "B0FQFNQTTK": {
+      "brand": "apple",
+      "price": 174900,
+      "title": "Apple iPhone 17 Pro 1 TB: 15.93 cm (6.3″) Display with Promotion up to 120Hz, A19 Pro Chip, Breakthrough Battery Life, Pro...",
+      "url": "https://www.amazon.in/dp/B0FQFNQTTK"
+    },
+    "B0FQFQ576F": {
+      "brand": "apple",
+      "price": 102900,
+      "title": "Apple iPhone 17 512 GB: 15.93 cm (6.3″) Display with Promotion, A19 Chip, Center Stage Front Camera for Smarter Group Self...",
+      "url": "https://www.amazon.in/dp/B0FQFQ576F"
     },
     "B0FQFV2XKS": {
       "brand": "apple",
@@ -489,7 +291,7 @@
     "B0FQFYYPZF": {
       "brand": "apple",
       "price": 134900,
-      "title": "Apple iPhone 17 Pro 256 GB: 15.93 cm (6.3″) Display with Promotion up to 120Hz, A19 Pro Chip, Breakthrough Battery Life, P...",
+      "title": "Sponsored Ad - Apple iPhone 17 Pro 256 GB: 15.93 cm (6.3″) Display with Promotion up to 120Hz, A19 Pro Chip, Breakthrough ...",
       "url": "https://www.amazon.in/dp/B0FQFYYPZF"
     },
     "B0FQG1LPVF": {
@@ -497,12 +299,6 @@
       "price": 134900,
       "title": "Apple iPhone 17 Pro 256 GB: 15.93 cm (6.3″) Display with Promotion up to 120Hz, A19 Pro Chip, Breakthrough Battery Life, P...",
       "url": "https://www.amazon.in/dp/B0FQG1LPVF"
-    },
-    "B0FQNBZ6MF": {
-      "brand": "pixel",
-      "price": 119999,
-      "title": "Google Pixel 10 Pro XL (Obsidian, 256 GB) (16 GB RAM)",
-      "url": "https://www.amazon.in/dp/B0FQNBZ6MF"
     },
     "B0FT88VKBD": {
       "brand": "vivo",
@@ -512,75 +308,45 @@
     },
     "B0FV98G8VT": {
       "brand": "vivo",
-      "price": 17999,
+      "price": 17998,
       "title": "vivo T4x 5G, Glacial Teal (6GB, 128GB)",
       "url": "https://www.amazon.in/dp/B0FV98G8VT"
     },
-    "B0FV98ZH7F": {
-      "brand": "vivo",
-      "price": 19249,
-      "title": "vivo T4X 5G, Glacial Teal (8GB, 128GB)",
-      "url": "https://www.amazon.in/dp/B0FV98ZH7F"
-    },
     "B0FXFXSVQR": {
       "brand": "motorola",
-      "price": 14899,
+      "price": 14699,
       "title": "Motorola g35 5G (Leaf Green, 128 GB) (8 GB RAM)",
       "url": "https://www.amazon.in/dp/B0FXFXSVQR"
     },
-    "B0FXRKKYNX": {
-      "brand": "motorola",
-      "price": 14990,
-      "title": "Motorola g35 5G (Guava Red, 128 GB) (8 GB RAM)",
-      "url": "https://www.amazon.in/dp/B0FXRKKYNX"
+    "B0G14WLG6D": {
+      "brand": "pixel",
+      "price": 104999,
+      "title": "Google Pixel 10 Pro (Jade, 256 GB) (16 GB RAM)",
+      "url": "https://www.amazon.in/dp/B0G14WLG6D"
     },
     "B0G1PPG6W3": {
       "brand": "motorola",
-      "price": 17437,
+      "price": 16999,
       "title": "Motorola G67 Power (Pantone Blue Curacao, 8GB RAM, 128GB Storage)",
       "url": "https://www.amazon.in/dp/B0G1PPG6W3"
     },
-    "B0G1PYD3J2": {
-      "brand": "motorola",
-      "price": 17898,
-      "title": "Motorola G67 Power (Pantone Parachute Purple, 8GB RAM, 128GB Storage)",
-      "url": "https://www.amazon.in/dp/B0G1PYD3J2"
-    },
-    "B0G1Q6YVHW": {
-      "brand": "motorola",
-      "price": 17699,
-      "title": "Motorola g67 Power (Pantone Cilantro, 8GB RAM, 128GB Storage)",
-      "url": "https://www.amazon.in/dp/B0G1Q6YVHW"
-    },
     "B0G1YM8511": {
       "brand": "motorola",
-      "price": 17790,
+      "price": 16599,
       "title": "Motorola G67 Power 5G (Pantone Parachute Purple, 8GB RAM, 128GB Storage) | 6.7\" FHD+ 120Hz LCD Display | Snapdragon 7s Gen...",
       "url": "https://www.amazon.in/dp/B0G1YM8511"
     },
     "B0G1YNG5S6": {
       "brand": "motorola",
-      "price": 17445,
+      "price": 16599,
       "title": "Motorola G67 Power 5G (Pantone Cilantro, 8GB RAM, 128GB Storage) | 6.7\" FHD+ 120Hz LCD Display | Snapdragon 7s Gen2 Proces...",
       "url": "https://www.amazon.in/dp/B0G1YNG5S6"
-    },
-    "B0G29VSZF6": {
-      "brand": "xiaomi",
-      "price": 19499,
-      "title": "REDMI 15C 5G Dusk Purple 8GB + 128GB | Royale Design | Massive 6000mAh Battery | Segment's Largest 17.53cm Display Up to 1...",
-      "url": "https://www.amazon.in/dp/B0G29VSZF6"
     },
     "B0G2B251KD": {
       "brand": "xiaomi",
       "price": 17499,
       "title": "REDMI 15C 5G Moonlight Blue 6GB + 128GB | Royale Design | Massive 6000mAh Battery | Segment's Largest Display 17.53cm Up t...",
       "url": "https://www.amazon.in/dp/B0G2B251KD"
-    },
-    "B0G2B39Q4H": {
-      "brand": "xiaomi",
-      "price": 19499,
-      "title": "REDMI 15C 5G Midnight Black 8GB + 128GB | Royale Design | Massive 6000mAh Battery | Segment's Largest 17.53cm Display Up t...",
-      "url": "https://www.amazon.in/dp/B0G2B39Q4H"
     },
     "B0G2BBWKCP": {
       "brand": "xiaomi",
@@ -590,51 +356,33 @@
     },
     "B0G2CJJLWX": {
       "brand": "motorola",
-      "price": 26879,
+      "price": 26502,
       "title": "Motorola Edge 60 Fusion 5G (Pantone Slipstream, 12GB RAM, 256GB Storage)",
       "url": "https://www.amazon.in/dp/B0G2CJJLWX"
     },
-    "B0G2CSWF5D": {
-      "brand": "motorola",
-      "price": 25498,
-      "title": "Motorola Edge 60 Fusion 5G (Pantone Amazonite, 8GB RAM, 256GB Storage)| 6.67\" pOLED Display | IP68 | 50MP+13MP Rear | 32MP...",
-      "url": "https://www.amazon.in/dp/B0G2CSWF5D"
-    },
     "B0G3SWTTQ7": {
       "brand": "motorola",
-      "price": 16990,
+      "price": 16288,
       "title": "Motorola G57 Power 5G (Corsair, 8GB RAM, 128GB Storage) | Snapdragon 6s Gen 4 Processor | 6.72\" FHD+ Display | 50MP LYT-60...",
       "url": "https://www.amazon.in/dp/B0G3SWTTQ7"
     },
     "B0G3T3HZC6": {
       "brand": "motorola",
-      "price": 17290,
+      "price": 16199,
       "title": "Motorola G57 Power 5G (Regatta, 8GB RAM, 128GB Storage) | Snapdragon 6s Gen 4 Processor | 6.72\" FHD+ Display | 50MP LYT-60...",
       "url": "https://www.amazon.in/dp/B0G3T3HZC6"
     },
     "B0G3TFPN94": {
       "brand": "motorola",
-      "price": 17290,
+      "price": 16240,
       "title": "Motorola G57 Power 5G (Fluidity, 8GB RAM, 128GB Storage)| Snapdragon 6s Gen 4 Processor | 6.72\" FHD+ Display | 50MP LYT-60...",
       "url": "https://www.amazon.in/dp/B0G3TFPN94"
     },
     "B0G3X99MZS": {
       "brand": "realme",
-      "price": 17999,
+      "price": 18199,
       "title": "realme P4X Smartphone 6.72 inch 144Hz Display 7000mAh Titan Bettery 45W Fast Charge 6GB RAM 128GB ROM Dimensity 7400 Ultra...",
       "url": "https://www.amazon.in/dp/B0G3X99MZS"
-    },
-    "B0G4MZXHJX": {
-      "brand": "pixel",
-      "price": 159785,
-      "title": "Google Pixel 10 Pro Fold (Moonstone, 256 GB) (16 GB RAM)",
-      "url": "https://www.amazon.in/dp/B0G4MZXHJX"
-    },
-    "B0G6KS29PK": {
-      "brand": "apple",
-      "price": 91399,
-      "title": "Apple iPhone 17 (256GB) - Black with Protect+ with AppleCare Services",
-      "url": "https://www.amazon.in/dp/B0G6KS29PK"
     },
     "B0G6LBJT5N": {
       "brand": "realme",
@@ -642,69 +390,21 @@
       "title": "realme P4x 5G Smartphone, Lake Green, 6GB RAM, 128GB Storage",
       "url": "https://www.amazon.in/dp/B0G6LBJT5N"
     },
-    "B0G6TJWT5Q": {
-      "brand": "realme",
-      "price": 18945,
-      "title": "realme P4x 5G Smartphone, Matte Silver, 8GB RAM, 128GB Storage",
-      "url": "https://www.amazon.in/dp/B0G6TJWT5Q"
-    },
-    "B0G6TPMGGJ": {
-      "brand": "realme",
-      "price": 17999,
-      "title": "realme P4x 5G Smartphone, 6GB RAM + 128GB Storage, Matte Silver",
-      "url": "https://www.amazon.in/dp/B0G6TPMGGJ"
-    },
-    "B0GCBB7KMQ": {
-      "brand": "motorola",
-      "price": 17810,
-      "title": "Motorola G57 Power 5G (Regatta, 8GB RAM, 128GB Storage) | Snapdragon 6s Gen 4 Processor | 6.72\" FHD+ Display | 50MP LYT-60...",
-      "url": "https://www.amazon.in/dp/B0GCBB7KMQ"
-    },
-    "B0GF41447F": {
-      "brand": "vivo",
-      "price": 20999,
-      "title": "vivo T4x 5G (Pronto Purple, 8GB RAM, 256GB Storage) | 6.72\" FHD+ 120Hz LCD Display | Dimensity 7300 (4nm) Processor | 50M...",
-      "url": "https://www.amazon.in/dp/B0GF41447F"
-    },
     "B0GGH5KMM2": {
       "brand": "samsung",
-      "price": 50999,
+      "price": 44249,
       "title": "Samsung Galaxy S24 Snapdragon 8 Gen 3 5G (Onyx Black, 128 GB) (8 GB RAM)",
       "url": "https://www.amazon.in/dp/B0GGH5KMM2"
     },
-    "B0GHGXJZ3C": {
-      "brand": "motorola",
-      "price": 18047,
-      "title": "Motorola G67 Power 5G (Pantone Parachute, 8GB RAM, 128GB Storage) | 6.7\" FHD+ 120Hz LCD Display | Snapdragon 7s Gen2 Proce...",
-      "url": "https://www.amazon.in/dp/B0GHGXJZ3C"
-    },
-    "B0GHHCT83P": {
-      "brand": "motorola",
-      "price": 17620,
-      "title": "Motorola G67 Power 5G (Pantone Curacao Blue, 8GB RAM, 128GB Storage) | 6.7\" FHD+ 120Hz LCD Display | Snapdragon 7s Gen2 Pr...",
-      "url": "https://www.amazon.in/dp/B0GHHCT83P"
-    },
-    "B0GK1928KV": {
-      "brand": "motorola",
-      "price": 16980,
-      "title": "Motorola g57 Power 5G (Pantone Corsair, 128 GB) (8 GB RAM) | 7000 mAh Battery | 6s Gen 4 Processor | 6.72\" FHD+ Display | ...",
-      "url": "https://www.amazon.in/dp/B0GK1928KV"
-    },
-    "B0GL86QFC4": {
-      "brand": "samsung",
-      "price": 150999,
-      "title": "Samsung Galaxy S26 Ultra 5G (Cobalt Violet, 12GB RAM, 512GB Storage) with Built-in Privacy Display, AI Phone, Photo Assis...",
-      "url": "https://www.amazon.in/dp/B0GL86QFC4"
-    },
     "B0GL87VP7N": {
       "brand": "samsung",
-      "price": 79999,
+      "price": 87999,
       "title": "Samsung Galaxy S26 5G (Cobalt Violet, 12GB RAM, 256GB Storage), AI Phone, Photo Assist, Creative Studio, 50MP Camera with ...",
       "url": "https://www.amazon.in/dp/B0GL87VP7N"
     },
     "B0GL88WCV8": {
       "brand": "samsung",
-      "price": 79999,
+      "price": 87999,
       "title": "Samsung Galaxy S26 5G (White, 12GB RAM, 256GB Storage), AI Phone, Photo Assist, Creative Studio, 50MP Camera with ProVisua...",
       "url": "https://www.amazon.in/dp/B0GL88WCV8"
     },
@@ -716,79 +416,43 @@
     },
     "B0GLZWV898": {
       "brand": "realme",
-      "price": 28390,
+      "price": 27660,
       "title": "realme P4 Power 5G Smartphone, Trans Silver, 8GB RAM, 256GB Storage, 10001mAh Battery, 6.8 Inch Display, Triple Camera",
       "url": "https://www.amazon.in/dp/B0GLZWV898"
     },
-    "B0GM165WC4": {
-      "brand": "realme",
-      "price": 26980,
-      "title": "realme P4 Power 5G Smartphone, Trans Silver, 8GB RAM, 128GB Storage, 10001mAh Battery, 6.8 Inch Display, Triple Camera",
-      "url": "https://www.amazon.in/dp/B0GM165WC4"
-    },
-    "B0GM1BDLHH": {
-      "brand": "realme",
-      "price": 27999,
-      "title": "realme P4 Power 5G Smartphone, 8GB RAM, 128GB Storage, TransSilver, 10001mAh Battery",
-      "url": "https://www.amazon.in/dp/B0GM1BDLHH"
-    },
-    "B0GM1K41NJ": {
-      "brand": "realme",
-      "price": 26980,
-      "title": "realme P4 Power 5G Smartphone, 8GB RAM, 128GB Storage, TransBlue, 10001mAh Battery",
-      "url": "https://www.amazon.in/dp/B0GM1K41NJ"
-    },
-    "B0GM7D9TKQ": {
-      "brand": "motorola",
-      "price": 22736,
-      "title": "Motorola Edge 60 Fusion 5G (Pantone Amazonite, 8GB RAM, 128GB Storage)| 6.67\" pOLED Display | IP68 | 50MP+13MP Rear | 32MP...",
-      "url": "https://www.amazon.in/dp/B0GM7D9TKQ"
-    },
     "B0GM7F6LH5": {
       "brand": "motorola",
-      "price": 22870,
+      "price": 22679,
       "title": "Motorola Edge 60 Fusion 5G (Pantone Zephyr, 8GB RAM, 128GB Storage) | 6.67\" pOLED Display | IP68 | 50MP+13MP Rear | 32MP F...",
       "url": "https://www.amazon.in/dp/B0GM7F6LH5"
     },
     "B0GMHJ8D14": {
       "brand": "realme",
-      "price": 27815,
+      "price": 27879,
       "title": "realme P4 Power 5G Smartphone, 8GB RAM, 256GB Storage, TransOrange",
       "url": "https://www.amazon.in/dp/B0GMHJ8D14"
     },
-    "B0GMHRQW5H": {
-      "brand": "realme",
-      "price": 27500,
-      "title": "realme P4 Power 5G Smartphone, 8GB RAM, 256GB Storage, TransBlue, 10001mAh Battery",
-      "url": "https://www.amazon.in/dp/B0GMHRQW5H"
-    },
     "B0GNGJV73C": {
       "brand": "oppo",
-      "price": 15790,
+      "price": 15999,
       "title": "OPPO k14x 5g (Ice Blue) (4gb+128gb)",
       "url": "https://www.amazon.in/dp/B0GNGJV73C"
     },
     "B0GNHKT8FZ": {
       "brand": "oppo",
-      "price": 17840,
+      "price": 17870,
       "title": "OPPO k14x 5g (Prism Violet) (6gb+128gb)",
       "url": "https://www.amazon.in/dp/B0GNHKT8FZ"
     },
-    "B0GNMZW4RP": {
-      "brand": "vivo",
-      "price": 20999,
-      "title": "vivo T4x 5G Marine Blue 8 GB RAM 256 GB ROM | Dimensity 7300 5G | Octa Core Processor | 50MP + 2MP Rear Camera | 6500 mAh ...",
-      "url": "https://www.amazon.in/dp/B0GNMZW4RP"
-    },
     "B0GP1DYHQ2": {
       "brand": "realme",
-      "price": 20335,
+      "price": 20540,
       "title": "realme P4 5G (Steel Grey, 6GB RAM, 128GB Storage) | 6.77\" 144Hz AMOLED Display | Dimensity 7400 Ultra | 50MP OIS Camera | ...",
       "url": "https://www.amazon.in/dp/B0GP1DYHQ2"
     },
     "B0GP6VSXHS": {
       "brand": "motorola",
-      "price": 22544,
+      "price": 22593,
       "title": "Motorola Edge 60 Fusion 5G (Pantone Slipstream, 8GB RAM, 128GB Storage) | 6.67\" Curved 1.5K pOLED Display | 50MP+13MP Rear...",
       "url": "https://www.amazon.in/dp/B0GP6VSXHS"
     },
@@ -806,37 +470,37 @@
     },
     "B0GP88QJL8": {
       "brand": "pixel",
-      "price": 47400,
+      "price": 46990,
       "title": "Google Pixel 10a 5G (Obsidian, 8GB RAM, 256GB Storage)",
       "url": "https://www.amazon.in/dp/B0GP88QJL8"
     },
     "B0GP8SY9MB": {
       "brand": "pixel",
-      "price": 47845,
+      "price": 47475,
       "title": "Google Pixel 10a 5G (Fog, 8GB RAM, 256GB Storage)",
       "url": "https://www.amazon.in/dp/B0GP8SY9MB"
     },
     "B0GPDJ1PRN": {
       "brand": "oppo",
-      "price": 17900,
+      "price": 17999,
       "title": "OPPO K14x 5G Smartphone, 6GB RAM, 128GB Storage, ICY Blue, Dual Camera, 48-Month Fluency Protection",
       "url": "https://www.amazon.in/dp/B0GPDJ1PRN"
     },
     "B0GPDK4MMN": {
       "brand": "oppo",
-      "price": 16150,
+      "price": 15840,
       "title": "OPPO K14x 5G Smartphone, Prism Violet, 4GB RAM, 128GB Storage",
       "url": "https://www.amazon.in/dp/B0GPDK4MMN"
     },
     "B0GPQH2DG2": {
       "brand": "motorola",
-      "price": 22518,
+      "price": 22550,
       "title": "Motorola Edge 60 Fusion 5G Smartphone, Pantone Amazonite, 8GB RAM, 128GB Storage",
       "url": "https://www.amazon.in/dp/B0GPQH2DG2"
     },
     "B0GPRDFXRK": {
       "brand": "motorola",
-      "price": 22471,
+      "price": 22799,
       "title": "Motorola Edge 60 Fusion 5G, Pantone Mykonos Blue, 8GB RAM, 128GB Storage",
       "url": "https://www.amazon.in/dp/B0GPRDFXRK"
     },
@@ -848,19 +512,19 @@
     },
     "B0GRB7CDXN": {
       "brand": "realme",
-      "price": 10679,
+      "price": 10519,
       "title": "realme P4 Lite Smartphone, 4GB RAM, 64GB Storage, Sea Blue",
       "url": "https://www.amazon.in/dp/B0GRB7CDXN"
     },
     "B0GRBBF1YF": {
       "brand": "realme",
-      "price": 10939,
+      "price": 10549,
       "title": "realme P4 Lite Smartphone, 4GB RAM, 64GB Storage, Obsidian Black",
       "url": "https://www.amazon.in/dp/B0GRBBF1YF"
     },
     "B0GRBH8916": {
       "brand": "realme",
-      "price": 10986,
+      "price": 10998,
       "title": "realme P4 Lite Smartphone, 4GB RAM, 64GB Storage, Beach Gold",
       "url": "https://www.amazon.in/dp/B0GRBH8916"
     },
@@ -870,45 +534,27 @@
       "title": "Motorola Edge 70 Fusion (Pantone Silhouette, 12GB RAM, 256GB Storage) | 6.78\" 144Hz AMOLED | Snapdragon 7s Gen 4 | 50MP OI...",
       "url": "https://www.amazon.in/dp/B0GRMG7F5B"
     },
-    "B0GRMNHL1R": {
-      "brand": "motorola",
-      "price": 33199,
-      "title": "Motorola Edge 70 Fusion (Pantone Blue Surf, 12GB RAM, 256GB Storage) | 6.78\" 144Hz AMOLED Display | Snapdragon 7s Gen 4 | ...",
-      "url": "https://www.amazon.in/dp/B0GRMNHL1R"
-    },
     "B0GRMVNTDN": {
       "brand": "motorola",
-      "price": 26599,
+      "price": 26659,
       "title": "Motorola Edge 70 Fusion (Pantone Silhouette, 8GB RAM, 128GB Storage) | 6.78\" 1.5K 144Hz AMOLED Display | Snapdragon 7s Gen...",
       "url": "https://www.amazon.in/dp/B0GRMVNTDN"
     },
     "B0GRMZ8X9R": {
       "brand": "motorola",
-      "price": 26575,
+      "price": 26366,
       "title": "Motorola Edge 70 Fusion (Pantone Blue Surf, 8GB RAM, 128GB Storage) | 6.78\" 1.5K 144Hz AMOLED Display | Snapdragon 7s Gen ...",
       "url": "https://www.amazon.in/dp/B0GRMZ8X9R"
     },
-    "B0GRN2NQGZ": {
-      "brand": "motorola",
-      "price": 29600,
-      "title": "Motorola Edge 70 Fusion (Pantone Silhouette, 8GB RAM, 256GB Storage) | 6.78\" 144Hz 1.5K AMOLED Display | Snapdragon 7s Gen...",
-      "url": "https://www.amazon.in/dp/B0GRN2NQGZ"
-    },
-    "B0GRQFCZSZ": {
-      "brand": "motorola",
-      "price": 29930,
-      "title": "Motorola Edge 70 Fusion (Pantone Country Air, 8GB RAM, 256GB Storage) | Snapdragon 7s Gen 4 Processor | 7000mAh Battery | ...",
-      "url": "https://www.amazon.in/dp/B0GRQFCZSZ"
-    },
     "B0GRQP1CFS": {
       "brand": "motorola",
-      "price": 29899,
+      "price": 29586,
       "title": "Motorola Edge 70 Fusion 5G (Pantone Blue Surf, 8GB RAM, 256GB Storage) | Snapdragon 7s Gen 4 Processor | 50MP Sony LYTIA C...",
       "url": "https://www.amazon.in/dp/B0GRQP1CFS"
     },
     "B0GSRJ52CQ": {
       "brand": "oppo",
-      "price": 15999,
+      "price": 14749,
       "title": "OPPO K14x 5G Smartphone, Prism Violet, 4GB RAM, 64GB Storage, 6500mAh Battery, 45W Fast Charge",
       "url": "https://www.amazon.in/dp/B0GSRJ52CQ"
     },
@@ -918,57 +564,39 @@
       "title": "OPPO K14x 5G (ICY Blue, 4GB RAM, 64GB)",
       "url": "https://www.amazon.in/dp/B0GTQ6TB8B"
     },
-    "B0GTTRRGC1": {
-      "brand": "vivo",
-      "price": 22290,
-      "title": "vivo T5X 5G (Star Silver, 6GB RAM, 128GB Storage) | 7200mAh Battery | 50MP Dual Camera | 32MP Selfie Camera | 6.76\" HD+ Di...",
-      "url": "https://www.amazon.in/dp/B0GTTRRGC1"
-    },
     "B0GTTW99DG": {
       "brand": "vivo",
-      "price": 28470,
+      "price": 27499,
       "title": "vivo T5x 5G (Cyber Green, 8GB RAM, 256GB Storage) | 50MP AI Dual Camera | 32MP Selfie | 6.76\" FHD+ Display | 7200mAh Batte...",
       "url": "https://www.amazon.in/dp/B0GTTW99DG"
     },
-    "B0GTTX8WG4": {
-      "brand": "vivo",
-      "price": 23211,
-      "title": "vivo T5X 5G (Cyber Green, 8GB RAM, 128GB Storage) | 7200mAh Battery | 50MP Dual Camera | 32MP Selfie Camera | 6.76\" FHD+ 1...",
-      "url": "https://www.amazon.in/dp/B0GTTX8WG4"
-    },
     "B0GTTXP6WF": {
       "brand": "vivo",
-      "price": 22135,
+      "price": 22449,
       "title": "vivo T5x 5G (Cyber Green, 6GB RAM, 128GB Storage) | 50MP AI Dual Camera | 32MP Selfie | 6.76\" FHD+ Display | 7200mAh Batte...",
       "url": "https://www.amazon.in/dp/B0GTTXP6WF"
     },
     "B0GTTYQJ2L": {
       "brand": "vivo",
-      "price": 23593,
+      "price": 23779,
       "title": "vivo T5X 5G (Star Silver, 8GB RAM, 128GB Storage) | 7200mAh Battery | 50MP Dual Camera | 32MP Selfie Camera | 6.76\" FHD+ 1...",
       "url": "https://www.amazon.in/dp/B0GTTYQJ2L"
     },
     "B0GTV6S8Q2": {
       "brand": "vivo",
-      "price": 27780,
+      "price": 27499,
       "title": "vivo T5x 5G (Star Silver, 8GB RAM, 256GB Storage) | 50MP AI Dual Camera | 32MP Selfie | 6.76\" FHD+ Display | 7200mAh Batte...",
       "url": "https://www.amazon.in/dp/B0GTV6S8Q2"
     },
-    "B0GVPP5Q1H": {
-      "brand": "vivo",
-      "price": 31999,
-      "title": "vivo T4 Pro 5G (Nitro Blue, 8GB RAM, 128GB Storage) | 50MP + 2MP + 50MP Triple Camera | 32MP Selfie | 6.77\" FHD+ Display |...",
-      "url": "https://www.amazon.in/dp/B0GVPP5Q1H"
-    },
     "B0GWF2HM26": {
       "brand": "realme",
-      "price": 13689,
+      "price": 13699,
       "title": "realme P4 Lite 5G (Mosaic Green, 64GB Storage), (4GB RAM)",
       "url": "https://www.amazon.in/dp/B0GWF2HM26"
     },
     "B0GWF8385T": {
       "brand": "realme",
-      "price": 16679,
+      "price": 16699,
       "title": "realme P4 Lite 5G (Mosaic Green, 128GB Storage), (6GB RAM)",
       "url": "https://www.amazon.in/dp/B0GWF8385T"
     },
@@ -978,29 +606,11 @@
       "title": "realme P4 Lite 5G (Mosaic Blue, 128GB Storage), (6GB RAM)",
       "url": "https://www.amazon.in/dp/B0GWFDSK6H"
     },
-    "B0GWQZJQX6": {
-      "brand": "realme",
-      "price": 15198,
-      "title": "realme P4 Lite 5G (Mosaic Green 128 GB Storage), (4 GB RAM)",
-      "url": "https://www.amazon.in/dp/B0GWQZJQX6"
-    },
     "B0GXRVCPST": {
       "brand": "vivo",
-      "price": 23490,
+      "price": 24999,
       "title": "vivo T5x 5G (Cyber Green, 8GB RAM, 128GB Storage) | 7200mAh Battery, 50MP + 2MP Dual Camera, 32MP Front, Dimensity 7400-Tu...",
       "url": "https://www.amazon.in/dp/B0GXRVCPST"
-    },
-    "B0GXW131VL": {
-      "brand": "motorola",
-      "price": 29999,
-      "title": "Motorola Edge 70 Fusion 5G (Pantone Blue Surf, 8GB RAM, 256GB Storage) | AI Features | 6.78-inch 144Hz AMOLED | Snapdragon...",
-      "url": "https://www.amazon.in/dp/B0GXW131VL"
-    },
-    "B0GXWMXNPT": {
-      "brand": "vivo",
-      "price": 22999,
-      "title": "vivo T5x 5G (Cyber Green, 6GB RAM, 128GB Storage) | 50MP Camera | 6.76\" Display | Dimensity 7400-Turbo | 7200mAh Battery",
-      "url": "https://www.amazon.in/dp/B0GXWMXNPT"
     }
   }
 }

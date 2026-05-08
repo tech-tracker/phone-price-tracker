@@ -216,7 +216,78 @@ def prune_state(state):
         print(f"Pruned {before - after} stale products from state ({before} → {after})")
 
 
+OFFSET_FILE = STATE_FILE.parent / ".telegram_offset"
+
+WELCOME_TEXT = (
+    "👋 Welcome!\n\n"
+    "This bot posts phone price drop alerts for Samsung, Apple, Xiaomi, "
+    "Realme, Vivo, OPPO, iQOO, Motorola, and Pixel.\n\n"
+    "🔔 Join the channel to receive live alerts:\n"
+    "https://t.me/PhonePriceDropIndia"
+)
+
+
+def handle_telegram_commands():
+    """Reply to /start (or any first-message) DMs with the channel link.
+    Uses Telegram's getUpdates offset to avoid re-replying to the same message.
+    """
+    last_id = 0
+    if OFFSET_FILE.exists():
+        try:
+            last_id = int(OFFSET_FILE.read_text().strip())
+        except (ValueError, OSError):
+            pass
+
+    try:
+        r = requests.get(
+            f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/getUpdates",
+            params={"offset": last_id + 1, "timeout": 0},
+            timeout=15,
+        )
+    except Exception as e:
+        print(f"[telegram] getUpdates failed: {e}", file=sys.stderr)
+        return
+
+    if not r.ok:
+        return
+    updates = r.json().get("result", [])
+    if not updates:
+        return
+
+    new_last = last_id
+    replied = 0
+    for u in updates:
+        new_last = max(new_last, u.get("update_id", 0))
+        msg = u.get("message", {})
+        chat = msg.get("chat", {})
+        if chat.get("type") != "private":
+            continue
+        text = msg.get("text", "")
+        if not text.startswith("/start"):
+            continue
+        chat_id = chat.get("id")
+        if not chat_id:
+            continue
+        try:
+            requests.post(
+                f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage",
+                json={"chat_id": chat_id, "text": WELCOME_TEXT, "disable_web_page_preview": False},
+                timeout=10,
+            )
+            replied += 1
+        except Exception as e:
+            print(f"[telegram] reply to {chat_id} failed: {e}", file=sys.stderr)
+
+    if replied:
+        print(f"Replied to {replied} new /start message(s)")
+    try:
+        OFFSET_FILE.write_text(str(new_last))
+    except OSError:
+        pass
+
+
 def main():
+    handle_telegram_commands()
     state = load_state()
     prune_state(state)
     all_products = {}
