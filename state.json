@@ -62,7 +62,7 @@
     },
     "B0F193CRS5": {
       "brand": "vivo",
-      "price": 19249,
+      "price": 19499,
       "title": "VIVO T4x (Pronto Purple, 8GB, 128GB)",
       "url": "https://www.amazon.in/dp/B0F193CRS5"
     },
@@ -98,7 +98,7 @@
     },
     "B0F6CY1S9Z": {
       "brand": "pixel",
-      "price": 44800,
+      "price": 42240,
       "title": "Google Pixel 9A (Obsidian, 256 GB) (8 GB RAM)",
       "url": "https://www.amazon.in/dp/B0F6CY1S9Z"
     },
@@ -156,6 +156,12 @@
       "title": "Google Pixel 9 Pro XL (Porcelain, 16GB + 256GB)",
       "url": "https://www.amazon.in/dp/B0FKT2WDXK"
     },
+    "B0FLQNN8HF": {
+      "brand": "pixel",
+      "price": 43490,
+      "title": "Google Pixel 9a 5G (Porcelain, 8GB RAM, 256GB Storage)",
+      "url": "https://www.amazon.in/dp/B0FLQNN8HF"
+    },
     "B0FMDRJWFJ": {
       "brand": "realme",
       "price": 25499,
@@ -164,7 +170,7 @@
     },
     "B0FMDXKDDF": {
       "brand": "realme",
-      "price": 20729,
+      "price": 20723,
       "title": "realme P4 Smartphone (Engine Blue, 128.0, GB, 6.0, GB)",
       "url": "https://www.amazon.in/dp/B0FMDXKDDF"
     },
@@ -368,9 +374,15 @@
     },
     "B0FV98G8VT": {
       "brand": "vivo",
-      "price": 17998,
+      "price": 17999,
       "title": "vivo T4x 5G, Glacial Teal (6GB, 128GB)",
       "url": "https://www.amazon.in/dp/B0FV98G8VT"
+    },
+    "B0FV98ZH7F": {
+      "brand": "vivo",
+      "price": 19249,
+      "title": "vivo T4X 5G, Glacial Teal (8GB, 128GB)",
+      "url": "https://www.amazon.in/dp/B0FV98ZH7F"
     },
     "B0FXFXSVQR": {
       "brand": "motorola",
@@ -452,9 +464,15 @@
     },
     "B0G6TJWT5Q": {
       "brand": "realme",
-      "price": 18849,
+      "price": 18490,
       "title": "realme P4x 5G Smartphone, Matte Silver, 8GB RAM, 128GB Storage",
       "url": "https://www.amazon.in/dp/B0G6TJWT5Q"
+    },
+    "B0G6TPMGGJ": {
+      "brand": "realme",
+      "price": 17850,
+      "title": "realme P4x 5G Smartphone, 6GB RAM + 128GB Storage, Matte Silver",
+      "url": "https://www.amazon.in/dp/B0G6TPMGGJ"
     },
     "B0GGH5KMM2": {
       "brand": "samsung",
@@ -497,6 +515,12 @@
       "price": 27815,
       "title": "realme P4 Power 5G Smartphone, 8GB RAM, 256GB Storage, TransOrange",
       "url": "https://www.amazon.in/dp/B0GMHJ8D14"
+    },
+    "B0GMHRQW5H": {
+      "brand": "realme",
+      "price": 27420,
+      "title": "realme P4 Power 5G Smartphone, 8GB RAM, 256GB Storage, TransBlue, 10001mAh Battery",
+      "url": "https://www.amazon.in/dp/B0GMHRQW5H"
     },
     "B0GNGJV73C": {
       "brand": "oppo",
@@ -584,7 +608,7 @@
     },
     "B0GRBBF1YF": {
       "brand": "realme",
-      "price": 10949,
+      "price": 10945,
       "title": "realme P4 Lite Smartphone, 4GB RAM, 64GB Storage, Obsidian Black",
       "url": "https://www.amazon.in/dp/B0GRBBF1YF"
     },
@@ -638,7 +662,7 @@
     },
     "B0GTTXP6WF": {
       "brand": "vivo",
-      "price": 22449,
+      "price": 22090,
       "title": "vivo T5x 5G (Cyber Green, 6GB RAM, 128GB Storage) | 50MP AI Dual Camera | 32MP Selfie | 6.76\" FHD+ Display | 7200mAh Batte...",
       "url": "https://www.amazon.in/dp/B0GTTXP6WF"
     },
@@ -662,7 +686,7 @@
     },
     "B0GWF2HM26": {
       "brand": "realme",
-      "price": 13699,
+      "price": 13689,
       "title": "realme P4 Lite 5G (Mosaic Green, 64GB Storage), (4GB RAM)",
       "url": "https://www.amazon.in/dp/B0GWF2HM26"
     },
@@ -674,7 +698,7 @@
     },
     "B0GWF8385T": {
       "brand": "realme",
-      "price": 16679,
+      "price": 16650,
       "title": "realme P4 Lite 5G (Mosaic Green, 128GB Storage), (6GB RAM)",
       "url": "https://www.amazon.in/dp/B0GWF8385T"
     },
@@ -686,13 +710,13 @@
     },
     "B0GWQZJQX6": {
       "brand": "realme",
-      "price": 15198,
+      "price": 14878,
       "title": "realme P4 Lite 5G (Mosaic Green 128 GB Storage), (4 GB RAM)",
       "url": "https://www.amazon.in/dp/B0GWQZJQX6"
     },
     "B0GXRVCPST": {
       "brand": "vivo",
-      "price": 24999,
+      "price": 23470,
       "title": "vivo T5x 5G (Cyber Green, 8GB RAM, 128GB Storage) | 7200mAh Battery, 50MP + 2MP Dual Camera, 32MP Front, Dimensity 7400-Tu...",
       "url": "https://www.amazon.in/dp/B0GXRVCPST"
     }
