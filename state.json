@@ -24,6 +24,12 @@
       "title": "Samsung Galaxy S24 FE 5G AI Smartphone (Graphite, 8GB RAM, 128GB Storage)",
       "url": "https://www.amazon.in/dp/B0DHL7YT5S"
     },
+    "B0DHL98QM2": {
+      "brand": "samsung",
+      "price": 39999,
+      "title": "Samsung Galaxy S24 FE 5G AI Smartphone (Blue, 8GB RAM, 128GB Storage)",
+      "url": "https://www.amazon.in/dp/B0DHL98QM2"
+    },
     "B0DPW21322": {
       "brand": "motorola",
       "price": 13145,
@@ -156,6 +162,12 @@
       "title": "iQOO Z10 Lite 5G (Cyber Green, 8GB RAM, 256GB Storage) | 6000 mAh Battery | Dimensity 6300 5G Processor with 433K+* AnTuTu...",
       "url": "https://www.amazon.in/dp/B0FC5XDV5R"
     },
+    "B0FFF9VPMN": {
+      "brand": "vivo",
+      "price": 13999,
+      "title": "Vivo T4 Lite 5G Titanium Gold_128GB+4GB",
+      "url": "https://www.amazon.in/dp/B0FFF9VPMN"
+    },
     "B0FGY7C13L": {
       "brand": "pixel",
       "price": 46990,
@@ -236,7 +248,7 @@
     },
     "B0FNMP4BC4": {
       "brand": "samsung",
-      "price": 56790,
+      "price": 57299,
       "title": "Samsung Galaxy S25 FE 5G Smartphone with Galaxy AI (JetBlack, 8GB RAM, 256GB Storage), 12MP Front Camera, ProVisual Engin...",
       "url": "https://www.amazon.in/dp/B0FNMP4BC4"
     },
@@ -330,9 +342,15 @@
       "title": "Google Pixel 10 Pro 5G (Moonstone, 16GB RAM, 256GB Storage)",
       "url": "https://www.amazon.in/dp/B0FPFM8HPN"
     },
+    "B0FPGQ4GZ8": {
+      "brand": "vivo",
+      "price": 28900,
+      "title": "VIVO T4 Pro 5G, Nitro Blue (8GB, 128GB)",
+      "url": "https://www.amazon.in/dp/B0FPGQ4GZ8"
+    },
     "B0FPM1H79N": {
       "brand": "vivo",
-      "price": 23130,
+      "price": 23098,
       "title": "VIVO T4R 5G, Twilight Blue (8GB, 128GB)",
       "url": "https://www.amazon.in/dp/B0FPM1H79N"
     },
@@ -726,6 +744,12 @@
       "title": "vivo T5x 5G (Cyber Green, 8GB RAM, 256GB Storage) | 50MP AI Dual Camera | 32MP Selfie | 6.76\" FHD+ Display | 7200mAh Batte...",
       "url": "https://www.amazon.in/dp/B0GTTW99DG"
     },
+    "B0GTTX8WG4": {
+      "brand": "vivo",
+      "price": 22891,
+      "title": "vivo T5X 5G (Cyber Green, 8GB RAM, 128GB Storage) | 7200mAh Battery | 50MP Dual Camera | 32MP Selfie Camera | 6.76\" FHD+ 1...",
+      "url": "https://www.amazon.in/dp/B0GTTX8WG4"
+    },
     "B0GTTXP6WF": {
       "brand": "vivo",
       "price": 22090,
@@ -749,6 +773,12 @@
       "price": 38499,
       "title": "OPPO K13 Turbo Pro 5G, Silver Knight (12GB, 256GB)",
       "url": "https://www.amazon.in/dp/B0GVK2NK74"
+    },
+    "B0GVPP5Q1H": {
+      "brand": "vivo",
+      "price": 31999,
+      "title": "vivo T4 Pro 5G (Nitro Blue, 8GB RAM, 128GB Storage) | 50MP + 2MP + 50MP Triple Camera | 32MP Selfie | 6.77\" FHD+ Display |...",
+      "url": "https://www.amazon.in/dp/B0GVPP5Q1H"
     },
     "B0GWF2HM26": {
       "brand": "realme",
@@ -785,6 +815,12 @@
       "price": 23470,
       "title": "vivo T5x 5G (Cyber Green, 8GB RAM, 128GB Storage) | 7200mAh Battery, 50MP + 2MP Dual Camera, 32MP Front, Dimensity 7400-Tu...",
       "url": "https://www.amazon.in/dp/B0GXRVCPST"
+    },
+    "B0GZ3M1G9N": {
+      "brand": "vivo",
+      "price": 26999,
+      "title": "vivo T5x 5G (Cyber Green, 8GB RAM, 256GB Storage) | Dimensity 7400-Turbo | 50MP AI Camera | 7200mAh Battery | 6.76” FHD+ D...",
+      "url": "https://www.amazon.in/dp/B0GZ3M1G9N"
     }
   }
 }
