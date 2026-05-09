@@ -14,7 +14,7 @@
     },
     "B0CS69QQTG": {
       "brand": "samsung",
-      "price": 54949,
+      "price": 56999,
       "title": "Samsung Galaxy S24 5G AI Smartphone (Onyx Black, 8GB, 256GB Storage)",
       "url": "https://www.amazon.in/dp/B0CS69QQTG"
     },
@@ -56,9 +56,15 @@
     },
     "B0DZXYT2MR": {
       "brand": "pixel",
-      "price": 66900,
+      "price": 66850,
       "title": "Google Pixel 9 (Wintergreen, 256 GB) (12 GB RAM)",
       "url": "https://www.amazon.in/dp/B0DZXYT2MR"
+    },
+    "B0DZXZTPN8": {
+      "brand": "pixel",
+      "price": 68999,
+      "title": "Google Pixel 9 (Porcelain, 256 GB) (12 GB RAM)",
+      "url": "https://www.amazon.in/dp/B0DZXZTPN8"
     },
     "B0F193CRS5": {
       "brand": "vivo",
@@ -114,15 +120,21 @@
       "title": "VIVO T4 5G (Phantom Grey, 8GB RAM+128GB Storage)",
       "url": "https://www.amazon.in/dp/B0F6W17LV4"
     },
+    "B0F6WRZNB8": {
+      "brand": "vivo",
+      "price": 26909,
+      "title": "VIVO T4 5G (Emerald Blaze, 8GB RAM+256GB Storage)",
+      "url": "https://www.amazon.in/dp/B0F6WRZNB8"
+    },
     "B0F8W1SNVP": {
       "brand": "oppo",
-      "price": 24890,
+      "price": 24846,
       "title": "OPPO K13 5G (Prism Black, 8GB RAM 256GB Storage)",
       "url": "https://www.amazon.in/dp/B0F8W1SNVP"
     },
     "B0F8W2D943": {
       "brand": "oppo",
-      "price": 22648,
+      "price": 22440,
       "title": "OPPO K13 5G (Prism Black, 8GB RAM 128GB Storage)",
       "url": "https://www.amazon.in/dp/B0F8W2D943"
     },
@@ -150,6 +162,12 @@
       "title": "Google Pixel 9A (Porcelain, 256 GB) (8 GB RAM)",
       "url": "https://www.amazon.in/dp/B0FGY7C13L"
     },
+    "B0FHGD3PNV": {
+      "brand": "motorola",
+      "price": 19649,
+      "title": "Motorola G96 5G (Dresden Blue, 8GB RAM, 128GB Storage)",
+      "url": "https://www.amazon.in/dp/B0FHGD3PNV"
+    },
     "B0FHGD6K6K": {
       "brand": "motorola",
       "price": 19290,
@@ -164,7 +182,7 @@
     },
     "B0FKT2WDXK": {
       "brand": "pixel",
-      "price": 96999,
+      "price": 111180,
       "title": "Google Pixel 9 Pro XL (Porcelain, 16GB + 256GB)",
       "url": "https://www.amazon.in/dp/B0FKT2WDXK"
     },
@@ -206,19 +224,25 @@
     },
     "B0FNLRBC7X": {
       "brand": "oppo",
-      "price": 31899,
+      "price": 31799,
       "title": "OPPO K13 Turbo 5G, White Knight (8GB, 256GB)",
       "url": "https://www.amazon.in/dp/B0FNLRBC7X"
     },
+    "B0FNMNWQZV": {
+      "brand": "samsung",
+      "price": 48999,
+      "title": "Samsung Galaxy S25 FE 5G Smartphone with Galaxy AI (White, 8GB RAM, 128GB Storage), 12MP Front Camera, ProVisual Engine, L...",
+      "url": "https://www.amazon.in/dp/B0FNMNWQZV"
+    },
     "B0FNMP4BC4": {
       "brand": "samsung",
-      "price": 58999,
+      "price": 56790,
       "title": "Samsung Galaxy S25 FE 5G Smartphone with Galaxy AI (JetBlack, 8GB RAM, 256GB Storage), 12MP Front Camera, ProVisual Engin...",
       "url": "https://www.amazon.in/dp/B0FNMP4BC4"
     },
     "B0FNMQW9HW": {
       "brand": "samsung",
-      "price": 48999,
+      "price": 49930,
       "title": "Samsung Galaxy S25 FE 5G Smartphone with Galaxy AI (JetBlack, 8GB RAM, 128GB Storage), 12MP Front Camera, ProVisual Engin...",
       "url": "https://www.amazon.in/dp/B0FNMQW9HW"
     },
@@ -236,13 +260,13 @@
     },
     "B0FNPNL2D8": {
       "brand": "pixel",
-      "price": 69416,
+      "price": 69800,
       "title": "Google Pixel 10 5G (Obsidian, 12GB RAM, 256GB Storage)",
       "url": "https://www.amazon.in/dp/B0FNPNL2D8"
     },
     "B0FP31YRSF": {
       "brand": "pixel",
-      "price": 70949,
+      "price": 70399,
       "title": "Google Pixel 10 5G (Indigo, 12GB RAM, 256GB Storage)",
       "url": "https://www.amazon.in/dp/B0FP31YRSF"
     },
@@ -320,7 +344,7 @@
     },
     "B0FQBZQR9Q": {
       "brand": "pixel",
-      "price": 40990,
+      "price": 42449,
       "title": "Google Pixel 9a 5G (Obsidian, 8GB RAM, 256GB Storage)",
       "url": "https://www.amazon.in/dp/B0FQBZQR9Q"
     },
@@ -404,7 +428,7 @@
     },
     "B0FXFXSVQR": {
       "brand": "motorola",
-      "price": 14699,
+      "price": 15199,
       "title": "Motorola g35 5G (Leaf Green, 128 GB) (8 GB RAM)",
       "url": "https://www.amazon.in/dp/B0FXFXSVQR"
     },
@@ -416,13 +440,13 @@
     },
     "B0G1PPG6W3": {
       "brand": "motorola",
-      "price": 17266,
+      "price": 17259,
       "title": "Motorola G67 Power (Pantone Blue Curacao, 8GB RAM, 128GB Storage)",
       "url": "https://www.amazon.in/dp/B0G1PPG6W3"
     },
     "B0G1YM8511": {
       "brand": "motorola",
-      "price": 16599,
+      "price": 17535,
       "title": "Motorola G67 Power 5G (Pantone Parachute Purple, 8GB RAM, 128GB Storage) | 6.7\" FHD+ 120Hz LCD Display | Snapdragon 7s Gen...",
       "url": "https://www.amazon.in/dp/B0G1YM8511"
     },
@@ -458,7 +482,7 @@
     },
     "B0G3SWTTQ7": {
       "brand": "motorola",
-      "price": 16790,
+      "price": 16690,
       "title": "Motorola G57 Power 5G (Corsair, 8GB RAM, 128GB Storage) | Snapdragon 6s Gen 4 Processor | 6.72\" FHD+ Display | 50MP LYT-60...",
       "url": "https://www.amazon.in/dp/B0G3SWTTQ7"
     },
@@ -470,7 +494,7 @@
     },
     "B0G3TFPN94": {
       "brand": "motorola",
-      "price": 16790,
+      "price": 16776,
       "title": "Motorola G57 Power 5G (Fluidity, 8GB RAM, 128GB Storage)| Snapdragon 6s Gen 4 Processor | 6.72\" FHD+ Display | 50MP LYT-60...",
       "url": "https://www.amazon.in/dp/B0G3TFPN94"
     },
@@ -498,21 +522,27 @@
       "title": "realme P4x 5G Smartphone, 6GB RAM + 128GB Storage, Matte Silver",
       "url": "https://www.amazon.in/dp/B0G6TPMGGJ"
     },
+    "B0GCBB7KMQ": {
+      "brand": "motorola",
+      "price": 16990,
+      "title": "Motorola G57 Power 5G (Regatta, 8GB RAM, 128GB Storage) | Snapdragon 6s Gen 4 Processor | 6.72\" FHD+ Display | 50MP LYT-60...",
+      "url": "https://www.amazon.in/dp/B0GCBB7KMQ"
+    },
     "B0GGH5KMM2": {
       "brand": "samsung",
-      "price": 44249,
+      "price": 51900,
       "title": "Samsung Galaxy S24 Snapdragon 8 Gen 3 5G (Onyx Black, 128 GB) (8 GB RAM)",
       "url": "https://www.amazon.in/dp/B0GGH5KMM2"
     },
     "B0GL87VP7N": {
       "brand": "samsung",
-      "price": 87999,
+      "price": 79999,
       "title": "Samsung Galaxy S26 5G (Cobalt Violet, 12GB RAM, 256GB Storage), AI Phone, Photo Assist, Creative Studio, 50MP Camera with ...",
       "url": "https://www.amazon.in/dp/B0GL87VP7N"
     },
     "B0GL88WCV8": {
       "brand": "samsung",
-      "price": 87999,
+      "price": 79999,
       "title": "Samsung Galaxy S26 5G (White, 12GB RAM, 256GB Storage), AI Phone, Photo Assist, Creative Studio, 50MP Camera with ProVisua...",
       "url": "https://www.amazon.in/dp/B0GL88WCV8"
     },
@@ -572,25 +602,31 @@
     },
     "B0GP7BP39Y": {
       "brand": "pixel",
-      "price": 47190,
+      "price": 47999,
       "title": "Google Pixel 10a 5G (Lavender, 8GB RAM, 256GB Storage)",
       "url": "https://www.amazon.in/dp/B0GP7BP39Y"
     },
     "B0GP7GQFNJ": {
       "brand": "pixel",
-      "price": 49999,
+      "price": 49670,
       "title": "Google Pixel 10a 5G (Berry, 8GB RAM, 256GB Storage)",
       "url": "https://www.amazon.in/dp/B0GP7GQFNJ"
     },
+    "B0GP7Q51RV": {
+      "brand": "pixel",
+      "price": 68830,
+      "title": "Google Pixel 10 5G (Obsidian, 12GB RAM, 256GB Storage)",
+      "url": "https://www.amazon.in/dp/B0GP7Q51RV"
+    },
     "B0GP88QJL8": {
       "brand": "pixel",
-      "price": 47240,
+      "price": 47210,
       "title": "Google Pixel 10a 5G (Obsidian, 8GB RAM, 256GB Storage)",
       "url": "https://www.amazon.in/dp/B0GP88QJL8"
     },
     "B0GP8SY9MB": {
       "brand": "pixel",
-      "price": 47770,
+      "price": 47769,
       "title": "Google Pixel 10a 5G (Fog, 8GB RAM, 256GB Storage)",
       "url": "https://www.amazon.in/dp/B0GP8SY9MB"
     },
@@ -641,6 +677,12 @@
       "price": 11479,
       "title": "realme P4 Lite Smartphone, 4GB RAM, 64GB Storage, Beach Gold",
       "url": "https://www.amazon.in/dp/B0GRBH8916"
+    },
+    "B0GRHG12QL": {
+      "brand": "motorola",
+      "price": 15999,
+      "title": "Motorola G57 Power (Fluidity, 8GB RAM, 128GB Storage) | Snapdragon 6s Gen 4 Processor | 6.72\" FHD+ Display | 50MP LYT-600...",
+      "url": "https://www.amazon.in/dp/B0GRHG12QL"
     },
     "B0GRMG7F5B": {
       "brand": "motorola",
@@ -704,7 +746,7 @@
     },
     "B0GVK2NK74": {
       "brand": "oppo",
-      "price": 38580,
+      "price": 38499,
       "title": "OPPO K13 Turbo Pro 5G, Silver Knight (12GB, 256GB)",
       "url": "https://www.amazon.in/dp/B0GVK2NK74"
     },
