@@ -27,16 +27,29 @@ AMAZON_AFFILIATE_TAG = os.environ.get("AMAZON_AFFILIATE_TAG", "")
 
 STATE_FILE = Path.home() / ".amazon_state.json"
 
+# Multi-search per brand: premium models (iPhone 17 Pro, S26 Ultra, Pixel 10 Pro XL) rarely
+# appear in a generic brand search's top results. One narrow query per model family ensures
+# coverage. Total ~25 searches run in parallel-async; ~10-15 sec full scan.
 BRANDS = {
-    "samsung":  {"search": "samsung galaxy s",   "match": ["samsung", "galaxy"]},
-    "apple":    {"search": "iphone",             "match": ["iphone", "apple"]},
-    "xiaomi":   {"search": "redmi a4 15c",       "match": ["xiaomi", "redmi"]},
-    "realme":   {"search": "realme p4",          "match": ["realme"]},
-    "vivo":     {"search": "vivo t4 t5 y19 y31", "match": ["vivo"]},
-    "oppo":     {"search": "oppo k13 k14 f31",   "match": ["oppo"]},
-    "iqoo":     {"search": "iqoo z10 lite",      "match": ["iqoo"]},
-    "motorola": {"search": "motorola g35 g57 g67 g96 edge fusion", "match": ["motorola", "moto "]},
-    "pixel":    {"search": "google pixel 9 10",  "match": ["pixel"]},
+    "samsung":  {"searches": ["samsung galaxy s24", "samsung galaxy s25", "samsung galaxy s26"],
+                 "match": ["samsung", "galaxy"]},
+    "apple":    {"searches": ["iphone 15", "iphone 16", "iphone 17"],
+                 "match": ["iphone", "apple"]},
+    "xiaomi":   {"searches": ["redmi a4", "redmi 15c"],
+                 "match": ["xiaomi", "redmi"]},
+    "realme":   {"searches": ["realme p4"],
+                 "match": ["realme"]},
+    "vivo":     {"searches": ["vivo t4", "vivo t5x", "vivo y19", "vivo y31"],
+                 "match": ["vivo"]},
+    "oppo":     {"searches": ["oppo k13", "oppo k14x", "oppo f31"],
+                 "match": ["oppo"]},
+    "iqoo":     {"searches": ["iqoo z10 lite"],
+                 "match": ["iqoo"]},
+    "motorola": {"searches": ["motorola g35", "motorola g57", "motorola g67", "motorola g96",
+                              "motorola edge 60 fusion", "motorola edge 70 fusion"],
+                 "match": ["motorola", "moto "]},
+    "pixel":    {"searches": ["google pixel 9", "google pixel 10"],
+                 "match": ["pixel"]},
 }
 
 MODEL_WHITELIST = {
@@ -116,45 +129,46 @@ def matches_model_whitelist(title, brand_key):
     return any(p.search(t) for p in patterns)
 
 
-async def scrape_brand(client, brand_key, search, match_keywords, pages):
+async def scrape_brand(client, brand_key, searches, match_keywords, pages):
     products = {}
-    query = search.replace(" ", "+")
-    for page in range(1, pages + 1):
-        url = f"https://www.amazon.in/s?k={query}&page={page}"
-        html = await fetch(client, url)
-        if not html:
-            continue
-        soup = BeautifulSoup(html, "html.parser")
-        for card in soup.select('div[data-component-type="s-search-result"]'):
-            asin = card.get("data-asin")
-            if not asin:
+    for search in searches:
+        query = search.replace(" ", "+")
+        for page in range(1, pages + 1):
+            url = f"https://www.amazon.in/s?k={query}&page={page}"
+            html = await fetch(client, url)
+            if not html:
                 continue
-            price_whole = card.select_one(".a-price .a-price-whole")
-            if not price_whole:
-                continue
-            img = card.select_one("img.s-image")
-            title = (img.get("alt") if img else "") or ""
-            if not title or len(title) < 15:
-                h2_span = card.select_one("h2 span") or card.select_one("h2 a span")
-                if h2_span:
-                    title = h2_span.get_text(strip=True)
-            if not title or len(title) < 10:
-                continue
-            if not title_matches_brand(title, match_keywords):
-                continue
-            if is_accessory(title):
-                continue
-            if not matches_model_whitelist(title, brand_key):
-                continue
-            price = parse_int(price_whole.get_text())
-            if not price or price < 2000:
-                continue
-            products[asin] = {
-                "brand": brand_key,
-                "title": title,
-                "price": price,
-                "url": f"https://www.amazon.in/dp/{asin}",
-            }
+            soup = BeautifulSoup(html, "html.parser")
+            for card in soup.select('div[data-component-type="s-search-result"]'):
+                asin = card.get("data-asin")
+                if not asin or asin in products:
+                    continue
+                price_whole = card.select_one(".a-price .a-price-whole")
+                if not price_whole:
+                    continue
+                img = card.select_one("img.s-image")
+                title = (img.get("alt") if img else "") or ""
+                if not title or len(title) < 15:
+                    h2_span = card.select_one("h2 span") or card.select_one("h2 a span")
+                    if h2_span:
+                        title = h2_span.get_text(strip=True)
+                if not title or len(title) < 10:
+                    continue
+                if not title_matches_brand(title, match_keywords):
+                    continue
+                if is_accessory(title):
+                    continue
+                if not matches_model_whitelist(title, brand_key):
+                    continue
+                price = parse_int(price_whole.get_text())
+                if not price or price < 2000:
+                    continue
+                products[asin] = {
+                    "brand": brand_key,
+                    "title": title,
+                    "price": price,
+                    "url": f"https://www.amazon.in/dp/{asin}",
+                }
     return products
 
 
@@ -244,7 +258,7 @@ async def main_async():
 
     async with httpx.AsyncClient(follow_redirects=True) as client:
         tasks = [
-            scrape_brand(client, k, c["search"], c["match"], PAGES_PER_BRAND)
+            scrape_brand(client, k, c["searches"], c["match"], PAGES_PER_BRAND)
             for k, c in BRANDS.items()
         ]
         results = await asyncio.gather(*tasks)

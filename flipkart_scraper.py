@@ -27,15 +27,25 @@ FLIPKART_AFFILIATE_TAG = os.environ.get("FLIPKART_AFFILIATE_TAG", "")
 STATE_FILE = Path.home() / ".flipkart_state.json"
 
 BRANDS = {
-    "samsung":  {"search": "samsung galaxy s",   "match": ["samsung", "galaxy"]},
-    "apple":    {"search": "iphone",             "match": ["iphone", "apple"]},
-    "xiaomi":   {"search": "redmi a4 15c",       "match": ["xiaomi", "redmi"]},
-    "realme":   {"search": "realme p4",          "match": ["realme"]},
-    "vivo":     {"search": "vivo t4 t5 y19 y31", "match": ["vivo"]},
-    "oppo":     {"search": "oppo k13 k14 f31",   "match": ["oppo"]},
-    "iqoo":     {"search": "iqoo z10 lite",      "match": ["iqoo"]},
-    "motorola": {"search": "motorola g35 g57 g67 g96 edge fusion", "match": ["motorola", "moto "]},
-    "pixel":    {"search": "google pixel 9 10",  "match": ["pixel"]},
+    "samsung":  {"searches": ["samsung galaxy s24", "samsung galaxy s25", "samsung galaxy s26"],
+                 "match": ["samsung", "galaxy"]},
+    "apple":    {"searches": ["iphone 15", "iphone 16", "iphone 17"],
+                 "match": ["iphone", "apple"]},
+    "xiaomi":   {"searches": ["redmi a4", "redmi 15c"],
+                 "match": ["xiaomi", "redmi"]},
+    "realme":   {"searches": ["realme p4"],
+                 "match": ["realme"]},
+    "vivo":     {"searches": ["vivo t4", "vivo t5x", "vivo y19", "vivo y31"],
+                 "match": ["vivo"]},
+    "oppo":     {"searches": ["oppo k13", "oppo k14x", "oppo f31"],
+                 "match": ["oppo"]},
+    "iqoo":     {"searches": ["iqoo z10 lite"],
+                 "match": ["iqoo"]},
+    "motorola": {"searches": ["motorola g35", "motorola g57", "motorola g67", "motorola g96",
+                              "motorola edge 60 fusion", "motorola edge 70 fusion"],
+                 "match": ["motorola", "moto "]},
+    "pixel":    {"searches": ["google pixel 9", "google pixel 10"],
+                 "match": ["pixel"]},
 }
 
 MODEL_WHITELIST = {
@@ -110,40 +120,41 @@ def matches_model_whitelist(title, brand_key):
     return any(p.search(t) for p in patterns)
 
 
-async def scrape_brand(client, brand_key, search, match_keywords, pages):
+async def scrape_brand(client, brand_key, searches, match_keywords, pages):
     products = {}
-    query = search.replace(" ", "+")
-    for page in range(1, pages + 1):
-        url = f"https://www.flipkart.com/search?q={query}&page={page}"
-        html = await fetch(client, url)
-        if not html:
-            continue
-        soup = BeautifulSoup(html, "html.parser")
-        for card in soup.select("div[data-id]"):
-            pid = card.get("data-id", "")
-            if not pid or not pid.startswith("MOB") or pid in products:
+    for search in searches:
+        query = search.replace(" ", "+")
+        for page in range(1, pages + 1):
+            url = f"https://www.flipkart.com/search?q={query}&page={page}"
+            html = await fetch(client, url)
+            if not html:
                 continue
-            title_el = card.select_one(".RG5Slk, .KzDlHZ, .wjcEIp, ._4rR01T, .s1Q9rs")
-            price_el = card.select_one(".hZ3P6w, .HZ0E6r, .Nx9bqj, ._30jeq3")
-            link_el = card.select_one("a[href*='/p/']")
-            if not (title_el and price_el and link_el):
-                continue
-            title = title_el.get_text(strip=True)
-            if not title_matches_brand(title, match_keywords) or is_accessory(title):
-                continue
-            if not matches_model_whitelist(title, brand_key):
-                continue
-            price = parse_int(price_el.get_text())
-            if not price or price < 2000:
-                continue
-            href = link_el.get("href", "")
-            full_url = href if href.startswith("http") else f"https://www.flipkart.com{href}"
-            products[pid] = {
-                "brand": brand_key,
-                "title": title,
-                "price": price,
-                "url": full_url.split("&lid=")[0],
-            }
+            soup = BeautifulSoup(html, "html.parser")
+            for card in soup.select("div[data-id]"):
+                pid = card.get("data-id", "")
+                if not pid or not pid.startswith("MOB") or pid in products:
+                    continue
+                title_el = card.select_one(".RG5Slk, .KzDlHZ, .wjcEIp, ._4rR01T, .s1Q9rs")
+                price_el = card.select_one(".hZ3P6w, .HZ0E6r, .Nx9bqj, ._30jeq3")
+                link_el = card.select_one("a[href*='/p/']")
+                if not (title_el and price_el and link_el):
+                    continue
+                title = title_el.get_text(strip=True)
+                if not title_matches_brand(title, match_keywords) or is_accessory(title):
+                    continue
+                if not matches_model_whitelist(title, brand_key):
+                    continue
+                price = parse_int(price_el.get_text())
+                if not price or price < 2000:
+                    continue
+                href = link_el.get("href", "")
+                full_url = href if href.startswith("http") else f"https://www.flipkart.com{href}"
+                products[pid] = {
+                    "brand": brand_key,
+                    "title": title,
+                    "price": price,
+                    "url": full_url.split("&lid=")[0],
+                }
     return products
 
 
@@ -235,7 +246,7 @@ async def main_async():
 
     async with httpx.AsyncClient(follow_redirects=True) as client:
         tasks = [
-            scrape_brand(client, k, c["search"], c["match"], PAGES_PER_BRAND)
+            scrape_brand(client, k, c["searches"], c["match"], PAGES_PER_BRAND)
             for k, c in BRANDS.items()
         ]
         results = await asyncio.gather(*tasks)
