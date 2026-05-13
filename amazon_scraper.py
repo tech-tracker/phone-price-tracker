@@ -1,9 +1,9 @@
-"""Flipkart price tracker — async parallel scraping on Termux.
+"""Amazon.in price tracker — async parallel scraping on Termux (residential IP).
 
-All brands scrape concurrently → total run ~10-15 sec instead of 3-5 min.
-Sends Telegram alerts on price drops via the same bot used by the Amazon scraper.
+Moved off GitHub Actions because datacenter IPs get rate-limited; residential IP
+from a phone gets full result sets and can run every 2 min instead of 15.
 
-State at ~/.flipkart_state.json. Affiliate URLs supported via FLIPKART_AFFILIATE_TAG env var.
+State at ~/.amazon_state.json. Affiliate URLs supported via AMAZON_AFFILIATE_TAG env var.
 """
 
 import asyncio
@@ -12,6 +12,7 @@ import os
 import random
 import re
 import sys
+import time
 from pathlib import Path
 
 import httpx
@@ -22,9 +23,9 @@ TELEGRAM_BOT_TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]
 TELEGRAM_CHAT_ID = os.environ["TELEGRAM_CHAT_ID"]
 DROP_THRESHOLD_PCT = float(os.environ.get("DROP_THRESHOLD_PCT", "5"))
 PAGES_PER_BRAND = int(os.environ.get("PAGES_PER_BRAND", "1"))
-FLIPKART_AFFILIATE_TAG = os.environ.get("FLIPKART_AFFILIATE_TAG", "")
+AMAZON_AFFILIATE_TAG = os.environ.get("AMAZON_AFFILIATE_TAG", "")
 
-STATE_FILE = Path.home() / ".flipkart_state.json"
+STATE_FILE = Path.home() / ".amazon_state.json"
 
 BRANDS = {
     "samsung":  {"search": "samsung galaxy s",   "match": ["samsung", "galaxy"]},
@@ -61,16 +62,21 @@ ACCESSORY_KEYWORDS = [
     "tab ", "tablet", "ipad", "tv ", "monitor", "router",
 ]
 
-UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+USER_AGENTS = [
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+]
 
 
 def get_headers():
     return {
-        "User-Agent": UA,
+        "User-Agent": random.choice(USER_AGENTS),
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
         "Accept-Language": "en-IN,en;q=0.9",
         "Accept-Encoding": "gzip, deflate, br",
         "Cache-Control": "no-cache",
+        "Upgrade-Insecure-Requests": "1",
     }
 
 
@@ -78,9 +84,9 @@ async def fetch(client: httpx.AsyncClient, url: str, retries: int = 3):
     for attempt in range(retries):
         try:
             r = await client.get(url, headers=get_headers(), timeout=30)
-            if r.status_code == 200 and len(r.text) > 5000 and "reCAPTCHA" not in r.text:
+            if r.status_code == 200 and len(r.text) > 5000:
                 return r.text
-            print(f"[fetch] {url[:80]} status={r.status_code} size={len(r.text)} captcha={'reCAPTCHA' in r.text}", file=sys.stderr)
+            print(f"[fetch] {url[:80]} status={r.status_code} size={len(r.text)}", file=sys.stderr)
         except Exception as e:
             print(f"[fetch] {url[:80]} attempt {attempt+1} failed: {e}", file=sys.stderr)
         await asyncio.sleep(2 ** attempt + random.uniform(0, 2))
@@ -114,35 +120,40 @@ async def scrape_brand(client, brand_key, search, match_keywords, pages):
     products = {}
     query = search.replace(" ", "+")
     for page in range(1, pages + 1):
-        url = f"https://www.flipkart.com/search?q={query}&page={page}"
+        url = f"https://www.amazon.in/s?k={query}&page={page}"
         html = await fetch(client, url)
         if not html:
             continue
         soup = BeautifulSoup(html, "html.parser")
-        for card in soup.select("div[data-id]"):
-            pid = card.get("data-id", "")
-            if not pid or not pid.startswith("MOB") or pid in products:
+        for card in soup.select('div[data-component-type="s-search-result"]'):
+            asin = card.get("data-asin")
+            if not asin:
                 continue
-            title_el = card.select_one(".RG5Slk, .KzDlHZ, .wjcEIp, ._4rR01T, .s1Q9rs")
-            price_el = card.select_one(".hZ3P6w, .HZ0E6r, .Nx9bqj, ._30jeq3")
-            link_el = card.select_one("a[href*='/p/']")
-            if not (title_el and price_el and link_el):
+            price_whole = card.select_one(".a-price .a-price-whole")
+            if not price_whole:
                 continue
-            title = title_el.get_text(strip=True)
-            if not title_matches_brand(title, match_keywords) or is_accessory(title):
+            img = card.select_one("img.s-image")
+            title = (img.get("alt") if img else "") or ""
+            if not title or len(title) < 15:
+                h2_span = card.select_one("h2 span") or card.select_one("h2 a span")
+                if h2_span:
+                    title = h2_span.get_text(strip=True)
+            if not title or len(title) < 10:
+                continue
+            if not title_matches_brand(title, match_keywords):
+                continue
+            if is_accessory(title):
                 continue
             if not matches_model_whitelist(title, brand_key):
                 continue
-            price = parse_int(price_el.get_text())
+            price = parse_int(price_whole.get_text())
             if not price or price < 2000:
                 continue
-            href = link_el.get("href", "")
-            full_url = href if href.startswith("http") else f"https://www.flipkart.com{href}"
-            products[pid] = {
+            products[asin] = {
                 "brand": brand_key,
                 "title": title,
                 "price": price,
-                "url": full_url.split("&lid=")[0],
+                "url": f"https://www.amazon.in/dp/{asin}",
             }
     return products
 
@@ -174,8 +185,8 @@ def prune_state(state):
 def detect_drops(new_products, state):
     alerts = []
     prev = state.get("products", {})
-    for pid, info in new_products.items():
-        old = prev.get(pid)
+    for asin, info in new_products.items():
+        old = prev.get(asin)
         if not old or info["price"] >= old["price"]:
             continue
         drop_pct = ((old["price"] - info["price"]) / old["price"]) * 100
@@ -192,19 +203,18 @@ def detect_drops(new_products, state):
 
 
 def with_affiliate(url: str) -> str:
-    """Wrap a Flipkart URL with the EarnKaro deeplink if FLIPKART_AFFILIATE_TAG is configured."""
-    if not FLIPKART_AFFILIATE_TAG:
+    """Append Amazon Associates tag to amazon.in URL when AMAZON_AFFILIATE_TAG is set."""
+    if not AMAZON_AFFILIATE_TAG:
         return url
-    # EarnKaro deeplink format. Replace with the exact format from your earnkaro dashboard.
-    from urllib.parse import quote
-    return f"https://earnk.in/p/?u={quote(url, safe='')}&p={FLIPKART_AFFILIATE_TAG}"
+    sep = "&" if "?" in url else "?"
+    return f"{url}{sep}tag={AMAZON_AFFILIATE_TAG}"
 
 
 def format_alert(a):
     title = a["title"][:120] + ("..." if len(a["title"]) > 120 else "")
     url = with_affiliate(a["url"])
     return (
-        f"🛍️ <b>FLIPKART {a['brand'].upper()} Drop</b>\n"
+        f"🛒 <b>AMAZON {a['brand'].upper()} Drop</b>\n"
         f"{title}\n"
         f"<s>₹{a['old_price']:,}</s> → <b>₹{a['new_price']:,}</b> "
         f"(-{a['drop_pct']:.1f}%)\n"
@@ -228,7 +238,6 @@ def send_telegram(message):
 
 
 async def main_async():
-    import time
     t0 = time.time()
     state = load_state()
     prune_state(state)

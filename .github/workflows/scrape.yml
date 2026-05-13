@@ -1,8 +1,10 @@
 name: Scrape phone prices
 
 on:
-  schedule:
-    - cron: "*/15 * * * *"
+  # Disabled: Amazon scraper moved to Termux for sub-15-sec scans on residential IP.
+  # Re-enable by uncommenting the schedule line below.
+  # schedule:
+  #   - cron: "*/15 * * * *"
   workflow_dispatch:
 
 permissions:
