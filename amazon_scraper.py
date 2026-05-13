@@ -242,7 +242,7 @@ async def main_async():
     state = load_state()
     prune_state(state)
 
-    async with httpx.AsyncClient(http2=True, follow_redirects=True) as client:
+    async with httpx.AsyncClient(follow_redirects=True) as client:
         tasks = [
             scrape_brand(client, k, c["search"], c["match"], PAGES_PER_BRAND)
             for k, c in BRANDS.items()
