@@ -12,6 +12,7 @@ import os
 import random
 import re
 import sys
+import time
 from pathlib import Path
 
 import httpx
@@ -23,6 +24,7 @@ TELEGRAM_CHAT_ID = os.environ["TELEGRAM_CHAT_ID"]
 DROP_THRESHOLD_PCT = float(os.environ.get("DROP_THRESHOLD_PCT", "5"))
 PAGES_PER_BRAND = int(os.environ.get("PAGES_PER_BRAND", "1"))
 FLIPKART_AFFILIATE_TAG = os.environ.get("FLIPKART_AFFILIATE_TAG", "")
+BACK_IN_STOCK_HOURS = float(os.environ.get("BACK_IN_STOCK_HOURS", "6"))
 
 STATE_FILE = Path.home() / ".flipkart_state.json"
 
@@ -202,6 +204,29 @@ def detect_drops(new_products, state):
     return alerts
 
 
+def detect_back_in_stock(new_products, state, now_ts):
+    """Fire when a product reappears after >BACK_IN_STOCK_HOURS absence."""
+    alerts = []
+    prev = state.get("products", {})
+    threshold = BACK_IN_STOCK_HOURS * 3600
+    for pid, info in new_products.items():
+        old = prev.get(pid)
+        if not old:
+            continue
+        last_seen = old.get("lastSeenAt")
+        if not last_seen:
+            continue
+        if now_ts - last_seen > threshold:
+            alerts.append({
+                "brand": info.get("brand", "?"),
+                "title": info["title"],
+                "price": info["price"],
+                "url": info["url"],
+                "hours_absent": (now_ts - last_seen) / 3600,
+            })
+    return alerts
+
+
 def with_affiliate(url: str) -> str:
     """Wrap a Flipkart URL with the EarnKaro deeplink if FLIPKART_AFFILIATE_TAG is configured."""
     if not FLIPKART_AFFILIATE_TAG:
@@ -223,6 +248,19 @@ def format_alert(a):
     )
 
 
+def format_back_in_stock(a):
+    title = a["title"][:120] + ("..." if len(a["title"]) > 120 else "")
+    url = with_affiliate(a["url"])
+    hours = a["hours_absent"]
+    absent = f"{hours:.0f}h" if hours < 24 else f"{hours / 24:.0f}d"
+    return (
+        f"🔁 <b>FLIPKART {a['brand'].upper()} — Back in Stock</b>\n"
+        f"{title}\n"
+        f"<b>₹{a['price']:,}</b> (was out for {absent})\n"
+        f"{url}"
+    )
+
+
 def send_telegram(message):
     url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
     try:
@@ -239,7 +277,6 @@ def send_telegram(message):
 
 
 async def main_async():
-    import time
     t0 = time.time()
     state = load_state()
     prune_state(state)
@@ -261,11 +298,20 @@ async def main_async():
 
     print(f"Total: {len(all_products)} products in {time.time() - t0:.1f}s")
 
-    alerts = detect_drops(all_products, state)
-    print(f"Found {len(alerts)} price drops (threshold {DROP_THRESHOLD_PCT}%)")
-    for alert in alerts:
+    now_ts = int(time.time())
+
+    back_in_stock = detect_back_in_stock(all_products, state, now_ts)
+    print(f"Found {len(back_in_stock)} back-in-stock items (threshold {BACK_IN_STOCK_HOURS}h)")
+    for alert in back_in_stock:
+        send_telegram(format_back_in_stock(alert))
+
+    drops = detect_drops(all_products, state)
+    print(f"Found {len(drops)} price drops (threshold {DROP_THRESHOLD_PCT}%)")
+    for alert in drops:
         send_telegram(format_alert(alert))
 
+    for pid in all_products:
+        all_products[pid]["lastSeenAt"] = now_ts
     state["products"].update(all_products)
     save_state(state)
     print("Done.")

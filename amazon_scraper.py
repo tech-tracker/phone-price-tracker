@@ -24,6 +24,8 @@ TELEGRAM_CHAT_ID = os.environ["TELEGRAM_CHAT_ID"]
 DROP_THRESHOLD_PCT = float(os.environ.get("DROP_THRESHOLD_PCT", "5"))
 PAGES_PER_BRAND = int(os.environ.get("PAGES_PER_BRAND", "1"))
 AMAZON_AFFILIATE_TAG = os.environ.get("AMAZON_AFFILIATE_TAG", "")
+# Fire "back in stock" alert when a product reappears after this many hours absent.
+BACK_IN_STOCK_HOURS = float(os.environ.get("BACK_IN_STOCK_HOURS", "6"))
 
 STATE_FILE = Path.home() / ".amazon_state.json"
 
@@ -216,6 +218,29 @@ def detect_drops(new_products, state):
     return alerts
 
 
+def detect_back_in_stock(new_products, state, now_ts):
+    """Fire when a product reappears after >BACK_IN_STOCK_HOURS absence."""
+    alerts = []
+    prev = state.get("products", {})
+    threshold = BACK_IN_STOCK_HOURS * 3600
+    for asin, info in new_products.items():
+        old = prev.get(asin)
+        if not old:
+            continue  # first time seen → baseline, no alert
+        last_seen = old.get("lastSeenAt")
+        if not last_seen:
+            continue  # legacy entry without timestamp — skip first cycle
+        if now_ts - last_seen > threshold:
+            alerts.append({
+                "brand": info.get("brand", "?"),
+                "title": info["title"],
+                "price": info["price"],
+                "url": info["url"],
+                "hours_absent": (now_ts - last_seen) / 3600,
+            })
+    return alerts
+
+
 def with_affiliate(url: str) -> str:
     """Append Amazon Associates tag to amazon.in URL when AMAZON_AFFILIATE_TAG is set."""
     if not AMAZON_AFFILIATE_TAG:
@@ -232,6 +257,19 @@ def format_alert(a):
         f"{title}\n"
         f"<s>₹{a['old_price']:,}</s> → <b>₹{a['new_price']:,}</b> "
         f"(-{a['drop_pct']:.1f}%)\n"
+        f"{url}"
+    )
+
+
+def format_back_in_stock(a):
+    title = a["title"][:120] + ("..." if len(a["title"]) > 120 else "")
+    url = with_affiliate(a["url"])
+    hours = a["hours_absent"]
+    absent = f"{hours:.0f}h" if hours < 24 else f"{hours / 24:.0f}d"
+    return (
+        f"🔁 <b>AMAZON {a['brand'].upper()} — Back in Stock</b>\n"
+        f"{title}\n"
+        f"<b>₹{a['price']:,}</b> (was out for {absent})\n"
         f"{url}"
     )
 
@@ -273,11 +311,21 @@ async def main_async():
 
     print(f"Total: {len(all_products)} products in {time.time() - t0:.1f}s")
 
-    alerts = detect_drops(all_products, state)
-    print(f"Found {len(alerts)} price drops (threshold {DROP_THRESHOLD_PCT}%)")
-    for alert in alerts:
+    now_ts = int(time.time())
+
+    back_in_stock = detect_back_in_stock(all_products, state, now_ts)
+    print(f"Found {len(back_in_stock)} back-in-stock items (threshold {BACK_IN_STOCK_HOURS}h)")
+    for alert in back_in_stock:
+        send_telegram(format_back_in_stock(alert))
+
+    drops = detect_drops(all_products, state)
+    print(f"Found {len(drops)} price drops (threshold {DROP_THRESHOLD_PCT}%)")
+    for alert in drops:
         send_telegram(format_alert(alert))
 
+    # Stamp every currently-seen product with the timestamp so we can detect future absences.
+    for asin in all_products:
+        all_products[asin]["lastSeenAt"] = now_ts
     state["products"].update(all_products)
     save_state(state)
     print("Done.")
